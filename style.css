@@ -1,0 +1,227 @@
+ @font-face { font-family: TradeGothic; src: url('TradeGothicLTS.otf'); } 
+ @font-face { font-family: TradeGothic; font-weight: bold; src: url('TradeGothicLTS.otf');}
+body {
+	background-color: #000000;
+}
+a {
+	text-decoration: none !important;
+}
+h1 {
+	color: #FFFFFF;
+	font-size: 1.5em;
+	text-align: center;
+	font-family: TradeGothic;
+}
+h2 {
+	color: #FFFFFF;
+	font-size: 1em;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+ul {
+
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+/* MENU */
+.logo-position {
+	margin-right: 3em;
+	padding-left: 1em;
+}
+.main-menu-container {
+}
+.navbar {
+    margin-bottom: 0;
+}
+.navbar-custom {
+    background-color:#000000;
+    color:#FFFFFF;
+    border-radius:0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+}
+
+.navbar-custom .navbar-nav > .active > a {
+    color: #000000;
+    background-color:transparent;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus,
+.navbar-custom .navbar-nav > .open >a {
+    text-decoration: none;
+    background-color: #ff671f;
+}
+
+.navbar-custom .navbar-brand {
+    color:#eeeeee;
+}
+.navbar-custom .navbar-toggle {
+    background-color:#eeeeee;
+}
+.navbar-custom .icon-bar {
+    background-color:#33aa33;
+}
+
+
+/* CAROUSEL */
+.carousel-content {
+	position: absolute;
+	bottom: 45%;
+	left: 15%;
+	z-index: 20;
+	color: #FFFFFF;
+
+}
+
+h4 {
+	font-size: 5em;
+	font-family: TradeGothic;
+	color: #FFFFFF;
+}
+.link-box {
+	font-size: .8em;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border: 1px solid;
+	border-color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:600;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+
+
+.carousel-control > img{        
+    position: absolute;
+    /*set position of image from top to be 50%...*/
+    top: 50%;
+    /*and then shift it down to make it perfectly center.*/
+    transform: translate(-50%, -50%);
+
+    z-index: 5;
+    display: inline-block;
+}
+
+/* Masonry */
+.mozaic-gallery {
+	display: inline-block;
+	margin-bottom: 0px !important;
+	padding-bottom: 0px;
+}
+.image-left-top {
+	float:left;
+	width:100%;
+	vertical-align: middle;
+}
+.image-left-bottom {
+	float:left;
+	width:100%;
+	vertical-align: middle;
+}
+.image-right-top {
+	float:left;
+	width: 100%;
+	vertical-align: middle;
+}
+.image-right-bottom {
+	float:left;
+	width: 100%;
+	vertical-align: middle;
+}
+.image-text-container{
+	width:100%;
+}
+/* FOOTER CSS */
+
+
+/* JOIN MILLTAG FOOTER */
+.join-milltag-list {
+	display: inline-block;
+	margin-left: 5em;
+}
+
+.milltag-join-button {
+	background-color: #ff671f;
+	color: #FFFFFF;
+	font-size: 2em;
+	border-style: none;
+	font-family: TradeGothic;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 5px;
+}
+.milltag-join-email {
+	background-color: #d9d9d6;
+	border-style: none;
+	font-size: 2em;
+	font-family: TradeGothic;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 5px;
+	margin-right: 20px;
+	margin-left: 30px;
+}
+.join-milltag-box {
+	background-color: #FFFFFF;
+	padding-bottom: 1em;
+	padding-top: 0.5em;
+}
+h3 {
+	color: #000000;
+	font-family: TradeGothic;
+	font-size: 2em;
+}
+
+
+/* BOTTOM FOOTER LINKS */
+.footer-links {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.footer-links:hover {
+	color: #ff671f !important;
+	text-decoration: none !important;
+}
+.footer-links:focus {
+	color: #ff671f !important;
+	text-decoration: none !important;
+}
+.social-media-bar {
+	list-style-type: none;
+	float: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+.social-media-icons {
+	text-align: center;
+	padding-right: 0.5em;
+	display: inline;
+}
+.social-media-links {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 2em;
+	display: inline-block;
+}
+.social-media-links:focus {
+	color: #ff671f
+	text-decoration: none !important;
+}
+.social-media-links:hover {
+	color: #ff671f;
+	text-decoration: none !important;
+}

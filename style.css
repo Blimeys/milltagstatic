@@ -34,14 +34,10 @@ nav.navbar-inverse>li>a {
    margin: 0 !important;
 }
 /* MENU */
-.logo-position {
-	margin-right: 3em;
-	padding-left: 1em;
-}
 .main-menu-container {
 }
 .navbar {
-    margin-bottom: 0;
+  left: 15%;
 }
 .navbar-custom {
     background-color:#000000;
@@ -168,6 +164,9 @@ h4 {
 	padding-left: 30px;
 	padding-top: 10px;
 }
+.milltag-join-button:hover {
+  background-color: #E55815;
+}
 .milltag-join-email {
 	background-color: #d9d9d6;
 	border-style: none;
@@ -179,10 +178,14 @@ h4 {
 	margin-right: 10px;
 	margin-left: 30px;
 }
+.milltag-join-email:focus{
+  border-style: none;
+  outline: 1px solid #888B8D;
+}
 .join-milltag-box {
 	background-color: #FFFFFF;
-	padding-bottom: 1em;
-	padding-top: 0.5em;
+	padding-bottom: .4em;
+	padding-top: .4em;
 }
 h3 {
 	color: #000000;
@@ -226,7 +229,7 @@ h1.footer-title {
 	text-align: center;
 	text-decoration: none;
 	color: #888B8D;
-	font-size: 2em;
+	font-size: 1.7em;
 	display: inline-block;
 }
 .social-media-links:focus {
@@ -239,4 +242,7 @@ h1.footer-title {
 }
 .address-link {
   color: #888B8D;
+}
+.footer-links-container{
+  padding-top: 1.5em;
 }

@@ -1,4 +1,4 @@
- @font-face { font-family: TradeGothic; src: url('TradeGothicLTS.otf'); } 
+ @font-face { font-family: TradeGothic; src: url('TradeGothicLTS.otf'); }
  @font-face { font-family: TradeGothic; font-weight: bold; src: url('TradeGothicLTS.otf');}
 body {
 	background-color: #000000;
@@ -12,6 +12,9 @@ h1 {
 	text-align: center;
 	font-family: TradeGothic;
 }
+h1.footer-title {
+  color:#888B8D;
+}
 h2 {
 	color: #FFFFFF;
 	font-size: 1em;
@@ -21,6 +24,12 @@ h2 {
 ul {
 
 }
+
+nav.navbar-inverse>li>a {
+ padding-top: 25px;
+ padding-bottom: 25px;
+}
+
 .nopadding {
    padding: 0 !important;
    margin: 0 !important;
@@ -47,8 +56,7 @@ ul {
 }
 
 .navbar-custom .navbar-nav > .active > a {
-    color: #000000;
-    background-color:transparent;
+    color: #888B8D;
 }
 
 .navbar-custom .navbar-nav > li > a:hover,
@@ -57,7 +65,7 @@ ul {
 .navbar-custom .navbar-nav > .active > a:focus,
 .navbar-custom .navbar-nav > .open >a {
     text-decoration: none;
-    background-color: #ff671f;
+    background-color: #FFFFFF;
 }
 
 .navbar-custom .navbar-brand {
@@ -102,7 +110,7 @@ h4 {
 }
 
 
-.carousel-control > img{        
+.carousel-control > img{
     position: absolute;
     /*set position of image from top to be 50%...*/
     top: 50%;
@@ -152,7 +160,7 @@ h4 {
 }
 
 .milltag-join-button {
-	background-color: #ff671f;
+	background-color: #FFFFFF;
 	color: #FFFFFF;
 	font-size: 2em;
 	border-style: none;
@@ -186,15 +194,15 @@ h3 {
 
 /* BOTTOM FOOTER LINKS */
 .footer-links {
-	color: #FFFFFF;
+	color: #888B8D;
 	text-decoration: none;
 }
 .footer-links:hover {
-	color: #ff671f !important;
+	color: #FFFFFF !important;
 	text-decoration: none !important;
 }
 .footer-links:focus {
-	color: #ff671f !important;
+	color: #FFFFFF !important;
 	text-decoration: none !important;
 }
 .social-media-bar {
@@ -218,10 +226,10 @@ h3 {
 	display: inline-block;
 }
 .social-media-links:focus {
-	color: #ff671f
+	color: #FFFFFF
 	text-decoration: none !important;
 }
 .social-media-links:hover {
-	color: #ff671f;
+	color: #FFFFFF;
 	text-decoration: none !important;
 }

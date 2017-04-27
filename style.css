@@ -24,56 +24,39 @@ ul {
 
 }
 
-nav.navbar-inverse>li>a {
- padding-top: 25px;
- padding-bottom: 25px;
-}
-
 .nopadding {
    padding: 0 !important;
    margin: 0 !important;
 }
 /* MENU */
-.main-menu-container {
+.menu-format {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-.navbar {
-  left: 15%;
+.menu-format ul, .menu-format li {
+  list-style-type: none;
+  display: inline;
 }
-.navbar-custom {
-    background-color:#000000;
-    color:#FFFFFF;
-    border-radius:0;
-    font-family: 'Montserrat', sans-serif;
+.menu-logo {
+  height: 35px;
+  margin-right: 25px;
 }
-
-.navbar-custom .navbar-nav > li > a {
-    color:#fff;
+.menu-link{
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  margin-right: 25px;
 }
-
-.navbar-custom .navbar-nav > .active > a {
-    color: #888B8D;
+.menu-link:hover{
+  color: #888B8D;
+  background-color: #000000;
 }
-
-.navbar-custom .navbar-nav > li > a:hover,
-.navbar-custom .navbar-nav > li > a:focus,
-.navbar-custom .navbar-nav > .active > a:hover,
-.navbar-custom .navbar-nav > .active > a:focus,
-.navbar-custom .navbar-nav > .open >a {
-    text-decoration: none;
-    background-color: #FFFFFF;
+.menu-link:focus{
+  color: #888B8D;
 }
 
-.navbar-custom .navbar-brand {
-    color:#eeeeee;
-}
-.navbar-custom .navbar-toggle {
-    background-color:#eeeeee;
-}
-.navbar-custom .icon-bar {
-    background-color:#33aa33;
-}
+@media only screen and (min-width : 320px) and (max-width : 480px) {
 
-
+}
 /* CAROUSEL */
 .carousel-content-left {
 	position: absolute;
@@ -110,6 +93,31 @@ h4 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight:600;
 }
+input {
+    border-radius: 0;
+}
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+  .carousel-content-left {
+  	position: absolute;
+  	bottom: 25%;
+  	left: 15%;
+  	z-index: 20;
+  	color: #FFFFFF;
+  }
+  .carousel-content-right {
+  	position: absolute;
+  	bottom: 25%;
+  	left: 60%;
+  	z-index: 20;
+  	color: #FFFFFF;
+  }
+  h4{
+    font-size: 4em;
+  }
+
+}
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     width: 100%;
 }
@@ -127,25 +135,38 @@ h4 {
 }
 
 /* Masonry */
+
+
+.grid-item {
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+
+/*
 .mozaic-gallery {
 	display: inline-block;
 	margin-bottom: 0px !important;
 	padding-bottom: 0px;
 }
 .image-left-top {
+  background-image: '/masonry1sized.jpg';
   height:100%;
 }
 .image-left-bottom {
+  background-image: '/masonry3sized.jpg';
     height:100%;
 }
 .image-right-top {
+  background-image: '/masonry2sized.jpg';
     height:100%;
   }
 .image-right-bottom {
+  background-image: '/masonry4sized.jpg';
     height:100%;
   }
 .image-text-container{
-}
+}*/
 /* FOOTER CSS */
 
 

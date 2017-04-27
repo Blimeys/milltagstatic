@@ -12,14 +12,13 @@ h1 {
 	text-align: center;
 	font-family: TradeGothic;
 }
-h1.footer-title {
-  color:#888B8D;
-}
+
 h2 {
 	color: #FFFFFF;
 	font-size: 1em;
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
+  line-height: 200%;
 }
 ul {
 
@@ -80,27 +79,37 @@ nav.navbar-inverse>li>a {
 
 
 /* CAROUSEL */
-.carousel-content {
+.carousel-content-left {
 	position: absolute;
-	bottom: 45%;
+	bottom: 32%;
 	left: 15%;
 	z-index: 20;
 	color: #FFFFFF;
-
 }
-
+.carousel-content-right {
+	position: absolute;
+	bottom: 32%;
+	left: 65%;
+  text-align: right;
+	z-index: 20;
+	color: #FFFFFF;
+}
 h4 {
-	font-size: 5em;
+	font-size: 6em;
 	font-family: TradeGothic;
 	color: #FFFFFF;
 }
+.carousel-indicators{
+  font-size: 4em;
+  font-weight: bold;
+}
 .link-box {
-	font-size: .8em;
-	padding-left: 20px;
-	padding-right: 20px;
+	font-size: 1em;
+	padding-left: 25px;
+	padding-right: 25px;
 	padding-top: 8px;
 	padding-bottom: 8px;
-	border: 1px solid;
+	border: 2px solid;
 	border-color: #FFFFFF;
 	font-family: 'Montserrat', sans-serif;
 	font-weight:600;
@@ -128,56 +137,46 @@ h4 {
 	padding-bottom: 0px;
 }
 .image-left-top {
-	float:left;
-	width:100%;
-	vertical-align: middle;
+  height:100%;
 }
 .image-left-bottom {
-	float:left;
-	width:100%;
-	vertical-align: middle;
+    height:100%;
 }
 .image-right-top {
-	float:left;
-	width: 100%;
-	vertical-align: middle;
-}
+    height:100%;
+  }
 .image-right-bottom {
-	float:left;
-	width: 100%;
-	vertical-align: middle;
-}
+    height:100%;
+  }
 .image-text-container{
-	width:100%;
 }
 /* FOOTER CSS */
 
 
 /* JOIN MILLTAG FOOTER */
 .join-milltag-list {
-	display: inline-block;
-	margin-left: 5em;
+  text-align: center;
 }
 
 .milltag-join-button {
-	background-color: #FFFFFF;
+	background-color: #ff671f;
 	color: #FFFFFF;
-	font-size: 2em;
+	font-size: 1.6em;
 	border-style: none;
 	font-family: TradeGothic;
 	padding-right: 30px;
 	padding-left: 30px;
-	padding-top: 5px;
+	padding-top: 10px;
 }
 .milltag-join-email {
 	background-color: #d9d9d6;
 	border-style: none;
-	font-size: 2em;
+	font-size: 1.6em;
 	font-family: TradeGothic;
-	padding-left: 30px;
-	padding-right: 30px;
-	padding-top: 5px;
-	margin-right: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	margin-right: 10px;
 	margin-left: 30px;
 }
 .join-milltag-box {
@@ -193,9 +192,14 @@ h3 {
 
 
 /* BOTTOM FOOTER LINKS */
+h1.footer-title {
+  color:#FFFFFF;
+}
 .footer-links {
 	color: #888B8D;
 	text-decoration: none;
+  padding-bottom: 2em;
+  margin-top: 20px;
 }
 .footer-links:hover {
 	color: #FFFFFF !important;
@@ -221,7 +225,7 @@ h3 {
 	display: block;
 	text-align: center;
 	text-decoration: none;
-	color: #FFFFFF;
+	color: #888B8D;
 	font-size: 2em;
 	display: inline-block;
 }
@@ -232,4 +236,7 @@ h3 {
 .social-media-links:hover {
 	color: #FFFFFF;
 	text-decoration: none !important;
+}
+.address-link {
+  color: #888B8D;
 }

@@ -4,10 +4,13 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name = "format-detection" content = "telephone=no">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-	<script src="https://use.fontawesome.com/ad72cdc47d.js"></script>
-	<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://use.fontawesome.com/ad72cdc47d.js"></script>
+	<script type="text/javascript" src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script type="text/javascript" src="custom-scripts.js"></script>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600" rel="stylesheet">
@@ -17,6 +20,8 @@
 <body>
 
 <!-- HEADER START -->
+
+<div class="main-menu">
 <div class="container-fluid">
 		<div class="row">
 			<div class="col-md-9 col-md-offset-1 col-lg-8 col-lg-offset-1">
@@ -40,6 +45,21 @@
       </form> -->
     </div><!-- /.navbar-collapse -->
 	</div>
+</div>
+</div>
+</div>
+<div class="menu-small">
+	<div class="menu-header-container">
+	<img class="menu-button" id="toggleImg" data-toggle="collapse" data-target="#menu" src="menu.svg" onclick="changeImage()"/>
+	<img class="menu-small-logo" src="milltag_logo.svg"/>
+</div>
+<div class="collapse" id="menu">
+<ul>
+	<li><a class="menu-link" href="#">SHOP</a></li>
+	<li><a href="#">CUSTOM</a></li>
+	<li><a href="#">item 3</a></li>
+	<li><a href="#">item 4</a></li>
+</ul>
 </div>
 </div>
 <!-- HEADER ENDS -->
@@ -89,16 +109,15 @@
 
 
 <!--MASONRY GALLERY -->
+
+<!-- <div class="row">
+    <div class="col-lg-8 col-md-8 col-xs-8 col-sm-8"><img src="masonry1sized.jpg"/></div>
+    <div class="col-lg-4 col-md-4 col-xs-4 col-sm-4"><img src="masonry2sized.jpg"/></div>
+</div>
 <div class="row">
-	<div class="container">
-<div id="grid">
-    <div class="grid-item"><img src="masonry1sized.jpg"/></div>
-    <div class="grid-item"><img src="masonry3sized.jpg"/></div>
-    <div class="grid-item"><img src="masonry2sized.jpg"/></div>
-    <div class="grid-item"><img src="masonry4sized.jpg"/></div>
-</div>
-</div>
-</div>
+	<div class="col-lg-4 col-md-4 col-xs-4 col-sm-4"><img src="masonry4sized.jpg"/></div>
+	<div class="col-lg-8 col-md-8 col-xs-8 col-sm-8"><img src="masonry3sized.jpg"/></div>
+</div> -->
 <!-- </div>
 <div class="row">
 <div class="col-md-8 col-lg-8 col-xl-4 nopadding">

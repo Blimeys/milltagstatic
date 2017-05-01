@@ -1,5 +1,12 @@
  @font-face { font-family: TradeGothic; src: url('TradeGothicLTS.otf'); }
  @font-face { font-family: TradeGothic; font-weight: bold; src: url('TradeGothicLTS.otf');}
+ .preload-images {
+   display: none;
+   width: 0;
+   height: 0;
+   background: url(cross.svg);
+ }
+
 body {
 	background-color: #000000;
   overflow-x: hidden;
@@ -63,8 +70,6 @@ h2 {
 }
 .menu-small-logo{
   height:1.8em;
-  display:inline;
-  margin:0 auto;
   margin-top: 1em;
 }
 .menu-list-small {
@@ -82,7 +87,7 @@ h2 {
   margin-top: 3em;
 }
 .menu-button {
-  height:15px;
+  height:20px;
   margin-left: 1.5em;
   margin-top: 1.5em;
 }

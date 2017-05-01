@@ -1,11 +1,9 @@
-function changeImage() {
-  console.log("clicked");
-    if (document.getElementById('#toggleImg').src == "menu.svg")
-    {
-        document.getElementById('#toggleImg').src = "cross.svg";
-    }
-    else
-    {
-        document.getElementById('#toggleImg').src = "menu.svg";
-    }
+function changeMenuIcon() {
+  if ($('#toggleImg').attr("src") == "menu.svg")
+  {
+    $('#toggleImg').attr("src","cross.svg");
+  }
+  else {
+    $('#toggleImg').attr("src","menu.svg");
+  }
 }

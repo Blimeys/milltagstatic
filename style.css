@@ -94,6 +94,7 @@ h2 {
   display:block;
   text-align: center;
 }
+
 .menu-link-small{
   font-family: 'Montserrat', sans-serif;
   color: #FFFFFF;
@@ -193,48 +194,20 @@ and (max-device-width : 1024px)  {
     display: inline-block;
 }
 /* Masonry */
-.grid {
 
+
+.grid-item{
+ width: 600px;
 }
-/*.row.row-no-margin {
-  margin-left: 0px;
-  margin-right: 0px;
+.grid-item-width1 {
+ width: 440px;
+}
+.grid-item-width2 {
+ width: 552px;
 }
 
-.col-no-padding {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}*/
-/*.grid-item {
-  float: left;
-  width: 100%;
-  height: 100%;
-}*/
 
-/*
-.mozaic-gallery {
-	display: inline-block;
-	margin-bottom: 0px !important;
-	padding-bottom: 0px;
-}
-.image-left-top {
-  background-image: '/masonry1sized.jpg';
-  height:100%;
-}
-.image-left-bottom {
-  background-image: '/masonry3sized.jpg';
-    height:100%;
-}
-.image-right-top {
-  background-image: '/masonry2sized.jpg';
-    height:100%;
-  }
-.image-right-bottom {
-  background-image: '/masonry4sized.jpg';
-    height:100%;
-  }
-.image-text-container{
-}*/
+
 /* FOOTER CSS */
 
 
@@ -242,7 +215,12 @@ and (max-device-width : 1024px)  {
 .join-milltag-list {
   text-align: center;
 }
-
+@media all and (max-width: 400px) {
+ .milltag-join-email {
+   width: 8em;
+   text-align: center;
+ }
+}
 .milltag-join-button {
 	background-color: #ff671f;
 	color: #FFFFFF;

@@ -50,21 +50,28 @@
 </div>
 <div class="menu-small">
 	<div class="menu-header-container">
-	<img class="menu-button" id="toggleImg" data-toggle="collapse" data-target="#menu" src="menu.svg" onclick="changeImage()"/>
-	<img class="menu-small-logo" src="milltag_logo.svg"/>
+		<div class="row">
+	<img class="menu-button col-xs-1 col-sm-2" id="toggleImg" data-toggle="collapse" data-target="#menu" src="menu.svg" onclick="changeImage()"/>
+	<img class="menu-small-logo col-xs-8 col-xs-offset-1 col-sm-4 col-sm-offset-3" src="milltag_logo.svg"/>
 </div>
+</div>
+<div class="row">
 <div class="collapse" id="menu">
-<ul>
-	<li><a class="menu-link" href="#">SHOP</a></li>
-	<li><a href="#">CUSTOM</a></li>
-	<li><a href="#">item 3</a></li>
-	<li><a href="#">item 4</a></li>
+<ul class="menu-list-small">
+	<li class="menu-list-item-small"><a class="menu-link-small" href="#">SHOP</a></li>
+	<li class="menu-list-item-small"><a class="menu-link-small" href="#">CUSTOM</a></li>
+	<li class="menu-list-item-small"><a class="menu-link-small" href="#">STUDIO</a></li>
+	<li class="menu-list-item-small"><a class="menu-link-small" href="#">ABOUT</a></li>
+	<li class="menu-list-item-small"><a class="menu-link-small" href="#">NEWS</a></li>
+	<li class="menu-list-item-small"><a class="menu-link-small" href="#">CONTACT</a></li>
 </ul>
+</div>
 </div>
 </div>
 <!-- HEADER ENDS -->
 
 <!-- CAROUSEL -->
+
 <div id="Carousel" class="carousel slide" data-ride="carousel">
 	<!-- Indicators -->
   <ol class="carousel-indicators">
@@ -101,7 +108,7 @@
 
  <!-- Left and right controls -->
   <a class="left carousel-control" href="#Carousel" role="button" data-slide="prev">
-	<img src="left-arrow.png"/>
+	<img class="carousel-arrows" src="left-arrow.png"/>
   </a>
   <a class="right carousel-control" href="#Carousel" role="button" data-slide="next">
 	<img src="right-arrow.png"/>  </a>
@@ -136,6 +143,7 @@
 
 <!-- FOOTER STARTS -->
 <div class="footer-container">
+	<div class="container-fluid">
   <div class="row join-milltag-box">
 		<div class="join-milltag-list">
 			<label><h3>JOIN THE MILLTAG <span style="color:#ff671f">COMMUNITY</span></h3></label>
@@ -143,6 +151,8 @@
 			<button type="submit" class="milltag-join-button">JOIN</button>
 		</div>
 	 </div>
+
+ </div>
  </div>
   <!-- Footer Container center -->
   <div class="row">

@@ -2,6 +2,7 @@
  @font-face { font-family: TradeGothic; font-weight: bold; src: url('TradeGothicLTS.otf');}
 body {
 	background-color: #000000;
+  overflow-x: hidden;
 }
 a {
 	text-decoration: none !important;
@@ -62,14 +63,34 @@ h2 {
 }
 .menu-small-logo{
   height:1.8em;
+  display:inline;
+  margin:0 auto;
+  margin-top: 1em;
+}
+.menu-list-small {
+  display:block;
+  text-align: center;
+}
+.menu-link-small{
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+}
+.menu-link-small:hover{
+  color: #888B8D;
+}
+.menu-list-item-small {
+  margin-top: 3em;
 }
 .menu-button {
-  height:1em;
+  height:15px;
+  margin-left: 1.5em;
+  margin-top: 1.5em;
 }
 .menu-small ul, .menu-small li {
   list-style-type: none;
 }
 /* CAROUSEL */
+
 .carousel-content-left {
 	position: absolute;
 	bottom: 32%;
@@ -127,6 +148,9 @@ and (max-device-width : 1024px)  {
   }
   h4{
     font-size: 4em;
+  }
+  .carousel-arrows{
+    height: 10px;
   }
 
 }

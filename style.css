@@ -67,10 +67,28 @@ h2 {
   .menu-small {
     display:block;
   }
+
+.menu-small-button {
+  height:20px;
+}
+.menu-button-container {
+  position: absolute;
+  top:5px;
+  left: 5px;
+}
+.menu-button {
+  height:10px;
+  margin-left: 1.5em;
+  margin-top: 1.5em;
 }
 .menu-small-logo{
   height:1.8em;
-  margin-top: 1em;
+  display: block;
+  margin: 0 auto;
+}
+.menu-header-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .menu-list-small {
   display:block;
@@ -83,16 +101,15 @@ h2 {
 .menu-link-small:hover{
   color: #888B8D;
 }
-.menu-list-item-small {
-  margin-top: 3em;
+.menu-small ul {
+  margin:0;
+  padding: 15px 0px;
 }
-.menu-button {
-  height:20px;
-  margin-left: 1.5em;
-  margin-top: 1.5em;
-}
-.menu-small ul, .menu-small li {
+.menu-small li {
   list-style-type: none;
+  padding: 15px 0px;
+}
+
 }
 /* CAROUSEL */
 

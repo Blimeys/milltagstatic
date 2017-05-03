@@ -196,18 +196,36 @@ and (max-device-width : 1024px)  {
 /* Masonry */
 
 
-.grid-item{
- width: 600px;
-}
-.grid-item-width1 {
- width: 440px;
-}
-.grid-item-width2 {
- width: 552px;
-}
 
-
-
+.grid-top-left {
+  background-image: url('Shop.jpg');
+  background-repeat: no-repeat;
+  height: 300px;
+}
+.grid-text {
+  display: block;
+  margin: 0 auto;
+  font-size: 8em;
+  width: 100%;
+}
+.grid-text-position {
+    margin: 0 auto;
+}
+.grid-top-right {
+  background-image: url('Custom.jpg');
+  background-repeat: no-repeat;
+  height: 300px;
+}
+.grid-bottom-right {
+  background-image: url('About.jpg');
+  background-repeat: no-repeat;
+  height: 300px;
+}
+.grid-bottom-left {
+  background-image: url('Studio.jpg');
+  background-repeat: no-repeat;
+  height: 300px;
+}
 /* FOOTER CSS */
 
 

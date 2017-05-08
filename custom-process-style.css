@@ -1,0 +1,30 @@
+.custom-process-bg {
+  background-color: #ff671f;
+}
+
+.custom-panel-title {
+    background-image: url("custom-process-title-background.jpg");
+    background-position: center;
+    height: 200px;
+    width: 100%;
+    color: #ff671f;
+    opacity: 1;
+}
+.custom-title-text{
+
+}
+.title-text {
+  color: #FFFFFF;
+  font-size: 4em;
+  border-style: none;
+  font-family: TradeGothic;
+  display: inline-block;
+vertical-align: middle;
+float: none;
+}
+.custom-text-box{
+  background-color: #ff671f;
+  color: #FFFFFF;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

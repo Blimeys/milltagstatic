@@ -3,12 +3,30 @@
 }
 
 .custom-panel-title {
-    background-image: url("custom-process-title-background.jpg");
+
+    background: linear-gradient(
+                     rgba(20,20,20, .9),
+                     rgba(20,20,20, .9)),
+                     url("custom-process-title-background.jpg");
     background-position: center;
     height: 200px;
     width: 100%;
     color: #ff671f;
     opacity: 1;
+}
+.custom-panel-title:active {
+    background: linear-gradient(
+                     rgba(20,20,20, 0),
+                     rgba(20,20,20, 0)),
+                     url("custom-process-title-background.jpg");
+                     background-position: center;
+}
+.custom-panel-title:hover {
+    background: linear-gradient(
+                     rgba(20,20,20, 0),
+                     rgba(20,20,20, 0)),
+                     url("custom-process-title-background.jpg");
+                     background-position: center;
 }
 .custom-title-text{
 
@@ -18,9 +36,10 @@
   font-size: 4em;
   border-style: none;
   font-family: TradeGothic;
-  display: inline-block;
-vertical-align: middle;
-float: none;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
 }
 .custom-text-box{
   background-color: #ff671f;

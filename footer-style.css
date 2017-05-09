@@ -1,0 +1,120 @@
+/* FOOTER CSS */
+/* JOIN MILLTAG FOOTER */
+
+.join-milltag-list {
+  text-align: center;
+}
+
+@media all and (max-width: 400px) {
+  .milltag-join-email {
+    width: 8em;
+    text-align: center;
+  }
+}
+
+.milltag-join-button {
+  background-color: #ff671f;
+  color: #FFFFFF;
+  font-size: 1.6em;
+  border-style: none;
+  font-family: TradeGothic;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.milltag-join-button:hover {
+  background-color: #E55815;
+}
+
+.milltag-join-email {
+  background-color: #d9d9d6;
+  border-style: none;
+  font-size: 1.6em;
+  font-family: TradeGothic;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  margin-right: 10px;
+  margin-left: 30px;
+}
+
+.milltag-join-email:focus {
+  border-style: none;
+  outline: 1px solid #888B8D;
+}
+
+.join-milltag-box {
+  background-color: #FFFFFF;
+  padding-bottom: .4em;
+  padding-top: .4em;
+}
+
+h3 {
+  color: #000000;
+  font-family: TradeGothic;
+  font-size: 2em;
+}
+/* BOTTOM FOOTER LINKS */
+
+h1.footer-title {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.footer-links {
+  color: #888B8D;
+  text-decoration: none;
+  padding-bottom: 2em;
+  margin-top: 20px;
+}
+
+.footer-links:hover {
+  color: #FFFFFF !important;
+  text-decoration: none !important;
+}
+
+.footer-links:focus {
+  color: #FFFFFF !important;
+  text-decoration: none !important;
+}
+
+.social-media-bar {
+  list-style-type: none;
+  float: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.social-media-icons {
+  text-align: center;
+  padding-right: 0.5em;
+  display: inline;
+}
+
+.social-media-links {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #888B8D;
+  font-size: 1.7em;
+  display: inline-block;
+}
+
+.social-media-links:focus {
+  color: #FFFFFF text-decoration: none !important;
+}
+
+.social-media-links:hover {
+  color: #FFFFFF;
+  text-decoration: none !important;
+}
+
+.address-link {
+  color: #888B8D;
+}
+
+.footer-links-container {
+  padding-top: 1.5em;
+}

@@ -8,7 +8,7 @@ function changeMenuIcon() {
   }
 }
 function initSlider(){
-$(".single-item").slick({
+$(".slider-items").slick({
 	dots: true,
   speed: 300,
   // customPaging : function(slider, i) {

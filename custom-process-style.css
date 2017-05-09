@@ -1,7 +1,41 @@
 .custom-process-bg {
   background-color: #ff671f;
 }
-
+.custom-process-header{
+  background-image: url("custom-process-header.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+  height: 800px;
+  width: 100%;
+}
+.custom-process-header-title{
+  position: absolute;
+  left:60%;
+  top:30%;
+  font-size: 6em;
+}
+ @media all and (max-width: 400px) {
+   .custom-process-header-title{
+     position: absolute;
+     left:30%;
+     top:30%;
+     font-size: 2px;
+   }
+ }
+.custom-process-header-box{
+  background-color: #000000;
+}
+.custom-process-header-box-text {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 2em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
 .custom-panel-title {
 
     background: linear-gradient(
@@ -62,4 +96,5 @@ background-size: cover;
   color: #FFFFFF;
   padding-top: 20px;
   padding-bottom: 20px;
+  font-size: 2em;
 }

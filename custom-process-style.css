@@ -9,10 +9,22 @@
                      rgba(20,20,20, .9)),
                      url("custom-process-title-background.jpg");
     background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
     height: 200px;
     width: 100%;
     color: #ff671f;
     opacity: 1;
+}
+div[aria-expanded=true] .custom-panel-title {
+    background: linear-gradient(
+                     rgba(20,20,20, 0),
+                     rgba(20,20,20, 0)),
+                     url("custom-process-title-background.jpg");
+                     background-position: center;
 }
 .custom-panel-title:active {
     background: linear-gradient(
@@ -27,6 +39,10 @@
                      rgba(20,20,20, 0)),
                      url("custom-process-title-background.jpg");
                      background-position: center;
+                     -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 }
 .custom-title-text{
 

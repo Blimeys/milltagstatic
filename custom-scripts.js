@@ -11,6 +11,8 @@ function initSlider(){
 $(".slider-items").slick({
 	dots: true,
   speed: 300,
+  autoplay: true,
+  autoplaySpeed: 4000,
   // customPaging : function(slider, i) {
   //         return '<a href="#"><img src="slide-dot.png" /><img src="slide-dot-active.png" /></a>';
   //     },
@@ -22,6 +24,5 @@ $(".slider-items").slick({
 
 $(document).on('ready', function () {
     initSlider();
-    sliderArrows();
     console.log("slider loaded");
 });

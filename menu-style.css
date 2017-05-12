@@ -1,8 +1,8 @@
 /* LARGE MENU */
 
 .menu-format {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .menu-format ul, .menu-format li {
@@ -12,13 +12,15 @@
 
 .menu-logo {
   height: 35px;
-  margin-right: 25px;
+  margin-right: 45px;
 }
 
 .menu-link {
   font-family: 'Montserrat', sans-serif;
   color: #FFFFFF;
-  margin-right: 25px;
+  margin-right: 35px;
+  font-size: .9em;
+  font-weight: normal;
 }
 
 .menu-link:hover {
@@ -43,12 +45,12 @@
     display: block;
   }
   .menu-small-button {
-    height: 20px;
+    height: 15px;
   }
   .menu-button-container {
     position: absolute;
-    top: 5px;
-    left: 5px;
+    margin: 0 auto;
+    margin-left: 1em;
   }
   .menu-button {
     height: 10px;

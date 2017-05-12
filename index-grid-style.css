@@ -16,6 +16,19 @@
 -o-background-size: cover;
 background-size: cover;
 }
+.grid-top-left{
+  background: linear-gradient(
+                   rgba(20,20,20, .5),
+                   rgba(20,20,20, .5)),
+                   url("Shop.jpg");
+                   background-repeat: no-repeat;
+                   background-position: center center;
+                   height: 370px;
+                   -webkit-background-size: cover;
+                 -moz-background-size: cover;
+                 -o-background-size: cover;
+                 background-size: cover;
+}
 .text-grid-position{
  position: absolute;
  top: 50%;
@@ -41,7 +54,19 @@ background-size: cover;
 -o-background-size: cover;
 background-size: cover;
 }
-
+.grid-top-right:hover{
+  background: linear-gradient(
+                   rgba(20,20,20, .5),
+                   rgba(20,20,20, .5)),
+                   url("Custom.jpg");
+                   background-repeat: no-repeat;
+                   background-position: center center;
+                   height: 370px;
+                   -webkit-background-size: cover;
+                 -moz-background-size: cover;
+                 -o-background-size: cover;
+                 background-size: cover;
+}
 .grid-bottom-right {
   background-image: url('About.jpg');
   background-repeat: no-repeat;
@@ -51,9 +76,20 @@ background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
-
 }
-
+.grid-bottom-right:hover{
+  background: linear-gradient(
+                   rgba(20,20,20, .5),
+                   rgba(20,20,20, .5)),
+                   url("About.jpg");
+                   background-repeat: no-repeat;
+                   background-position: center center;
+                   height: 370px;
+                   -webkit-background-size: cover;
+                 -moz-background-size: cover;
+                 -o-background-size: cover;
+                 background-size: cover;
+}
 .grid-bottom-left {
   background-image: url('Studio.jpg');
   background-size: cover;
@@ -64,4 +100,17 @@ background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
+}
+.grid-bottom-left:hover{
+  background: linear-gradient(
+                   rgba(20,20,20, .5),
+                   rgba(20,20,20, .5)),
+                   url("Studio.jpg");
+                   background-repeat: no-repeat;
+                   background-position: center center;
+                   height: 370px;
+                   -webkit-background-size: cover;
+                 -moz-background-size: cover;
+                 -o-background-size: cover;
+                 background-size: cover;
 }

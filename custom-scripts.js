@@ -11,13 +11,28 @@ function initSlider(){
 $(".slider-items").slick({
 	dots: true,
   speed: 300,
-  autoplay: true,
-  autoplaySpeed: 4000,
+  responsive: [{
+       breakpoint: 1025,
+       settings: {
+           dots: false,
+           arrows: false,
+       }
+   }],
+  // autoplay: true,
+  // autoplaySpeed: 4000,
+
   // customPaging : function(slider, i) {
-  //         return '<a href="#"><img src="slide-dot.png" /><img src="slide-dot-active.png" /></a>';
+  //         return '<a href="#"><img class="doted-circle" src="cercle.svg" /><img class="doted-circle"  src="rond.svg" /></a>';
   //     },
+  customPaging : function(slider, i) {
+    return '<img class="slider-buttons-dots" src="rond.svg ">';
+
+},
   arrows: true
+
 });
+  console.log("slider loaded");
+
 }
 
 

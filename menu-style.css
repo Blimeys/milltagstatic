@@ -12,13 +12,13 @@
 
 .menu-logo {
   height: 35px;
-  margin-right: 45px;
+  right: 45px;
 }
 
 .menu-link {
   font-family: 'Montserrat', sans-serif;
   color: #FFFFFF;
-  margin-right: 35px;
+  right: 35px;
   font-size: .9em;
   font-weight: normal;
 }
@@ -54,8 +54,8 @@
   }
   .menu-button {
     height: 10px;
-    margin-left: 1.5em;
-    margin-top: 1.5em;
+    left: 1.5em;
+    top: 1.5em;
   }
   .menu-small-logo {
     height: 1.8em;

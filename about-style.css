@@ -1,0 +1,129 @@
+/** ABOUT CSS **/
+
+ .about-header-image {
+   position: relative;
+   width: 100%;
+   height: auto;
+ }
+
+ .about-header-text, h4 {
+   font-size: 2.6em;
+   top: 30%;
+   left: 15%;
+   position: absolute;
+ }
+
+ .about-footer-image {
+   width: 100%;
+   height: auto;
+ }
+
+ .about-header-content {
+   font-size: 2em;
+   color: #FFFFFF;
+   margin-top: 4em;
+   margin-bottom: 4em;
+ }
+
+ .video-container {
+   background-color: #FFFFFF;
+ }
+
+ .milltag-origin {
+   font-size: 7em;
+ }
+
+ .milltag-origin-text {
+   font-size: 2em;
+   color: #FFFFFF;
+ }
+
+ .milltag-origin-box {
+   margin-top: 4em;
+   margin-bottom: 4em;
+ }
+
+ .portrait-box {
+   background-color: #FFFFFF;
+ }
+
+ .team-title {
+   color: #000000;
+   font-size: 4em;
+ }
+
+ .portrait-text {
+   margin-top: 1em;
+   font-weight: 600;
+   color: #000000;
+ }
+
+ .team-email {
+   color: #ff671f;
+ }
+
+ .portrait-image {
+   width: 100%;
+   height: auto;
+ }
+
+ @media all and (max-width: 980px) {
+   .about-header-text, h4 {
+     font-size: 2em;
+     top: 30%;
+     left: 15%;
+     position: absolute;
+   }
+   .about-header-content {
+     font-size: 1.5em;
+     color: #FFFFFF;
+     margin-top: 2em;
+     margin-bottom: 2em;
+   }
+   .milltag-origin {
+     font-size: 4em;
+   }
+   .milltag-origin-box {
+     margin-top: 2em;
+     margin-bottom: 2em;
+   }
+   .milltag-origin-text {
+     font-size: 1.5em;
+     color: #FFFFFF;
+   }
+ }
+
+ @media all and (max-width: 660px) {
+   .about-header-text, h4 {
+     font-size: 1.5em;
+     top: 30%;
+     left: 15%;
+     position: absolute;
+   }
+ }
+
+ @media all and (max-width: 400px) {
+   .about-header-text, h4 {
+     font-size: 1em;
+     top: 30%;
+     left: 15%;
+     position: absolute;
+   }
+   .about-header-content {
+     font-size: 1em;
+     color: #FFFFFF;
+     margin-top: 2em;
+     margin-bottom: 2em;
+   }
+   .milltag-origin {
+     font-size: 2em;
+   }
+   .milltag-origin-box {
+     margin-top: 2em;
+     margin-bottom: 2em;
+   }
+   .milltag-origin-text {
+     font-size: 1em;
+     color: #FFFFFF;
+   }
+ }

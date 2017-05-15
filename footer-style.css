@@ -5,12 +5,7 @@
   text-align: center;
 }
 
-@media all and (max-width: 400px) {
-  .milltag-join-email {
-    width: 8em;
-    text-align: center;
-  }
-}
+
 
 .milltag-join-button {
   background-color: #ff671f;
@@ -24,11 +19,6 @@
   padding-right: 10px;
   margin-left: 3px;
 }
-
-.milltag-join-button:hover {
-  background-color: #E55815;
-}
-
 .milltag-join-email {
   background-color: #000000;
   border-style: solid;
@@ -41,6 +31,22 @@
   padding-left: 10px;
   padding-right: 10px;
 }
+.milltag-join-button:hover {
+  background-color: #E55815;
+}
+@media all and (max-width: 900px) {
+  .milltag-join-email {
+    width: 90%;
+    text-align: center;
+    margin-bottom: 3px;
+  }
+  .milltag-join-button{
+      width: 90%;
+      text-align: center;
+      margin: 0 auto;
+  }
+}
+
 .milltag-join-email:focus {
   border-style: none;
   outline: 1px solid #888B8D;
@@ -54,7 +60,7 @@ h3.join-footer-text {
   color: #FFFFFF;
   font-family: Montserrat, sans-serif;
   font-size: 1.2em;
-  margin-right: 20px;
+
 }
 /* BOTTOM FOOTER LINKS */
 
@@ -86,7 +92,7 @@ h1.footer-title {
   list-style-type: none;
   float: none;
   text-align: center;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
 

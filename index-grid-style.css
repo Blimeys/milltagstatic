@@ -5,30 +5,9 @@
 }
 
 .grid-links:hover {
-  color: #000000;
+  color: #FFFFFF;
 }
 
-.grid-top-left {
-  height: 370px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-image: url('Shop.jpg');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.grid-top-left:hover {
-  background: linear-gradient( rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), url("Shop.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  height: 370px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 
 .text-grid-position {
   position: absolute;
@@ -47,11 +26,32 @@
   }
 }
 
+.grid-top-left {
+  height: 900px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url('Shop.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.grid-top-left:hover {
+  background: linear-gradient( rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), url("Shop.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 900px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .grid-top-right {
   background-image: url('Custom.jpg');
   background-repeat: no-repeat;
   background-position: center center;
-  height: 370px;
+  height: 450px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -62,7 +62,7 @@
   background: linear-gradient( rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), url("Custom.jpg");
   background-repeat: no-repeat;
   background-position: center center;
-  height: 370px;
+  height: 450px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -73,7 +73,7 @@
   background-image: url('About.jpg');
   background-repeat: no-repeat;
   background-position: center center;
-  height: 370px;
+  height: 450px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -84,7 +84,7 @@
   background: linear-gradient( rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), url("About.jpg");
   background-repeat: no-repeat;
   background-position: center center;
-  height: 370px;
+  height: 450px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -96,7 +96,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 370px;
+  height: 450px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -107,9 +107,67 @@
   background: linear-gradient( rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), url("Studio.jpg");
   background-repeat: no-repeat;
   background-position: center center;
-  height: 370px;
+  height: 450px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+@media all and (max-width: 300px) {
+  .grid-top-left {
+    height: 250px;
+}
+  .grid-top-left:hover {
+  height: 250px;
+}
+.grid-top-right {
+  height: 250px;
+}
+.grid-top-right:hover {
+height: 250px;
+}
+.grid-bottom-left {
+  height: 250px;
+}
+.grid-bottom-left:hover {
+height: 250px;
+}
+.grid-bottom-right {
+  height: 250px;
+}
+.grid-bottom-right:hover {
+height: 250px;
+}
+.grid-text {
+  font-size: 6em;
+}
+}
+  @media all and (max-width: 660px) {
+    .grid-top-left {
+      height: 250px;
+  }
+    .grid-top-left:hover {
+    height: 250px;
+  }
+  .grid-top-right {
+    height: 250px;
+  }
+  .grid-top-right:hover {
+  height: 250px;
+  }
+  .grid-bottom-left {
+    height: 250px;
+  }
+  .grid-bottom-left:hover {
+  height: 250px;
+  }
+  .grid-bottom-right {
+    height: 250px;
+  }
+  .grid-bottom-right:hover {
+  height: 250px;
+  }
+  .grid-text {
+    font-size: 6em;
+  }
+  }

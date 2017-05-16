@@ -97,7 +97,7 @@ width: 100%;
    .text-overlay-right {
      position: absolute;
      top:35%;
-     left: 75%;
+     left: 55%;
    }
  }
 @media all and (max-width: 980px) {

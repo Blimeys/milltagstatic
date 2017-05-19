@@ -8,13 +8,15 @@
 .menu-format ul, .menu-format li {
   list-style-type: none;
   display: inline;
+  float: right;
 }
 
 .menu-logo {
   height: 35px;
-  right: 45px;
 }
+.menu-mover {
 
+}
 .menu-link {
   font-family: 'Montserrat', sans-serif;
   color: #FFFFFF;
@@ -22,6 +24,7 @@
   font-size: .9em;
   font-weight: normal;
   padding-right: 2.6em;
+  float: right;
 }
 
 .menu-link:hover {

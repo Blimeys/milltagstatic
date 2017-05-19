@@ -1,5 +1,5 @@
 .custom-page-header {
-  height: 500px;
+  height: 800px;
   background-repeat: no-repeat;
   background-position: center center;
   background-image: url('custom-page.jpg');
@@ -25,26 +25,49 @@
 }
 
 .custom-text-box {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  margin-top: 2.3em;
+  margin-bottom: 2.3em;
+  font-weight: 300;
   text-align: center;
   color: #FFFFFF;
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 
 .custom-product-frame {
   background-color: #FFFFFF;
+  background: -webkit-linear-gradient(#d6d6d6, #FFFFFF);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#d6d6d6, #FFFFFF);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#d6d6d6, #FFFFFF);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#d6d6d6, #FFFFFF);
 }
 
 .product-frame-title {
   color: #000000;
   text-align: center;
   margin-top: .5em;
+  font-size: 4em;
 }
 
 .product-box-menu-title {
   color: #000000;
   margin-right: 35px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.product-box-menu-title:hover {
+  color: #ff671f;
+  background-color: transparent;
+}
+
+li.active h1 {
+  color: #ff671f !important;
+  background-color: transparent !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 ul.product-box-menu-list {
@@ -52,6 +75,8 @@ ul.product-box-menu-list {
   text-align: center;
   list-style: none;
   padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 ul.product-box-menu-list li {
@@ -59,12 +84,14 @@ ul.product-box-menu-list li {
 }
 
 .featured-product {
-  height: 300px;
+  margin-top: 1em;
+  height: 400px;
   width: auto;
 }
 
 .featured-product-featured {
-  height: 350px;
+  margin-top: 1em;
+  height: 400px;
   width: auto;
 }
 
@@ -75,17 +102,16 @@ ul.product-box-menu-list li {
 }
 
 .view-product {
-  color: #000000;
-  font-family: Montserrat, sans-serif;
-  border-style: solid;
   font-size: .75em;
-  border-width: 2px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: 2px solid;
   border-color: #000000;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  text-align: center;
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
 }
 
 .view-product:hover {
@@ -105,6 +131,7 @@ li.active h1 {
   padding-left: 7px;
   padding-right: 7px;
 }
-.featured-product-box img:hover{
+
+.featured-product-box img:hover {
   opacity: .8;
 }

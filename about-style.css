@@ -1,7 +1,7 @@
 /** ABOUT CSS **/
 
  .about-header-image {
-   height: 500px;
+   height: 800px;
    background-repeat: no-repeat;
    background-position: center center;
    background-image: url('about-header.jpg');
@@ -11,42 +11,65 @@
    background-size: cover;
  }
 
- .about-header-text, h4 {
-   font-size: 2.6em;
+ .about-header-text{
+
    position: absolute;
    top: 50%;
    left: 25%;
    transform: translateX(-50%) translateY(-50%);
  }
-
+.header-title-text{
+     font-family: 'Rift Bold Italic' !important;
+     font-size: 2.6em;
+}
  .about-footer-image {
    width: 100%;
-   height: auto;
+   height: 600px;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-image: url('about-footer.jpg');
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
  }
-
+.about-header-text h4{
+}
  .about-header-content {
-   font-size: 2em;
+   font-size: 1.5em;
+   font-weight: 300;
    color: #FFFFFF;
-   margin-top: 4em;
-   margin-bottom: 4em;
+   margin-top: 2.3em;
+   margin-bottom: 2.3em;
+   text-align: center;
  }
 
  .video-container {
    background-color: #FFFFFF;
- }
 
+
+ }
+.video-feature{
+margin-top: 4em;
+margin-bottom: 4em;
+}
  .milltag-origin {
-   font-size: 7em;
+   font-size: 4em;
+   text-align: center;
  }
 
  .milltag-origin-text {
-   font-size: 2em;
+   font-size: 1.4em;
    color: #FFFFFF;
+   text-align: center;
+   font-weight: 300;
+   font-family: Montserrat, sans-serif;
  }
 
  .milltag-origin-box {
    margin-top: 4em;
    margin-bottom: 4em;
+   text-align: center;
  }
 
  .portrait-box {
@@ -56,12 +79,17 @@
  .team-title {
    color: #000000;
    font-size: 4em;
+   text-align: center;
+   margin-top: 0.6em;
+   margin-bottom: 0.6em;
  }
 
  .portrait-text {
    margin-top: 1em;
-   font-weight: 600;
    color: #000000;
+   font-weight: 300;
+   font-family: Montserrat, sans-serif;
+   margin-bottom: 3em;
  }
 
  .team-email {
@@ -72,7 +100,16 @@
    width: 100%;
    height: auto;
  }
-
+.portrait-name{
+  font-size: 1.2em;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+}
+.portrait-job-title{
+  font-size: 1em;
+  
+    font-family: Montserrat, sans-serif;
+}
  @media all and (max-width: 980px) {
    .about-header-text, h4 {
      font-size: 2em;
@@ -81,10 +118,11 @@
      position: absolute;
    }
    .about-header-content {
-     font-size: 1.5em;
+     font-size: 1.4em;
      color: #FFFFFF;
      margin-top: 2em;
      margin-bottom: 2em;
+     text-align: center;
    }
    .milltag-origin {
      font-size: 4em;

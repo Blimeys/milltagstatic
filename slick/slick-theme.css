@@ -14,10 +14,13 @@
   border-color: #FFFFFF;
   color: #FFFFFF;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
+  font-weight: 400;
 }
 .carousel-link:hover {
  color: #FFFFFF;
+}
+.carousel-link:visited {
+  color: #FFFFFF;
 }
 .slide {
   position: relative;
@@ -30,18 +33,16 @@
  width: 100%;
 }
 .text-overlay-left {
- position: absolute;
- top:25%;
+ top:20%;
  left: 10%;
 
 }
 .text-overlay-right {
- position: absolute;
- top:25%;
- left: 65%;
+ top:20%;
+ left: 35%;
 }
 .slider-text-titles {
- font-size: 4em;
+ font-size: 8em;
 
 }
 .slick-slider {
@@ -139,14 +140,14 @@ width: 100%;
 @media all and (min-width: 2500px) {
   .text-overlay-left {
    position: absolute;
-   top:38%;
+   top: 30%;
    left: 10%;
 
   }
   .text-overlay-right {
    position: absolute;
-   top:38%;
-   left: 80%;
+  top: 30%;
+   left: 70%;
   }
 }
 /* Slider */
@@ -164,7 +165,7 @@ width: 100%;
 .slick-prev {
   content: "";
   background: transparent;
-  background: url('left-arrow.png') no-repeat;
+  background: url('arrow_left_before.svg') no-repeat;
   position: absolute;
   top: 50%;
   left: 5%;
@@ -175,9 +176,12 @@ width: 100%;
   height: 85px;
   width: 30px;
 }
+.slick-prev:hover {
+  background: url('arrow_left.svg') no-repeat;
+}
 .slick-next {
   background: transparent;
-  background: url('right-arrow.png') no-repeat;
+  background: url('arrow_right_before.svg') no-repeat;
   background-size: contain;
   position: absolute;
   top: 50%;
@@ -188,6 +192,9 @@ width: 100%;
   border-style: none;
   height: 85px;
   width: 30px;
+}
+.slick-next:hover {
+  background: url('arrow_right.svg') no-repeat;
 }
 .slick-dots {
   position: absolute;

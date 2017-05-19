@@ -5,7 +5,9 @@
   text-align: center;
 }
 
-
+.media-spacer {
+  display: none;
+}
 
 .milltag-join-button {
   background-color: #ff671f;
@@ -39,12 +41,17 @@
     width: 90%;
     text-align: center;
     margin-bottom: 3px;
+    font-weight: 300;
   }
   .milltag-join-button{
       width: 90%;
       text-align: center;
       margin: 0 auto;
   }
+  .media-spacer {
+  display: block;
+  margin-bottom: 1em;
+}
 }
 
 .milltag-join-email:focus {
@@ -54,12 +61,14 @@
 
 .join-milltag-box {
   background-color: #000000;
+  margin-top: 1.75em;
 }
 
 h3.join-footer-text {
   color: #FFFFFF;
   font-family: Montserrat, sans-serif;
   font-size: 1.2em;
+  margin-right: 15px;
 
 }
 /* BOTTOM FOOTER LINKS */
@@ -68,6 +77,7 @@ h1.footer-title {
   color: #FFFFFF;
   text-align: center;
   font-family: Montserrat, sans-serif;
+  font-style: normal;
   font-size: 1em;
 }
 
@@ -76,6 +86,8 @@ h1.footer-title {
   text-decoration: none;
   padding-bottom: 2em;
   margin-top: 20px;
+  font-weight: 300;
+  font-family: Montserrat, sans-serif;
 }
 
 .footer-links:hover {
@@ -122,8 +134,17 @@ h1.footer-title {
 
 .address-link {
   color: #888B8D;
+  font-weight: 300;
+  font-family: Montserrat, sans-serif;
 }
-
+.copyright-text{
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 1.5em;
+  text-align: right;
+  font-size: .8em;
+  color: #888B8D;
+}
 .footer-links-container {
   padding-top: 1.5em;
+  padding-bottom: 3em;
 }

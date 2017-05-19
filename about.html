@@ -9,7 +9,18 @@
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
-
+	<script type="text/javascript">
+	    (function() {
+	        var path = '//easy.myfonts.net/v2/js?sid=291056(font-family=Rift+Bold)&sid=291058(font-family=Rift+Light)&sid=291059(font-family=Rift+Medium)&sid=291060(font-family=Rift+Regular)&key=ZsiERYVC54',
+	            protocol = ('https:' == document.location.protocol ? 'https:' : 'http:'),
+	            trial = document.createElement('script');
+	        trial.type = 'text/javascript';
+	        trial.async = true;
+	        trial.src = protocol + path;
+	        var head = document.getElementsByTagName("head")[0];
+	        head.appendChild(trial);
+	    })();
+	</script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="custom-scripts.js"></script>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -18,7 +29,7 @@
 	<link rel="stylesheet" type="text/css" href="footer-style.css">
 	<link rel="stylesheet" type="text/css" href="index-grid-style.css">
 	<link rel="stylesheet" type="text/css" href="about-style.css">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600" rel="stylesheet">
 	<link rel="icon" type="image/png" href="favicon.png">
 	<link rel="stylesheet" href="slick/slick-theme.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css" integrity="sha256-2RdmDD1veq0y68SwASxtC7hKE+IBoBLjNLzKS59Ghsk=" crossorigin="anonymous" />
@@ -85,21 +96,21 @@
 			<div class="col-md-12 nopadding">
 				<div class="about-header-image"/>
 				<div class="about-header-text">
-					<h4>PEDALLING<br/>INDIVIDUALLY<br/>SINCE 2010</h4>
+					<h4 class="header-title-text">PEDALLING<br/>INDIVIDUALLY<br/>SINCE 2010</h4>
 				</div>
 			</div>
 			</div>
 		</div>
 		<div class="row nopadding">
-			<div class="col-md-10 col-md-offset-1">
+			<div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
 				<p class="about-header-content">At Milltag, we create bespoke performance cycle clothing for every level of road cyclists - from weekend warriors to the pro peloton. Established in London by expert graphic designers and dedicated cyclists, our innovative products utilise the finest
 					technical materials and are ethically tailored by hand in Europe. Our blend of design knowledge, product development and hands-on customer service means we deliver only the best and most distinctive road cycling apparel on the market.</p>
 			</div>
 		</div>
 		<!-- VIDEO CONTENT -->
 		<div class="row nopadding video-container">
-			<div class="col-md-8 col-md-offset-2">
-				<div class="embed-responsive embed-responsive-16by9">
+			<div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+				<div class="embed-responsive embed-responsive-16by9 video-feature">
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/_0BXbdbhTqY" frameborder="0" allowfullscreen></iframe>
 				</div>
 			</div>
@@ -107,7 +118,7 @@
 
 		<!-- MILLTAG STORY -->
 		<div class="row nopadding">
-			<div class="col-md-10 col-md-offset-1">
+			<div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 col-lg-6 col-lg-offset-6">
 				<div class="milltag-origin-box">
 					<h1 class="milltag-origin"> MILLTAG, <span style="color:#ff671f">THE ORIGIN</span></h1>
 					<p class="milltag-origin-text">
@@ -121,12 +132,14 @@
 
 		<!-- Portraits -->
 		<div class="row nopadding portrait-box">
-			<div class="col-md-8 col-md-offset-2 ">
+			<div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 col-lg-6 col-lg-offset-6	 ">
 				<div class="row nopadding">
 					<h1 class="team-title">THE TEAM</h1>
 					<div class="col-md-6">
 						<img class="portrait-image" src="portrait1.jpg">
 						<p class="portrait-text">
+							<span class="portrait-name">Sullivan Corde</span><br>
+							<span class="portrait-job-title">Designer</span><br><br>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
 							in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 							<br> Contact: <a href="" class="team-email">john@milltag.cc</a>
@@ -134,7 +147,10 @@
 					</div>
 					<div class="col-md-6">
 						<img class="portrait-image" src="portrait1.jpg">
+
 						<p class="portrait-text">
+							<span class="portrait-name">Sullivan Corde</span><br>
+							<span class="portrait-job-title">Designer</span><br><br>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
 							in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 							<br> Contact: <a href="" class="team-email">john@milltag.cc</a>
@@ -145,6 +161,8 @@
 						<div class="col-md-6">
 							<img class="portrait-image" src="portrait1.jpg">
 							<p class="portrait-text">
+								<span class="portrait-name">Sullivan Corde</span><br>
+								<span class="portrait-job-title">Designer</span><br><br>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
 								in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 								<br> Contact: <a href="" class="team-email">john@milltag.cc</a>
@@ -153,6 +171,8 @@
 						<div class="col-md-6">
 							<img class="portrait-image" src="portrait1.jpg">
 							<p class="portrait-text">
+								<span class="portrait-name">Sullivan Corde</span><br>
+								<span class="portrait-job-title">Designer</span><br><br>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
 								in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 								<br> Contact: <a href="" class="team-email">john@milltag.cc</a>
@@ -166,13 +186,25 @@
 		</div>
 		<!-- content footer -->
 
-
+		<div class="row nopadding">
+			<div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+				<div class="milltag-origin-box">
+					<h1 class="milltag-origin"> ETHICAL <span style="color:#ff671f">MANUFACTURE</span></h1>
+					<p class="milltag-origin-text">
+						All our products are made to the same high standards using top quality materials and handmade
+						in our factory in Europe. As with everything we undertake, it is paramount that our manufacturing
+						partners understand what we are trying to achieve.  That means we are constantly pushing
+						them to produce more innovative and technical products in the best working conditions.
+					</p>
+				</div>
+			</div>
+		</div>
 
 
 		<div class="container-fluid nopadding">
 			<div class="row nopadding">
 				<div class="col-md-12 nopadding">
-					<img class="about-footer-image" src="about-footer.jpg">
+					<div class="about-footer-image" ></div>
 				</div>
 			</div>
 

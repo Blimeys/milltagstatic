@@ -1,9 +1,9 @@
 @charset 'UTF-8';
 
 /* CAROUSEL V2 */
-.carousel-picture-link{
 
-}
+.carousel-picture-link {}
+
 .carousel-link {
   font-size: 1em;
   padding-left: 25px;
@@ -16,43 +16,47 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
+
 .carousel-link:hover {
- color: #FFFFFF;
+  color: #FFFFFF;
 }
+
 .carousel-link:visited {
   color: #FFFFFF;
 }
+
 .slide {
   position: relative;
 }
 
 .slide__caption {
- bottom: 0;
- left: 0;
- position: absolute;
- width: 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
 }
+
 .text-overlay-left {
- top:20%;
- left: 10%;
-
+  top: 20%;
+  left: 10%;
 }
+
 .text-overlay-right {
- top:20%;
- left: 35%;
+  top: 20%;
+  left: 65%;
 }
+
 .slider-text-titles {
- font-size: 8em;
-
+  font-size: 5.5em;
 }
+
 .slick-slider {
-width: 100%;
-
+  width: 100%;
 }
 
-.slick-active {
+/*.slick-active {
   color: #FFFFFF;
-}
+}*/
 
 .carousel-picture {
   width: 100%;
@@ -60,10 +64,9 @@ width: 100%;
 }
 
 @media all and (max-width: 400px) {
-  .slider-text-titles{
-    font-size: 2em;
+  .slider-text-titles {
+    font-size: 1.5em;
   }
-
   .carousel-picture {
     width: auto;
     height: auto;
@@ -73,45 +76,45 @@ width: 100%;
   }
   .text-overlay-right {
     position: absolute;
-    top:35%;
-    left: 45%;
+    /*top: 35%;
+    left: 45%;*/
   }
-
 }
- @media all and (max-width: 660px) {
-   .slider-text-titles{
-     font-size: 2em;
-   }
 
-   .carousel-picture {
-     width: auto;
-     height: auto;
-   }
-   .carousel-link {
-     font-size: .7em;
-   }
-   .text-overlay-left {
+@media all and (max-width: 660px) {
+  .slider-text-titles {
+    font-size: 3em;
+  }
+  .carousel-picture {
+    width: auto;
+    height: auto;
+  }
+  .carousel-link {
+    font-size: .7em;
+  }
+  .text-overlay-left {
     position: absolute;
-    top:38%;
+    top: 38%;
     left: 5%;
   }
-   .text-overlay-right {
-     position: absolute;
-     top:35%;
-     left: 55%;
-   }
- }
+  .text-overlay-right {
+    position: absolute;
+    top: 38%;
+    left: 75%;
+  }
+}
+
 @media all and (max-width: 980px) {
-  .slider-text-titles{
-    font-size: 2em;
+  .slider-text-titles {
+    font-size: 1.5em;
   }
-  .slick-next{
+  .slick-next {
     visibility: hidden;
   }
-  .slick-prev{
+  .slick-prev {
     visibility: hidden;
   }
-  .slick-dots{
+  .slick-dots {
     visibility: hidden;
   }
   .carousel-picture {
@@ -122,34 +125,40 @@ width: 100%;
   .carousel-link {
     font-size: .7em;
   }
+  .text-overlay-right {
+    position: absolute;
+    /*top: 35%;*/
+    left: 65%;
+  }
 }
+
 @media all and (min-width: 2000px) {
   .text-overlay-left {
-   position: absolute;
-   top: 36%;
-   left: 10%;
-
+    position: absolute;
+    top: 36%;
+    left: 10%;
   }
   .text-overlay-right {
-   position: absolute;
-   top:36%;
-   left: 78%;
+    position: absolute;
+    top: 36%;
+    left: 78%;
   }
 }
 
 @media all and (min-width: 2500px) {
   .text-overlay-left {
-   position: absolute;
-   top: 30%;
-   left: 10%;
-
+    position: absolute;
+    top: 30%;
+    left: 10%;
   }
   .text-overlay-right {
-   position: absolute;
-  top: 30%;
-   left: 70%;
+    position: absolute;
+    top: 30%;
+    left: 70%;
   }
 }
+
+
 /* Slider */
 
 .slick-loading .slick-list {
@@ -176,9 +185,11 @@ width: 100%;
   height: 85px;
   width: 30px;
 }
+
 .slick-prev:hover {
   background: url('arrow_left.svg') no-repeat;
 }
+
 .slick-next {
   background: transparent;
   background: url('arrow_right_before.svg') no-repeat;
@@ -193,34 +204,43 @@ width: 100%;
   height: 85px;
   width: 30px;
 }
+
 .slick-next:hover {
   background: url('arrow_right.svg') no-repeat;
 }
+
 .slick-dots {
   position: absolute;
   bottom: 2%;
   left: 50%;
   padding: 0;
   transform: translateX(-50%) translateY(-50%);
-
 }
-.slider-buttons-dots{
-  height: .5em;
+
+.slider-buttons-dots {
+  height: .7em;
   display: inline;
 }
-.slider-buttons-dots:hover{
+
+.slider-buttons-dots:hover {
   content: url('cercle.svg');
 }
-.slider-buttons-dots::after{
+
+.slider-buttons-dots::after {
   content: url('cercle.svg');
 }
-.slider-buttons-dots:active{
+
+.slider-buttons-dots:active {
   content: url('cercle.svg');
 }
+
 .slick-dots li.slick-active button:before {
   content: url('cercle.svg');
 }
-.slider-buttons-dots::before{
+.slick-dots li button:before{
+  content: url('cercle.svg');
+}
+.slider-buttons-dots:before {
   content: url('cercle.svg');
 }
 

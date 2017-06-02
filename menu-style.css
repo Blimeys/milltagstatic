@@ -1,30 +1,37 @@
 /* LARGE MENU */
 
 .menu-format {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 1.5em;
+  padding-bottom: 3em;
+  position: relative;
 }
-
+.main-menu {
+}
 .menu-format ul, .menu-format li {
-  list-style-type: none;
   display: inline;
-  float: right;
 }
 
 .menu-logo {
-  height: 35px;
+  height: 2em;
+  float: left;
+  position: absolute;
 }
 .menu-mover {
-
+  float: right;
+  text-align: right;
+  position: absolute;
+  top: 1.8em;
+  right: .1em;
+  /*position: relative;
+  top: 50%;
+ transform: translateX(-50%) translateY(-50%);*/
 }
 .menu-link {
   font-family: 'Montserrat', sans-serif;
   color: #FFFFFF;
-  right: 35px;
-  font-size: .9em;
+  font-size: 1em;
   font-weight: normal;
-  padding-right: 2.6em;
-  float: right;
+  padding-left  : 2em;
 }
 
 .menu-link:hover {

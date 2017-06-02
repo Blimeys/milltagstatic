@@ -25,8 +25,12 @@ $(".slider-items").slick({
   //         return '<a href="#"><img class="doted-circle" src="cercle.svg" /><img class="doted-circle"  src="rond.svg" /></a>';
   //     },
   customPaging : function(slider, i) {
+    if ($('[aria-hidden="false"]')) {
+      console.log("swap");
+      return '<img class="slider-buttons-dots" src="cercle.svg ">';
+    } else {
     return '<img class="slider-buttons-dots" src="rond.svg ">';
-
+  }
 },
   arrows: true
 

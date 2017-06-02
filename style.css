@@ -10,7 +10,7 @@ list-style-type: none;
 a:focus {outline:0;}
 button:focus {outline:0;}
  @font-face {
-   font-family: 'Rift Bold  Italic';
+   font-family: 'Rift Bold Italic';
    font-style: italic;
    font-weight: bold;
 
@@ -28,7 +28,6 @@ button:focus {outline:0;}
    background-color: #000000;
        max-width: 100%;
    overflow-x: hidden;
-   font-variant-numeric: unset;
  }
  .row {
    margin-right: 0 !important;

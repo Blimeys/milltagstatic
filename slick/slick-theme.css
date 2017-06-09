@@ -225,15 +225,15 @@
 
 .slick-dots li{
     display:inline-block;
-    width:15px;
-    height:15px;
+    width:12px;
+    height:12px;
     background:Transparent;
     -webkit-transition:all 0.5s;
     transition:all 0.5s;
     -webkit-border-radius:50%;
     border-radius:50%;
     border:2px solid #FFF;
-    margin:0 2.5px;
+    margin:0 6px;
     cursor:pointer;
     position:relative;
 }

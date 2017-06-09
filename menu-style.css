@@ -1,7 +1,7 @@
 /* LARGE MENU */
 
 .menu-format {
-  padding-top: 1.5em;
+  padding-top: 1em;
   padding-bottom: 3em;
   position: relative;
 }
@@ -12,7 +12,7 @@
 }
 
 .menu-logo {
-  height: 2em;
+  height: 2.4em;
   float: left;
   position: absolute;
 }
@@ -20,7 +20,7 @@
   float: right;
   text-align: right;
   position: absolute;
-  top: 1.8em;
+  top: 1.4em;
   right: .1em;
   /*position: relative;
   top: 50%;
@@ -29,7 +29,7 @@
 .menu-link {
   font-family: 'Montserrat', sans-serif;
   color: #FFFFFF;
-  font-size: 1em;
+  font-size: 0.9em;
   font-weight: normal;
   padding-left  : 2em;
 }

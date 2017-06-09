@@ -78,11 +78,12 @@ h1.footer-title {
   text-align: center;
   font-family: Montserrat, sans-serif;
   font-style: normal;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 .footer-links {
   color: #888B8D;
+  font-size: 0.9em;
   text-decoration: none;
   padding-bottom: 2em;
   margin-top: 20px;
@@ -106,6 +107,7 @@ h1.footer-title {
   text-align: center;
   margin: 0 auto;
   padding: 0;
+  margin-top: 20px;
 }
 
 .social-media-icons {
@@ -136,6 +138,7 @@ h1.footer-title {
   color: #888B8D;
   font-weight: 300;
   font-family: Montserrat, sans-serif;
+  font-size: 0.9em;
 }
 .copyright-text{
   font-family: Montserrat, sans-serif;

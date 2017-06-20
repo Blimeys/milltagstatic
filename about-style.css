@@ -10,16 +10,11 @@
    -o-background-size: cover;
    background-size: cover;
  }
-@media all and (max-width: 1601px) {
- .about-header-image{
-   height: 30em;
-}
-}
-@media all and (min width: 1100px) and (max-width: 1201px) {
+/*@media all and (min width: 1100px) and (max-width: 1201px) {
  .about-header-image{
    height: 20em;
 }
-}
+}*/
 .about-header-text{
    position: absolute;
    top: 50%;
@@ -31,7 +26,7 @@
      font-size: 2.6em;
 }
  .about-footer-image {
-   width: 100%;
+   width: auto;
    height: 600px;
    background-repeat: no-repeat;
    background-position: center center;
@@ -121,48 +116,26 @@ margin-bottom: 4em;
 
     font-family: Montserrat, sans-serif;
 }
- @media all and (max-width: 980px) {
-   .about-header-text, h4 {
-     font-size: 2em;
-     top: 30%;
-     left: 15%;
-     position: absolute;
-   }
-   .about-header-content {
-     font-size: 1.4em;
-     color: #FFFFFF;
-     margin-top: 2em;
-     margin-bottom: 2em;
-     text-align: center;
-   }
-   .milltag-origin {
-     font-size: 4em;
-   }
-   .milltag-origin-box {
-     margin-top: 2em;
-     margin-bottom: 2em;
-   }
-   .milltag-origin-text {
-     font-size: 1.5em;
-     color: #FFFFFF;
-   }
- }
 
- @media all and (max-width: 660px) {
-   .about-header-text, h4 {
-     font-size: 1.5em;
-     top: 30%;
-     left: 15%;
-     position: absolute;
-   }
- }
 
- @media all and (max-width: 400px) {
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
    .about-header-text, h4 {
      font-size: 1em;
      top: 30%;
      left: 15%;
      position: absolute;
+   }
+   .about-footer-image {
+     width: auto;
+     height: 380px;
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-image: url('about-page/ethical-manufacture/400x380/Ethical_400x380.jpg');
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
    }
    .about-header-content {
      font-size: 1em;
@@ -182,3 +155,49 @@ margin-bottom: 4em;
      color: #FFFFFF;
    }
  }
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .about-header-text, h4 {
+      font-size: 1.5em;
+      top: 30%;
+      left: 15%;
+      position: absolute;
+    }
+    .about-footer-image {
+      width: auto;
+      height: 480px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-image: url('about-page/ethical-manufacture/800x480/Ethical_800x480.jpg');
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+    .about-header-text, h4 {
+      font-size: 2em;
+      top: 30%;
+      left: 15%;
+      position: absolute;
+    }
+    .about-header-content {
+      font-size: 1.4em;
+      color: #FFFFFF;
+      margin-top: 2em;
+      margin-bottom: 2em;
+      text-align: center;
+    }
+    .milltag-origin {
+      font-size: 4em;
+    }
+    .milltag-origin-box {
+      margin-top: 2em;
+      margin-bottom: 2em;
+    }
+    .milltag-origin-text {
+      font-size: 1.5em;
+      color: #FFFFFF;
+    }
+    .about-header-image{
+      height: 30em;
+   }
+  }

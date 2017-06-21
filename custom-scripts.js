@@ -43,8 +43,9 @@ $(".slider-items").slick({
 });
 
 }
-function getUrl(){
+function menuBreadcrumbs(){
   console.log(window.location.pathname);
+
 };
 
 $(function SliderImageResize(){

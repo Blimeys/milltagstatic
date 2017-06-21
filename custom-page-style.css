@@ -34,12 +34,13 @@
 }
 
 .custom-text-box {
+  font-size: 1.3em;
+  font-weight: 300;
+  color: #FFFFFF;
   margin-top: 2.3em;
   margin-bottom: 2.3em;
-  font-weight: 300;
   text-align: center;
-  color: #FFFFFF;
-  font-size: 1.5em;
+  line-height: 1.5;
 }
 
 .custom-product-frame {
@@ -58,6 +59,7 @@
   margin-right: 35px;
   margin-top: 0;
   margin-bottom: 0;
+  font-family: Montserrat, sans-serif !important;
 }
 
 .product-box-menu-title:hover {

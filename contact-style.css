@@ -1,0 +1,40 @@
+#map {
+ height: 400px;
+ width: 100%;
+}
+.contact-main {
+  background-color: #FFFFFF;
+  padding-top: 5em !important;
+  padding-bottom: 5em !important;
+}
+.detail-entry {
+  width: 30em;
+}
+.message-entry {
+  width: 30em;
+  height: 25em;
+}
+.submit-message-button{
+  background-color: #000000;
+  color: #FFFFFF;
+  font-size: 1em;
+  border-style: none;
+  font-family: Montserrat, sans-serif;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 3px;
+}
+.email-address{
+  color: #ff671f
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .detail-entry {
+    width: 18em;
+  }
+  .message-entry {
+    width: 18em;
+    height: 15em;
+  }
+}

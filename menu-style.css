@@ -38,7 +38,9 @@
   color: #888B8D;
   background-color: #000000;
 }
-
+.menu-highlight {
+  color: #888B8D !important;
+}
 .menu-link:focus {
   color: #888B8D;
 }

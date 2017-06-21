@@ -19,7 +19,6 @@ function changeMenuIcon() {
   }
 }
 function initSlider(){
-      console.log("slider loaded");
 $(".slider-items").slick({
 	dots: true,
   speed: 300,
@@ -32,7 +31,8 @@ $(".slider-items").slick({
    }],
   autoplay: true,
   autoplaySpeed: 3000,
-
+  cssEase: 'cubic-bezier(0.9,0.1,0.9,1)',
+  speed: 1000,
   // customPaging : function(slider, i) {
   //         return '<a href="#"><img class="doted-circle" src="cercle.svg" /><img class="doted-circle"  src="rond.svg" /></a>';
   //     },
@@ -40,11 +40,13 @@ $(".slider-items").slick({
 
 },
   arrows: true
-
 });
 
-
 }
+function getUrl(){
+  console.log(window.location.pathname);
+};
+
 $(function SliderImageResize(){
         if($(window).width() >= 0 && $(window).width() <= screenSizesSlider.small){
           console.log ($(window).width());
@@ -69,6 +71,7 @@ $(function SliderImageResize(){
            $(".carousel-three").attr("src", sliderFilePath.large + "Slider_03_2560x1142.jpg");
         }
     });
+
 
 
 $(document).on('ready', function () {

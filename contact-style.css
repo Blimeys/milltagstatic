@@ -1,6 +1,21 @@
 #map {
- height: 400px;
+ height: 600px;
  width: 100%;
+}
+input, textarea {
+  border-style: solid;
+  border-color: #888B8D;
+  border-width: thin;
+}
+input:focus, textarea:focus {
+  border-color: #ff671f;
+  border-style: solid;
+  border-width: thin;
+  outline: 1px solid #888B8D;
+
+}
+.contact-main p {
+  font-weight: 300;
 }
 .contact-main {
   background-color: #FFFFFF;

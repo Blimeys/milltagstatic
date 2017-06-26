@@ -31,7 +31,7 @@
 	<link rel="stylesheet" type="text/css" href="custom-grid-style.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600" rel="stylesheet">
 	<link rel="icon" type="image/png" href="favicon.png">
-	<link rel="stylesheet" href="slick/slick-theme.css" />
+	<link rel="stylesheet" href="slick/slick-theme-custom-range.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css" integrity="sha256-2RdmDD1veq0y68SwASxtC7hKE+IBoBLjNLzKS59Ghsk=" crossorigin="anonymous" />
 	<title>Milltag</title>
 </head>
@@ -121,10 +121,21 @@
 
 					<div class="tab-content">
 						<div id="jerseys" class="tab-pane fade in active">
-							<div class="featured-product-box">
-								<img class="featured-product" src="Jersey-shadow.png" />
-								<img class="featured-product" src="Jersey-shadow.png" />
-								<img class="featured-product" src="Jersey-shadow.png" />
+							<div class="slick-slider nopadding">
+								<div class='slider-products featured-product-box'>
+									<div class="slide slick-slide">
+								<img class="carousel-picture" src="Jersey-shadow.png" />
+									</div>
+									<div class="slide slick-slide featured-product-box">
+										<img class="carousel-picture" src="Jersey-shadow.png" />
+									</div>
+									<div class="slide slick-slide featured-product-box">
+										<img class="carousel-picture" src="Jersey-shadow.png" />
+									</div>
+									<div class="slide slick-slide featured-product-box">
+										<img class="carousel-picture" src="Jersey-shadow.png" />
+									</div>
+								</div>
 							</div>
 							<div class="product-link">
 								<a class="view-product" href="">VIEW ALL JERSEYS</a>
@@ -269,5 +280,14 @@
 			</div>
 		</div>
 	</div>
-</div>
-</div>
+	</div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js" integrity="sha256-Qw84Sw/EltllDHR8ykWKfq4GJTDHGKp6iW2ZAx+7ro0=" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			initCustomProductSlider();
+		});
+	</script>
+</body>
+
+</html>

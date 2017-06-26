@@ -167,4 +167,7 @@ li.active h1 {
     height: 200px;
     width: auto;
   }
+  .product-box-menu-title {
+    margin-right: 0;
+  }
 }

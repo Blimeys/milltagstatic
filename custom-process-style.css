@@ -80,6 +80,21 @@ div[aria-expanded=true] .custom-panel-title {
 -o-background-size: cover;
 background-size: cover;
 }
+.custom-panel-on {
+  background: linear-gradient(
+                   rgba(20,20,20, 0),
+                   rgba(20,20,20, 0)),
+                   url("custom-process-title-background.jpg");
+                   background-position: center;
+                   -webkit-background-size: cover !important;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height: 200px;
+width: 100%;
+color: #ff671f;
+opacity: 1;
+}
 .custom-title-text{
 
 }

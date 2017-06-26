@@ -171,3 +171,8 @@ li.active h1 {
     margin-right: 0;
   }
 }
+.fade {
+  display: block !important;
+  opacity: 0 !important;
+
+}

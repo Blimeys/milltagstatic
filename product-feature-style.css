@@ -1,0 +1,15 @@
+.white-feature {
+background-color: #FFFFFF;
+height: 600px;
+}
+.white-feature h1 {
+  color: #000000;
+}
+.white-feature p {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+}
+.white-feature img {
+  height:300px;
+}

@@ -38,8 +38,28 @@ function initSlider() {
   });
 }
 
-function initCustomProductSlider(){
-  $(".slider-products").slick({
+function initCustomProductSliderBibs(){
+  $(".slider-bibs").slick({
+    dots: false,
+    slidesToShow: 3,
+    speed: 300,
+    responsive: [{
+      breakpoint: 1025,
+      settings: {
+        slidesToShow: 1,
+        dots: false,
+        arrows: false,
+      }
+    }],
+    speed: 1000,
+    customPaging: function(slider, i) {
+    },
+    arrows: true
+  });
+  console.log("product slider loaded");
+}
+function initCustomProductSliderJerseys(){
+  $(".slider-jerseys").slick({
     dots: false,
     slidesToShow: 3,
     speed: 300,
@@ -94,10 +114,8 @@ $(function CustomPanelToggleOn() {
 })
 
 $(document).on('ready', function() {
-  // initSlider();
   SliderImageResize();
   CustomPanelToggleOn();
-  // initCustomProductSlider();
 });
 $(window).on('resize', function() {
   if ($(window).width() >= 0 && $(window).width() <= screenSizesSlider.small) {

@@ -113,14 +113,13 @@
 				<div class="col-md-12 col-lg-10 col-lg-offset-1 col-xl-6 col-offset-xl-3">
 					<h4 class="product-frame-title">CUSTOM <font color="#ff671f">RANGE</font></h4>
 					<ul class="product-box-menu-list">
-						<li class="active"><a data-toggle="tab" href="#jerseys"><h1 class="product-box-menu-title">JERSEYS</h1></a></li>
-						<li><a data-toggle="tab" href="#bibs" id="bibs-pane"><h1 class="product-box-menu-title">BIBS & SKINSUITS</h1></a></li>
-						<li><a data-toggle="tab" href="#outerwear"><h1 class="product-box-menu-title">OUTERWEAR</h1></a></li>
-						<li><a data-toggle="tab" href="#others"><h1 class="product-box-menu-title">OTHERS</h1></a></li>
+						<li id="jerseys-pane"><h1 class="product-box-menu-title">JERSEYS</h1></a></li>
+						<li id="bibs-pane"><h1 class="product-box-menu-title">BIBS & SKINSUITS</h1></a></li>
+						<li id="outerwear-pane"><h1 class="product-box-menu-title">OUTERWEAR</h1></a></li>
+						<li id="others-pane"><h1 class="product-box-menu-title">OTHERS</h1></a></li>
 					</ul>
-
-					<div class="tab-content">
-						<div id="jerseys" class="tab-pane fade in active">
+					<div class="content">
+						<div id="jerseys" class="content-pane">
 							<div class="nopadding">
 								<div class='slider-jerseys featured-product-box'>
 									<div class="slide slick-slide">
@@ -141,7 +140,7 @@
 								</div>
 							</div>
 						</div>
-						<div id="bibs" class="tab-pane fade">
+						<div id="bibs" class="content-pane">
 							<div class="nopadding">
 								<div class='slider-bibs featured-product-box'>
 									<div class="slide slick-slide">
@@ -157,19 +156,33 @@
 										<img class="carousel-picture" src="Jersey-shadow.png" />
 									</div>
 								</div>
+								<div class="product-link">
+									<a class="view-product" href="">VIEW ALL BIBS & SKINSUITS</a>
+								</div>
 							</div>
 						</div>
-						<div id="outerwear" class="tab-pane fade">
-							<div class="featured-product-box">
-								<img class="featured-product" src="Jersey-shadow.png" />
-								<img class="featured-product" src="Jersey-shadow.png" />
-								<img class="featured-product" src="Jersey-shadow.png" />
-							</div>
-							<div class="product-link">
-								<a class="view-product" href="">VIEW ALL OUTERWEAR</a>
+						<div id="outerwear" class="content-pane">
+							<div class="nopadding">
+								<div class='slider-outerwear featured-product-box'>
+									<div class="slide slick-slide">
+										<img class="carousel-picture" src="Jersey-shadow.png" />
+									</div>
+									<div class="slide slick-slide featured-product-box">
+										<img class="carousel-picture" src="Jersey-shadow.png" />
+									</div>
+									<div class="slide slick-slide featured-product-box">
+										<img class="carousel-picture" src="Jersey-shadow.png" />
+									</div>
+									<div class="slide slick-slide featured-product-box">
+										<img class="carousel-picture" src="Jersey-shadow.png" />
+									</div>
+								</div>
+								<div class="product-link">
+									<a class="view-product" href="">VIEW ALL OUTERWEAR</a>
+								</div>
 							</div>
 						</div>
-						<div id="others" class="tab-pane fade">
+						<div id="others" class="content-pane">
 							<div class="featured-product-box">
 								<img class="featured-product" src="Jersey-shadow.png" />
 								<img class="featured-product-featured" src="Jersey-shadow.png" />
@@ -179,8 +192,8 @@
 								<a class="view-product" href="">VIEW ALL OTHERS</a>
 							</div>
 						</div>
-					</div>
 				</div>
+			</div>
 			</div>
 		</div>
 
@@ -294,7 +307,18 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			initCustomProductSliderJerseys();
-			// initCustomProductSliderBibs();
+			initCustomProductSliderBibs();
+			initCustomProductSliderOuterwear();
+			$(function hideLoadup(){
+				$("#bibs").toggleClass("hide-pane");
+				$("#outerwear").toggleClass("hide-pane");
+				$("#others").toggleClass("hide-pane");
+			})
+			$("#bibs-pane").click(function(){
+
+				$("bibs-pane").toggleClass("active-link");
+				$("#bibs").toggleClass("hide-pane");
+			})
 		});
 	</script>
 </body>

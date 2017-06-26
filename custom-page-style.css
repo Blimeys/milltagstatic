@@ -171,8 +171,21 @@ li.active h1 {
     margin-right: 0;
   }
 }
-.fade {
-  display: block !important;
-  opacity: 0 !important;
-
+/*.content {
+  position: relative;
+}
+.content>.content-pane{
+  position:absolute;
+}*/
+/*.content-pane{
+  position: relative;
+}*/
+.hide-pane {
+position: absolute; top: -9999px; left: -9999px;
+}
+.active-link {
+  color: #ff671f !important;
+  background-color: transparent !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }

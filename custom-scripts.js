@@ -58,6 +58,26 @@ function initCustomProductSliderBibs(){
   });
   console.log("product slider loaded");
 }
+function initCustomProductSliderOuterwear(){
+  $(".slider-outerwear").slick({
+    dots: false,
+    slidesToShow: 3,
+    speed: 300,
+    responsive: [{
+      breakpoint: 1025,
+      settings: {
+        slidesToShow: 1,
+        dots: false,
+        arrows: false,
+      }
+    }],
+    speed: 1000,
+    customPaging: function(slider, i) {
+    },
+    arrows: true
+  });
+  console.log("product slider loaded");
+}
 function initCustomProductSliderJerseys(){
   $(".slider-jerseys").slick({
     dots: false,

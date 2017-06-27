@@ -122,7 +122,11 @@ function menuBreadcrumbs() {
   console.log(window.location.pathname);
 
 };
-
+function paneSetup(){
+  $('#bibs').removeClass("in active");
+  $('#outerwear').removeClass("in active");
+  $('#others').removeClass("in active");
+}
 $(function SliderImageResize() {
   if ($(window).width() >= 0 && $(window).width() <= screenSizesSlider.small) {
     console.log($(window).width());

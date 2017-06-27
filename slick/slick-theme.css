@@ -172,9 +172,10 @@
 /* Arrows */
 
 .slick-prev {
-  content: "";
+  /*content: "";*/
   background: transparent;
-  background: url('arrow_left_before.svg') no-repeat;
+  background: url('white_arrow_left.png') no-repeat;
+    background-size: contain;
   position: absolute;
   top: 50%;
   left: 5%;
@@ -182,32 +183,32 @@
   z-index: 20;
   color: transparent;
   border-style: none;
-  height: 85px;
-  width: 30px;
+  /*height: 85px;
+  width: 30px;*/
 }
 
-.slick-prev:hover {
-  background: url('arrow_left.svg') no-repeat;
-}
+/*.slick-prev:hover {
+  background: url('white_arrow_left.png') no-repeat;
+}*/
 
 .slick-next {
   background: transparent;
-  background: url('arrow_right_before.svg') no-repeat;
+  background: url('white_arrow_right.png') no-repeat;
   background-size: contain;
   position: absolute;
   top: 50%;
-  right: 5%;
+  right: 0%;
   transform: translateX(-50%) translateY(-50%);
   z-index: 20;
   color: transparent;
   border-style: none;
-  height: 85px;
-  width: 30px;
+  /*height: 85px;
+  width: 30px;*/
 }
 
-.slick-next:hover {
-  background: url('arrow_right.svg') no-repeat;
-}
+/*.slick-next:hover {
+  background: url('white_arrow_right.png') no-repeat;
+}*/
 
 
 

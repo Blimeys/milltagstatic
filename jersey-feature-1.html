@@ -94,20 +94,32 @@
 	<div class="row nopadding white-feature">
 		<div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 col-xl-8 col-xl-offset-2">
 			<div class="row">
-				<div class="col-md-4">
-					
-					<img src="Jersey-shadow.png">
-				</div>
-					<div class="col-md-8 feature-text">
-						<h1>
-							PRO JERSEY
-							<br>
-							£90
-							<br>
-							<br>
-							<p>Technical features: Pro-fit; Lightweight Stretchfit body and collar for maximum aerodynamics; Chrono sides and sleeves for increased turbulent airflow; Micromesh fabric underarms for wicking and comfort; Elastic band front hem and laser cut sleeve ends with ultra low-profile silicone gripper strip for increased aerodynamic fit; flat rear pockets for more streamlined reverse profile.
-							</p>
+				<div class="col-md-8">
 
+
+					<div class="product-container">
+					    <div class="individual-product" id="tab1">
+								<img src="Jersey-shadow.png" class="item-focus">
+					        <a class="btnNext"><img src="grey_arrow_right.png" class="nav-buttons"></a>
+									<a class="btnPrevious"><img src="grey_arrow_left.png" class="nav-buttons"></a>
+					    </div>
+					    <div class="individual-product" id="tab2">
+								<img src="Jersey-shadow.png" class="item-focus">
+					        <a class="btnNext"><img src="grey_arrow_right.png" class="nav-buttons"></a>
+					        <a class="btnPrevious"><img src="grey_arrow_left.png" class="nav-buttons"></a>
+					    </div>
+					    <div class="individual-product" id="tab3">
+								<img src="Jersey-shadow.png" class="item-focus">
+					       <a class="btnNext"><img src="grey_arrow_right.png" class="nav-buttons"></a>
+									<a class="btnPrevious"><img src="grey_arrow_left.png" class="nav-buttons"></a>
+					    </div>
+					</div>
+					<br>
+					<div class="product-features">
+					    <a href="#tab1" data-toggle="tab"><img src="Jersey-shadow.png" class="item-preview"></a>
+					    <a href="#tab2" data-toggle="tab"><img src="Jersey-shadow.png" class="item-preview"></a>
+					    <a href="#tab3" data-toggle="tab"><img src="Jersey-shadow.png" class="item-preview"></a>
+					</div>
 					</div>
 		</div>
 	</div>
@@ -219,6 +231,13 @@
 	</div>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js" integrity="sha256-Qw84Sw/EltllDHR8ykWKfq4GJTDHGKp6iW2ZAx+7ro0=" crossorigin="anonymous"></script>
 	<script type="text/javascript">
+// 	$('.btnNext').click(function(){
+//  $('.nav-tabs > .active').next('li').find('a').trigger('click');
+// });
+//
+//  $('.btnPrevious').click(function(){
+//  $('.nav-tabs > .active').prev('li').find('a').trigger('click');
+// });
 		$(document).ready(function() {
 			initCustomProductSlider();
 		});

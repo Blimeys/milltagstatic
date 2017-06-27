@@ -10,6 +10,32 @@ height: 600px;
   font-family: 'Montserrat', sans-serif;
   font-size: 1em;
 }
-.white-feature img {
+/*.white-feature img {
   height:300px;
+}*/
+.btnNext {
+  height:20px;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+}
+.btPrevious {
+  height:20px;
+  position: absolute;
+  top: 50%;
+  right: 85%;
+}
+.product-features {
+  height: 30px;
+}
+.item-preview{
+  height: 20px;
+  position: relative;
+  float: left;
+}
+.item-focus{
+  height: 100px;
+}
+.nav-buttons {
+  height: 30px;
 }

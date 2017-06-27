@@ -45,8 +45,62 @@
 
 .custom-product-frame {
   background-color: #FFFFFF;
+  height:650px;
 }
-
+@media only screen and (min-device-width : 320px) and (max-device-width : 350px) {
+  .custom-product-frame {
+    background-color: #FFFFFF;
+    height:38em;
+  }
+}
+@media only screen and (min-device-width : 350px) and (max-device-width : 480px) {
+  .custom-product-frame {
+    background-color: #FFFFFF;
+    height:42em;
+  }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .custom-product-frame {
+    background-color: #FFFFFF;
+    height:70em;
+  }
+}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1025px) {
+  .custom-product-frame {
+    background-color: #FFFFFF;
+    height:90em;
+  }
+}
+@media only screen and (min-device-width : 1025px) and (max-device-width : 1200px) {
+  .custom-product-frame {
+    background-color: #FFFFFF;
+    height:42em;
+  }
+}
+@media only screen and (min-device-width : 1600px) and (max-device-width : 1800px) {
+  .custom-product-frame {
+    background-color: #FFFFFF;
+    height:50em;
+  }
+}
+@media only screen and (min-device-width : 1800px) and (max-device-width : 2200px) {
+  .custom-product-frame {
+    background-color: #FFFFFF;
+    height:55em;
+  }
+}
+@media only screen and (min-device-width : 2200px) and (max-device-width : 2400px) {
+  .custom-product-frame {
+    background-color: #FFFFFF;
+    height:65em;
+  }
+}
+@media only screen and (min-device-width : 2400px) and (max-device-width : 2600px) {
+  .custom-product-frame {
+    background-color: #FFFFFF;
+    height:70em;
+  }
+}
 .product-frame-title {
   color: #000000;
   text-align: center;
@@ -179,7 +233,7 @@ li.active h1 {
         -o-transition: opacity 1s linear;
            transition: opacity 1s linear;
  }*/
-/*.tab-content>.tab-pane:not(.in) {
+.tab-content>.tab-pane:not(.in) {
     display:block !important;
     height:0 !important;
-  }*/
+  }

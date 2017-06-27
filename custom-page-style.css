@@ -171,21 +171,15 @@ li.active h1 {
     margin-right: 0;
   }
 }
-/*.content {
-  position: relative;
-}
-.content>.content-pane{
-  position:absolute;
-}*/
-/*.content-pane{
-  position: relative;
-}*/
-.hide-pane {
-position: absolute; top: -9999px; left: -9999px;
-}
-.active-link {
-  color: #ff671f !important;
-  background-color: transparent !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
+/*.fade {
+   opacity: 0;
+   -webkit-transition: opacity 1s linear;
+      -moz-transition: opacity 1s linear;
+       -ms-transition: opacity 1s linear;
+        -o-transition: opacity 1s linear;
+           transition: opacity 1s linear;
+ }*/
+/*.tab-content>.tab-pane:not(.in) {
+    display:block !important;
+    height:0 !important;
+  }*/

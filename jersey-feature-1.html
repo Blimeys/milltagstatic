@@ -23,7 +23,25 @@
 	</script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="custom-scripts.js"></script>
+
+
+	<script type="text/javascript" src="mini-gallery/src/simplegallery.js"></script>
+
+	<script type="text/javascript">
+	    $(document).ready(function(){
+
+	        $('#gallery').simplegallery({
+	            galltime : 100,
+	            gallcontent: '.content',
+	            gallthumbnail: '.thumbnail',
+	            gallthumb: '.thumb'
+	        });
+
+	    });
+	</script>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="mini-gallery/src/simplegallery.demo1.css" />
+
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="custom-page-style.css">
 	<link rel="stylesheet" type="text/css" href="menu-style.css">
@@ -32,7 +50,7 @@
 	<link rel="stylesheet" type="text/css" href="custom-grid-style.css">
 
 	<link rel="stylesheet" type="text/css" href="product-feature-style.css">
-<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600" rel="stylesheet">
 	<link rel="icon" type="image/png" href="favicon.png">
 	<link rel="stylesheet" href="slick/slick-theme-custom-range.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css" integrity="sha256-2RdmDD1veq0y68SwASxtC7hKE+IBoBLjNLzKS59Ghsk=" crossorigin="anonymous" />
@@ -90,105 +108,120 @@
 	</div>
 	<!-- HEADER ENDS -->
 
-<div class="container-fluid nopadding">
-	<div class="row nopadding white-feature">
-		<div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 col-xl-8 col-xl-offset-2">
-			<div class="row">
-				<div class="col-md-8">
-
-
-					<div class="product-container">
-					    <div class="individual-product" id="tab1">
-								<img src="Jersey-shadow.png" class="item-focus">
-					        <a class="btnNext"><img src="grey_arrow_right.png" class="nav-buttons"></a>
-									<a class="btnPrevious"><img src="grey_arrow_left.png" class="nav-buttons"></a>
-					    </div>
-					    <div class="individual-product" id="tab2">
-								<img src="Jersey-shadow.png" class="item-focus">
-					        <a class="btnNext"><img src="grey_arrow_right.png" class="nav-buttons"></a>
-					        <a class="btnPrevious"><img src="grey_arrow_left.png" class="nav-buttons"></a>
-					    </div>
-					    <div class="individual-product" id="tab3">
-								<img src="Jersey-shadow.png" class="item-focus">
-					       <a class="btnNext"><img src="grey_arrow_right.png" class="nav-buttons"></a>
-									<a class="btnPrevious"><img src="grey_arrow_left.png" class="nav-buttons"></a>
-					    </div>
-					</div>
-					<br>
-					<div class="product-features">
-					    <a href="#tab1" data-toggle="tab"><img src="Jersey-shadow.png" class="item-preview"></a>
-					    <a href="#tab2" data-toggle="tab"><img src="Jersey-shadow.png" class="item-preview"></a>
-					    <a href="#tab3" data-toggle="tab"><img src="Jersey-shadow.png" class="item-preview"></a>
-					</div>
-					</div>
-		</div>
-	</div>
-</div>
-</div>
-	<!--MASONRY GALLERY -->
-
 	<div class="container-fluid nopadding">
-		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-12 nopadding">
-				<div class="col-xs-12 col-sm-12 col-md-4 grid-top-left-custom nopadding">
-					<div class="text-grid-position">
-						<h1 class="grid-text text-center">CUSTOM<BR>PROCESS</h1>
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-12 col-md-8 nopadding">
-					<div class="row">
-						<div class="col-xs-12 col-sm-12 col-md-12 grid-top-right-custom nopadding">
-							<div class="text-grid-position">
-								<h1 class="grid-text">GET A QUOTE</h1>
-							</div>
-						</div>
+		<div class="row nopadding white-feature">
+			<div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 col-xl-8 col-xl-offset-2">
+				<div class="row">
 
-						<div class="col-md-6 col-xs-12 col-sm-12 grid-bottom-left-custom nopadding">
-							<div class="text-grid-position">
-								<h1 class="grid-text">CASE STUDIES</h1>
-							</div>
-						</div>
-						<div class="col-md-6 col-xs-12 col-sm-12 grid-bottom-right-custom nopadding">
-							<div class="text-grid-position">
-								<h1 class="grid-text"><a class="grid-links" href="about.html">FAQ'S</a></h1>
-							</div>
-						</div>
-					</div>
-				</div>
+					<section id="main">
+			        <div class="clear"></div>
+
+			        <section id="gallery" class="simplegallery">
+								<div class="arrows">
+									<img class="right-arrow" id="next-nav" src="grey_arrow_right.png">
+									<img class="left-arrow" id="previous-nav" src="grey_arrow_left.png">
+								</div>
+									<div class="content">
+			                <img src="mini-gallery/images/bigs/Jersey-shadow.png" class="image_1" alt="" />
+			                <img src="mini-gallery/images/bigs/Jersey-shadow-back.jpg" class="image_2" style="display:none" alt="" />
+			                <img src="mini-gallery/images/bigs/Jersey-shadow.png" class="image_3" style="display:none" alt="" />
+			                <img src="mini-gallery/images/bigs/Jersey-shadow.png" class="image_4" style="display:none" alt="" />
+			            </div>
+
+									<div class="row">
+			            <div class="thumbnail">
+			                <div class="thumb">
+			                    <a href="#" rel="1">
+			                        <img src="mini-gallery/images/bigs/Jersey-shadow.png" id="thumb_1" alt="" />
+			                    </a>
+			                </div>
+			                <div class="thumb">
+			                    <a href="#" rel="2">
+			                        <img src="mini-gallery/images/bigs/Jersey-shadow-back.jpg" id="thumb_2" alt="" />
+			                    </a>
+			                </div>
+			                <div class="thumb">
+			                    <a href="#" rel="3">
+			                        <img src="mini-gallery/images/bigs/Jersey-shadow.png" id="thumb_3" alt="" />
+			                    </a>
+			                </div>
+			                <div class="thumb last">
+			                    <a href="#" rel="4">
+			                        <img src="mini-gallery/images/bigs/Jersey-shadow.png" id="thumb_4" alt="" />
+			                    </a>
+			                </div>
+			            </div>
+								</div>
+			        </section>
+						</section>
 			</div>
 		</div>
 	</div>
-	<!-- FOOTER STARTS -->
-	<div class="footer-container">
+</div>
+		<!--MASONRY GALLERY -->
+
 		<div class="container-fluid nopadding">
-			<div class="row join-milltag-box">
-				<div class="join-milltag-list">
-					<label><h3 class="join-footer-text">JOIN THE MILLTAG COMMUNITY</h3></label>
-					<input type="email" class="milltag-join-email" placeholder="Your email address">
-					<button type="submit" class="milltag-join-button">JOIN</button>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 nopadding">
+					<div class="col-xs-12 col-sm-12 col-md-4 grid-top-left-custom nopadding">
+						<div class="text-grid-position">
+							<h1 class="grid-text text-center">CUSTOM<BR>PROCESS</h1>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-8 nopadding">
+						<div class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 grid-top-right-custom nopadding">
+								<div class="text-grid-position">
+									<h1 class="grid-text">GET A QUOTE</h1>
+								</div>
+							</div>
+
+							<div class="col-md-6 col-xs-12 col-sm-12 grid-bottom-left-custom nopadding">
+								<div class="text-grid-position">
+									<h1 class="grid-text">CASE STUDIES</h1>
+								</div>
+							</div>
+							<div class="col-md-6 col-xs-12 col-sm-12 grid-bottom-right-custom nopadding">
+								<div class="text-grid-position">
+									<h1 class="grid-text"><a class="grid-links" href="about.html">FAQ'S</a></h1>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
-
 		</div>
-	</div>
-	<!-- Footer Container center -->
-	<div class="row">
-		<div class="col-md-6 col-md-offset-3">
+		<!-- FOOTER STARTS -->
+		<div class="footer-container">
+			<div class="container-fluid nopadding">
+				<div class="row join-milltag-box">
+					<div class="join-milltag-list">
+						<label><h3 class="join-footer-text">JOIN THE MILLTAG COMMUNITY</h3></label>
+						<input type="email" class="milltag-join-email" placeholder="Your email address">
+						<button type="submit" class="milltag-join-button">JOIN</button>
+					</div>
+				</div>
 
-			<!-- Bottom footer container -->
-			<div class="row footer-links-container">
-				<div class="col-md-3 col-sm-6 col-xs-6">
-					<h1 class="footer-title">INFORMATION</h1>
-					<h2><a href="about.html" class="footer-links">About Us</a>
+			</div>
+		</div>
+		<!-- Footer Container center -->
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+
+				<!-- Bottom footer container -->
+				<div class="row footer-links-container">
+					<div class="col-md-3 col-sm-6 col-xs-6">
+						<h1 class="footer-title">INFORMATION</h1>
+						<h2><a href="about.html" class="footer-links">About Us</a>
 <br><a href="#" class="footer-links">Distributors</a>
 <br><a href="privacy.html" class="footer-links">Privacy Policy</a>
 <br><a href="privacy.html" class="footer-links">Terms & Conditions</a>
 <br><a href="privacy.html" class="footer-links">Use of Cookies</a>
 </h2>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-6">
-					<h1 class="footer-title">SUPPORT</h1>
-					<h2><a href="purchasing.html" class="footer-links">Purchasing & Payment</a>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6">
+						<h1 class="footer-title">SUPPORT</h1>
+						<h2><a href="purchasing.html" class="footer-links">Purchasing & Payment</a>
 <br><a href="purchasing.html" class="footer-links">Delivery</a>
 <br><a href="purchasing.html" class="footer-links">Returns</a>
 <br><a href="purchasing.html" class="footer-links">Repairs</a>
@@ -196,52 +229,40 @@
 <br><a href="#" class="footer-links">FAQ's</a>
 <br><a href="contact.html" class="footer-links">Contact</a>
 </h2>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-6">
-					<h1 class="footer-title">CONTACT US</h1>
-					<h2 class="address-link">+44 (0)20 71383592
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6">
+						<h1 class="footer-title">CONTACT US</h1>
+						<h2 class="address-link">+44 (0)20 71383592
 <br>info@milttag.cc
 <br>220 Grand Union Studios
 <br>332 Ladbroke Grove
 <br>London W10 5AH
 </h2>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-6">
-					<h1 class="footer-title">FOLLOW US</h1>
-					<ul class="social-media-bar">
-						<li class="social-media-icons"><a href="#"><span class="social-media-links fa fa-facebook-official" aria-hidden="true"></span></a></li><br class="media-spacer" /><br class="media-spacer" />
-						<li class="social-media-icons"><a href="#"><span class="social-media-links fa fa-twitter" aria-hidden="true"></span></a></li><br class="media-spacer" /><br class="media-spacer" />
-						<li class="social-media-icons"><a href="#"><span class="social-media-links fa fa-instagram" aria-hidden="true"></span></a></li><br class="media-spacer" /><br class="media-spacer" />
-						<li class="social-media-icons"><a href="#"><span class="social-media-links fa fa-vimeo" aria-hidden="true"></s	pan></a></li><br class="media-spacer" /><br class="media-spacer" />
-						<li class="social-media-icons"><a href="#"><span class="social-media-links fa fa-pinterest" aria-hidden="true"></span></a></li><br class="media-spacer" /><br class="media-spacer" />
-					</ul>
-				</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6">
+						<h1 class="footer-title">FOLLOW US</h1>
+						<ul class="social-media-bar">
+							<li class="social-media-icons"><a href="#"><span class="social-media-links fa fa-facebook-official" aria-hidden="true"></span></a></li><br class="media-spacer" /><br class="media-spacer" />
+							<li class="social-media-icons"><a href="#"><span class="social-media-links fa fa-twitter" aria-hidden="true"></span></a></li><br class="media-spacer" /><br class="media-spacer" />
+							<li class="social-media-icons"><a href="#"><span class="social-media-links fa fa-instagram" aria-hidden="true"></span></a></li><br class="media-spacer" /><br class="media-spacer" />
+							<li class="social-media-icons"><a href="#"><span class="social-media-links fa fa-vimeo" aria-hidden="true"></s	pan></a></li><br class="media-spacer" /><br class="media-spacer" />
+							<li class="social-media-icons"><a href="#"><span class="social-media-links fa fa-pinterest" aria-hidden="true"></span></a></li><br class="media-spacer" /><br class="media-spacer" />
+						</ul>
+					</div>
 
-			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<div class="copyright-link">
-						<h2 class="copyright-text">© 2017 Milltag, All rights reserved.</h2>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="copyright-link">
+							<h2 class="copyright-text">© 2017 Milltag, All rights reserved.</h2>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 	</div>
-	</div>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js" integrity="sha256-Qw84Sw/EltllDHR8ykWKfq4GJTDHGKp6iW2ZAx+7ro0=" crossorigin="anonymous"></script>
-	<script type="text/javascript">
-// 	$('.btnNext').click(function(){
-//  $('.nav-tabs > .active').next('li').find('a').trigger('click');
-// });
-//
-//  $('.btnPrevious').click(function(){
-//  $('.nav-tabs > .active').prev('li').find('a').trigger('click');
-// });
-		$(document).ready(function() {
-			initCustomProductSlider();
-		});
-	</script>
 </body>
 
 </html>

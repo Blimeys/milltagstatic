@@ -1,0 +1,89 @@
+/*!
+ * jQuery simple gallery Plugin 1.1.0
+ *
+ * http://fernandomoreiraweb.com/
+ *
+ * Copyright 2013 Fernando Moreira
+ * Released under the MIT license:
+ *   http://mit.fernandomoreiraweb.com/
+ */
+
+.gallery {
+  height: 600px;
+}
+
+.simplegallery {
+  margin: 0 auto;
+  width: 20em;
+  height: auto;
+}
+
+.simplegallery .content {
+  background: #fff;
+  position: relative;
+  width: 20em;
+  height: auto;
+}
+
+.simplegallery .content img {
+  width: 20em;
+}
+
+.simplegallery .thumbnail {
+  margin-top: 5px;
+
+}
+
+.simplegallery .thumbnail .thumb {
+  float: left;
+  width: 4em;
+  height: 4em;
+  margin: 0 5px 0 0;
+  cursor: pointer;
+}
+
+.simplegallery .thumbnail .thumb img {
+  border: 1px solid #888B8D;
+}
+.simplegallery .thumbnail .thumb img:hover {
+  border: 1px solid #E55815;
+}
+.simplegallery .thumbnail .last {
+  margin: 0;
+}
+
+.thumbnail {
+  padding: 0 !important;
+  border: none !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+
+      position: relative;
+        left:57%;
+      transform: translateX(-50%) translateY(-50%);
+}
+.arrows {
+  position: relative;
+  width: 20em;
+  height: auto;
+}
+.arrows img {
+  width: 20px;
+  position: absolute;
+    cursor: pointer;
+}
+.focus-border {
+    border: 1px solid #E55815;
+}
+.right-arrow {
+  right: -6%;
+  top: 9em;
+  z-index: 10;
+        transform: translateX(-50%) translateY(-50%);
+}
+.left-arrow {
+  top: 9em;
+    z-index: 10;
+          transform: translateX(-50%) translateY(-50%);
+}

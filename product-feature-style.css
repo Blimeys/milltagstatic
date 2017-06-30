@@ -1,6 +1,6 @@
 .white-feature {
 background-color: #FFFFFF;
-height: 600px;
+height: auto;
 }
 .white-feature h1 {
   color: #000000;
@@ -12,4 +12,74 @@ height: 600px;
 }
 .gall-content img{
   height: 300px;
+}
+#main{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.product-description {
+  margin-top: 4em;
+}
+.product-description h5 {
+  font-family: 'TradeGothicLTS', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 0px;
+  font-size: 2em;
+}
+.product-description p {
+  font-size: 1em;
+}
+.intro {
+  font-weight: bold;
+}
+.price {
+  text-align: left;
+  font-family: 'TradeGothicLTS', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  color: #E55815;
+  font-size: 1.4em;
+}
+.icon-props {
+
+}
+.single-icon {
+  float: left;
+  padding-right: 20px;
+}
+.single-icon img {
+  height: 30px;
+    display: block;
+    margin: auto;
+}
+.single-icon p {
+  font-size: 0.6em;
+  text-align: left;
+  font-family: 'TradeGothicLTS', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.view-product {
+  font-size: .75em;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: 2px solid;
+  border-color: #000000;
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.view-product:hover {
+  color: #000000;
+}
+.product-description {
+  margin-bottom: 30px;
 }

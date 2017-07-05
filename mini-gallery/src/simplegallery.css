@@ -14,19 +14,19 @@
 
 .simplegallery {
   margin: 0 auto;
-  width: 20em;
+  width: 50em;
   height: auto;
 }
 
 .simplegallery .content {
   background: #fff;
   position: relative;
-  width: 20em;
+  width: 60em;
   height: auto;
 }
 
 .simplegallery .content img {
-  width: 20em;
+  width: 60em;
 }
 
 .simplegallery .thumbnail {
@@ -36,8 +36,8 @@
 
 .simplegallery .thumbnail .thumb {
   float: left;
-  width: 4em;
-  height: 4em;
+  width: 6em;
+  height: 6em;
   margin: 0 5px 0 0;
   cursor: pointer;
 }
@@ -65,25 +65,26 @@
 }
 .arrows {
   position: relative;
-  width: 20em;
+  width: 60em;
   height: auto;
 }
 .arrows img {
   width: 20px;
   position: absolute;
-    cursor: pointer;
+  cursor: pointer;
 }
 .focus-border {
     border: 1px solid #E55815;
 }
 .right-arrow {
-  right: -6%;
-  top: 9em;
+  right: 10%;
+  top: 30em;
   z-index: 10;
         transform: translateX(-50%) translateY(-50%);
 }
 .left-arrow {
-  top: 9em;
+  left: 10%;
+  top: 30em;
     z-index: 10;
           transform: translateX(-50%) translateY(-50%);
 }

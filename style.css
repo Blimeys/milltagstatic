@@ -43,7 +43,7 @@ button:focus {outline:0;}
    color: #FFFFFF;
    font-size: 1.5em;
    text-align: left;
-   font-family: 'Rift Bold';
+   font-family: 'TradeGothicLTS';
    font-style: italic;
  }
 
@@ -57,14 +57,14 @@ button:focus {outline:0;}
 
  h4 {
    font-size: 6em;
-   font-family: 'Rift Bold';
+   font-family: 'TradeGothicLTS';
    font-style: italic;
    color: #FFFFFF;
  }
 h5 {
   font-size: 1.5em;
   text-align: left;
-  font-family: 'Rift Bold';
+  font-family: 'TradeGothicLTS';
   font-style: italic;
   color: #000000;
 }
@@ -72,3 +72,7 @@ h5 {
    padding: 0 !important;
    margin: 0 !important;
  }
+.col-centered {
+  float: none;
+  margin:0 auto;
+}

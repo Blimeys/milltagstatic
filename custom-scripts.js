@@ -48,7 +48,7 @@ function initCustomProductSliderBibs(){
       settings: {
         slidesToShow: 1,
         dots: false,
-        arrows: false,
+        arrows: true,
       }
     }],
     speed: 1000,

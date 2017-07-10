@@ -8,18 +8,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-	<script type="text/javascript">
-		(function() {
-			var path = '//easy.myfonts.net/v2/js?sid=291056(font-family=Rift+Bold)&sid=291058(font-family=Rift+Light)&sid=291059(font-family=Rift+Medium)&sid=291060(font-family=Rift+Regular)&key=ilxbwEhwQ4',
-				protocol = ('https:' == document.location.protocol ? 'https:' : 'http:'),
-				trial = document.createElement('script');
-			trial.type = 'text/javascript';
-			trial.async = true;
-			trial.src = protocol + path;
-			var head = document.getElementsByTagName("head")[0];
-			head.appendChild(trial);
-		})();
-	</script>
 
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="custom-scripts.js"></script>
@@ -38,51 +26,53 @@
 <body>
 
 	<!-- HEADER START -->
-<div class="main-menu">
-	<div class="nopadding">
-		<div class="row nopadding">
-			<div class="col-md-8 col-md-offset-2">
+	<div class="container">
+		<div class="main-menu">
+			<div class="nopadding">
 				<div class="row nopadding">
-					<div class="menu-format">
-						<div class="logo-holder">
-						<a href="index.html"><img src="milltag_logo.svg" class="menu-logo" /></a>
-					</div>
-						<div class="menu-mover">
-							<ul>
-								<li><a href="http://milltag.cc/shop?pa_gender=mens" class="menu-link">SHOP</a></li>
-								<li><a href="/custom.html" class="menu-link">CUSTOM</a></li>
-								<li><a href="#" class="menu-link">STUDIO</a></li>
-								<li><a href="/about.html" class="menu-link">ABOUT</a></li>
-								<li><a href="http://milltag.cc/new" class="menu-link">NEWS</a></li>
-								<li><a href="/contact.html" class="menu-link">CONTACT</a></li>
-							</ul>
+					<div class="col-md-12 col-centered">
+						<div class="row nopadding">
+							<div class="menu-format">
+								<div class="logo-holder">
+									<a href="index.html"><img src="milltag_logo.svg" class="menu-logo" /></a>
+								</div>
+								<div class="menu-mover">
+									<ul>
+										<li><a href="http://milltag.cc/shop?pa_gender=mens" class="menu-link">SHOP</a></li>
+										<li><a href="custom.html" class="menu-link">CUSTOM</a></li>
+										<li><a href="#" class="menu-link">STUDIO</a></li>
+										<li><a href="about.html" class="menu-link menu-highlight">ABOUT</a></li>
+										<li><a href="http://milltag.cc/new" class="menu-link">NEWS</a></li>
+										<li><a href="contact.html" class="menu-link">CONTACT</a></li>
+									</ul>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-	<div class="menu-small">
-		<div class="menu-header-container">
-			<div class="menu-button-container">
-				<img class="menu-small-button" id="toggleImg" data-toggle="collapse" data-target="#menu" src="menu.svg" onclick="changeMenuIcon();" />
+		<div class="menu-small">
+			<div class="menu-header-container">
+				<div class="menu-button-container">
+					<img class="menu-small-button" id="toggleImg" data-toggle="collapse" data-target="#menu" src="menu.svg" onclick="changeMenuIcon();" />
+				</div>
+				<a href="index.html"><img class="menu-small-logo" src="milltag_logo.svg" /></a>
 			</div>
-			<a href="index.html"><img class="menu-small-logo" src="milltag_logo.svg" /></a>
-		</div>
-		<div class="collapse menu-list-container" id="menu">
-			<ul class="menu-list-small">
-				<li class="menu-list-item-small"><a class="menu-link-small" href="http://milltag.cc/shop?pa_gender=mens">SHOP</a></li>
-				<li class="menu-list-item-small"><a class="menu-link-small" href="custom.html">CUSTOM</a></li>
-				<li class="menu-list-item-small"><a class="menu-link-small" href="#">STUDIO</a></li>
-				<li class="menu-list-item-small"><a class="menu-link-small" href="about.html">ABOUT</a></li>
-				<li class="menu-list-item-small"><a class="menu-link-small" href="http://milltag.cc/new">NEWS</a></li>
-				<li class="menu-list-item-small"><a class="menu-link-small" href="/contact.html">CONTACT</a></li>
-			</ul>
-		</div>
+			<div class="collapse menu-list-container" id="menu">
+				<ul class="menu-list-small">
+					<li class="menu-list-item-small"><a class="menu-link-small" href="http://milltag.cc/shop?pa_gender=mens">SHOP</a></li>
+					<li class="menu-list-item-small"><a class="menu-link-small" href="custom.html">CUSTOM</a></li>
+					<li class="menu-list-item-small"><a class="menu-link-small" href="#">STUDIO</a></li>
+					<li class="menu-list-item-small"><a class="menu-link-small" href="about.html">ABOUT</a></li>
+					<li class="menu-list-item-small"><a class="menu-link-small" href="http://milltag.cc/new">NEWS</a></li>
+					<li class="menu-list-item-small"><a class="menu-link-small" href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
 
 
-	</div>
+		</div>
 
 	<!-- HEADER ENDS -->
 	<!-- CAROUSEL -->
@@ -165,39 +155,40 @@
 			</div>
 		</div>
 		<!-- Footer Container center -->
+		<div class="container">
 		<div class="row">
-			<div class="col-md-6 col-md-offset-3">
+			<div class="col-md-12">
 
 				<!-- Bottom footer container -->
 				<div class="row footer-links-container">
 					<div class="col-md-3 col-sm-6 col-xs-6">
 						<h1 class="footer-title">INFORMATION</h1>
 						<h2><a href="about.html" class="footer-links">About Us</a>
-  <br><a href="#" class="footer-links">Distributors</a>
-  <br><a href="privacy.html" class="footer-links">Privacy Policy</a>
-  <br><a href="privacy.html" class="footer-links">Terms & Conditions</a>
-  <br><a href="privacy.html" class="footer-links">Use of Cookies</a>
-  </h2>
+	<br><a href="#" class="footer-links">Distributors</a>
+	<br><a href="privacy.html" class="footer-links">Privacy Policy</a>
+	<br><a href="privacy.html" class="footer-links">Terms & Conditions</a>
+	<br><a href="privacy.html" class="footer-links">Use of Cookies</a>
+	</h2>
 					</div>
 					<div class="col-md-3 col-sm-6 col-xs-6">
 						<h1 class="footer-title">SUPPORT</h1>
 						<h2><a href="purchasing.html" class="footer-links">Purchasing & Payment</a>
-  <br><a href="purchasing.html" class="footer-links">Delivery</a>
-  <br><a href="purchasing.html" class="footer-links">Returns</a>
-  <br><a href="purchasing.html" class="footer-links">Repairs</a>
-  <br><a href="#" class="footer-links">Sizing Guide</a>
-  <br><a href="#" class="footer-links">FAQ's</a>
-  <br><a href="contact.html" class="footer-links">Contact</a>
-  </h2>
+	<br><a href="purchasing.html" class="footer-links">Delivery</a>
+	<br><a href="purchasing.html" class="footer-links">Returns</a>
+	<br><a href="purchasing.html" class="footer-links">Repairs</a>
+	<br><a href="#" class="footer-links">Sizing Guide</a>
+	<br><a href="#" class="footer-links">FAQ's</a>
+	<br><a href="contact.html" class="footer-links">Contact</a>
+	</h2>
 					</div>
 					<div class="col-md-3 col-sm-6 col-xs-6">
 						<h1 class="footer-title">CONTACT US</h1>
 						<h2 class="address-link">+44 (0)20 71383592
-  <br>info@milttag.cc
-  <br>220 Grand Union Studios
-  <br>332 Ladbroke Grove
-  <br>London W10 5AH
-  </h2>
+	<br>info@milttag.cc
+	<br>220 Grand Union Studios
+	<br>332 Ladbroke Grove
+	<br>London W10 5AH
+	</h2>
 					</div>
 					<div class="col-md-3 col-sm-6 col-xs-6">
 						<h1 class="footer-title">FOLLOW US</h1>
@@ -222,6 +213,8 @@
 		</div>
 	</div>
 	</div>
+	</div>
+
 
 	<!-- FOOTER ENDS -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js" integrity="sha256-Qw84Sw/EltllDHR8ykWKfq4GJTDHGKp6iW2ZAx+7ro0=" crossorigin="anonymous"></script>

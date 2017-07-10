@@ -45,7 +45,7 @@
    margin-top: 2.3em;
    margin-bottom: 2.3em;
    text-align: center;
-   line-height: 1.5;
+   line-height: 1.7;
  }
 
  .video-container {
@@ -68,7 +68,7 @@ margin-bottom: 4em;
    text-align: center;
    font-weight: 300;
    font-family: Montserrat, sans-serif;
-   line-height: 1.5;
+   line-height: 1.7;
  }
 
  .milltag-origin-box {
@@ -96,6 +96,7 @@ margin-bottom: 4em;
    font-family: Montserrat, sans-serif;
    margin-bottom: 3em;
    line-height: 1.5;
+   font-size: 1.3em;
  }
 
  .team-email {
@@ -125,6 +126,27 @@ margin-bottom: 4em;
      top: 30%;
      left: 15%;
      position: absolute;
+   }
+   .milltag-origin-text {
+     font-size: 1.3em;
+     color: #FFFFFF;
+     text-align: left;
+     font-weight: 300;
+     font-family: Montserrat, sans-serif;
+     line-height: 1.7;
+   }
+   .about-header-content {
+     font-size: 1.3em;
+     font-weight: 300;
+     color: #FFFFFF;
+     margin-top: 2.3em;
+     margin-bottom: 2.3em;
+     text-align: left;
+     line-height: 1.7;
+   }
+   .container-zero-padding{
+     padding-right: 0;
+     padding-left: 0;
    }
    .about-footer-image {
      width: auto;

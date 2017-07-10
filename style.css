@@ -28,7 +28,7 @@ button:focus {outline:0;}
    background-color: #000000;
        max-width: 100%;
    overflow-x: hidden;
-   font-family: Montserrat, sans-serif;
+   font-family: 'Montserrat', sans-serif;
  }
  .row {
    margin-right: 0 !important;

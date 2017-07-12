@@ -40,12 +40,12 @@
   margin-top: 2.3em;
   margin-bottom: 2.3em;
   text-align: center;
-  line-height: 1.5;
+  line-height: 1.7;
 }
 
 .custom-product-frame {
   background-color: #FFFFFF;
-  height:650px;
+  height:600px;
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 350px) {
   .custom-product-frame {
@@ -86,19 +86,19 @@
 @media only screen and (min-device-width : 1800px) and (max-device-width : 2200px) {
   .custom-product-frame {
     background-color: #FFFFFF;
-    height:55em;
+
   }
 }
 @media only screen and (min-device-width : 2200px) and (max-device-width : 2400px) {
   .custom-product-frame {
     background-color: #FFFFFF;
-    height:65em;
+
   }
 }
 @media only screen and (min-device-width : 2400px) and (max-device-width : 2600px) {
   .custom-product-frame {
     background-color: #FFFFFF;
-    height:70em;
+
   }
 }
 .product-frame-title {

@@ -9,18 +9,6 @@
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
-	<script type="text/javascript">
-		(function() {
-			var path = '//easy.myfonts.net/v2/js?sid=291056(font-family=Rift+Bold)&sid=291058(font-family=Rift+Light)&sid=291059(font-family=Rift+Medium)&sid=291060(font-family=Rift+Regular)&key=ilxbwEhwQ4',
-				protocol = ('https:' == document.location.protocol ? 'https:' : 'http:'),
-				trial = document.createElement('script');
-			trial.type = 'text/javascript';
-			trial.async = true;
-			trial.src = protocol + path;
-			var head = document.getElementsByTagName("head")[0];
-			head.appendChild(trial);
-		})();
-	</script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="custom-scripts.js"></script>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -39,25 +27,26 @@
 <body>
 
 	<!-- HEADER START -->
-
-	<div class="main-menu">
-		<div class="nopadding">
-			<div class="row nopadding">
-				<div class="col-md-8 col-md-offset-2">
-					<div class="row nopadding">
-						<div class="menu-format">
-							<div class="logo-holder">
-								<a href="index.html"><img src="milltag_logo.svg" class="menu-logo" /></a>
-							</div>
-							<div class="menu-mover">
-								<ul class="desktop-menu">
-									<li><a href="http://milltag.cc/shop?pa_gender=mens" class="menu-link">SHOP</a></li>
-									<li><a href="custom.html" class="menu-link menu-highlight">CUSTOM</a></li>
-									<li><a href="#" class="menu-link">STUDIO</a></li>
-									<li><a href="about.html" class="menu-link">ABOUT</a></li>
-									<li><a href="http://milltag.cc/new" class="menu-link">NEWS</a></li>
-									<li><a href="#" class="menu-link">CONTACT</a></li>
-								</ul>
+	<div class="container">
+		<div class="main-menu">
+			<div class="nopadding">
+				<div class="row nopadding">
+					<div class="col-md-12 col-centered">
+						<div class="row nopadding">
+							<div class="menu-format">
+								<div class="logo-holder">
+									<a href="index.html"><img src="milltag_logo.svg" class="menu-logo" /></a>
+								</div>
+								<div class="menu-mover">
+									<ul>
+										<li><a href="http://milltag.cc/shop?pa_gender=mens" class="menu-link">SHOP</a></li>
+										<li><a href="custom.html" class="menu-link menu-highlight">CUSTOM</a></li>
+										<li><a href="#" class="menu-link">STUDIO</a></li>
+										<li><a href="about.html" class="menu-link">ABOUT</a></li>
+										<li><a href="http://milltag.cc/new" class="menu-link">NEWS</a></li>
+										<li><a href="contact.html" class="menu-link">CONTACT</a></li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -100,17 +89,21 @@
 	</h1>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 col-xl-8 col-xl-offset-2">
-					<p class="custom-text-box">
-						Our customer cycle kit has developped through our customer's early recognition of our quality, and their desire to have bespoke disgned and manufactured Milltag branded kit. We now pride ourselves as being the quality custom jerseys on the market, with
-						the highest customer service and a keen eye for great design. We believe your custom jerseys should be worth wearing more than any off-the-shelf kit and therefore work tirelessly to provide you with uniquely designed and supremely finished products.
-					</p>
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<p class="custom-text-box">
+							Our customer cycle kit has developped through our customer's early recognition of our quality, and their desire to have bespoke disgned and manufactured Milltag branded kit. We now pride ourselves as being the quality custom jerseys on the market, with
+							the highest customer service and a keen eye for great design. We believe your custom jerseys should be worth wearing more than any off-the-shelf kit and therefore work tirelessly to provide you with uniquely designed and supremely finished products.
+						</p>
+					</div>
 				</div>
 			</div>
-			<div class="row nopadding custom-product-frame">
-
-				<div class="col-md-12 col-lg-10 col-lg-offset-1 col-xl-6 col-offset-xl-3">
+			<div class="container-fluid custom-product-frame">
+				<div class="container">
+			<div class="row nopadding">
+				<div class="col-md-12">
 					<h4 class="product-frame-title">CUSTOM <font color="#ff671f">RANGE</font></h4>
 					<ul class="product-box-menu-list">
 						<li class="active"><a data-toggle="tab" href="#jerseys"><h1 class="product-box-menu-title">JERSEYS</h1></a></li>
@@ -208,6 +201,8 @@
 				</div>
 			</div>
 		</div>
+		</div>
+		</div>
 
 	</div>
 
@@ -258,23 +253,24 @@
 		</div>
 	</div>
 	<!-- Footer Container center -->
-	<div class="row">
-		<div class="col-md-6 col-md-offset-3">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
 
-			<!-- Bottom footer container -->
-			<div class="row footer-links-container">
-				<div class="col-md-3 col-sm-6 col-xs-6">
-					<h1 class="footer-title">INFORMATION</h1>
-					<h2><a href="about.html" class="footer-links">About Us</a>
+				<!-- Bottom footer container -->
+				<div class="row footer-links-container">
+					<div class="col-md-3 col-sm-6 col-xs-6">
+						<h1 class="footer-title">INFORMATION</h1>
+						<h2><a href="about.html" class="footer-links">About Us</a>
 <br><a href="#" class="footer-links">Distributors</a>
 <br><a href="privacy.html" class="footer-links">Privacy Policy</a>
 <br><a href="privacy.html" class="footer-links">Terms & Conditions</a>
 <br><a href="privacy.html" class="footer-links">Use of Cookies</a>
 </h2>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-6">
-					<h1 class="footer-title">SUPPORT</h1>
-					<h2><a href="purchasing.html" class="footer-links">Purchasing & Payment</a>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6">
+						<h1 class="footer-title">SUPPORT</h1>
+						<h2><a href="purchasing.html" class="footer-links">Purchasing & Payment</a>
 <br><a href="purchasing.html" class="footer-links">Delivery</a>
 <br><a href="purchasing.html" class="footer-links">Returns</a>
 <br><a href="purchasing.html" class="footer-links">Repairs</a>
@@ -282,37 +278,37 @@
 <br><a href="#" class="footer-links">FAQ's</a>
 <br><a href="contact.html" class="footer-links">Contact</a>
 </h2>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-6">
-					<h1 class="footer-title">CONTACT US</h1>
-					<h2 class="address-link">+44 (0)20 71383592
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6">
+						<h1 class="footer-title">CONTACT US</h1>
+						<h2 class="address-link">+44 (0)20 71383592
 <br>info@milttag.cc
 <br>220 Grand Union Studios
 <br>332 Ladbroke Grove
 <br>London W10 5AH
 </h2>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-6">
-					<h1 class="footer-title">FOLLOW US</h1>
-					<ul class="social-media-bar">
-						<li class="social-media-icons"><a href="#"><span class="social-media-links fa fa-facebook-official" aria-hidden="true"></span></a></li><br class="media-spacer" /><br class="media-spacer" />
-						<li class="social-media-icons"><a href="#"><span class="social-media-links fa fa-twitter" aria-hidden="true"></span></a></li><br class="media-spacer" /><br class="media-spacer" />
-						<li class="social-media-icons"><a href="#"><span class="social-media-links fa fa-instagram" aria-hidden="true"></span></a></li><br class="media-spacer" /><br class="media-spacer" />
-						<li class="social-media-icons"><a href="#"><span class="social-media-links fa fa-vimeo" aria-hidden="true"></s	pan></a></li><br class="media-spacer" /><br class="media-spacer" />
-						<li class="social-media-icons"><a href="#"><span class="social-media-links fa fa-pinterest" aria-hidden="true"></span></a></li><br class="media-spacer" /><br class="media-spacer" />
-					</ul>
-				</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6">
+						<h1 class="footer-title">FOLLOW US</h1>
+						<ul class="social-media-bar">
+							<li class="social-media-icons"><a href="#"><span class="social-media-links fa fa-facebook-official" aria-hidden="true"></span></a></li><br class="media-spacer" /><br class="media-spacer" />
+							<li class="social-media-icons"><a href="#"><span class="social-media-links fa fa-twitter" aria-hidden="true"></span></a></li><br class="media-spacer" /><br class="media-spacer" />
+							<li class="social-media-icons"><a href="#"><span class="social-media-links fa fa-instagram" aria-hidden="true"></span></a></li><br class="media-spacer" /><br class="media-spacer" />
+							<li class="social-media-icons"><a href="#"><span class="social-media-links fa fa-vimeo" aria-hidden="true"></s	pan></a></li><br class="media-spacer" /><br class="media-spacer" />
+							<li class="social-media-icons"><a href="#"><span class="social-media-links fa fa-pinterest" aria-hidden="true"></span></a></li><br class="media-spacer" /><br class="media-spacer" />
+						</ul>
+					</div>
 
-			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<div class="copyright-link">
-						<h2 class="copyright-text">© 2017 Milltag, All rights reserved.</h2>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="copyright-link">
+							<h2 class="copyright-text">© 2017 Milltag, All rights reserved.</h2>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 	</div>
 	</div>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js" integrity="sha256-Qw84Sw/EltllDHR8ykWKfq4GJTDHGKp6iW2ZAx+7ro0=" crossorigin="anonymous"></script>

@@ -9,24 +9,25 @@
  */
 
 .gallery {
-  height: 600px;
 }
 
 .simplegallery {
   margin: 0 auto;
-  width: 50em;
+  width: auto;
   height: auto;
-}
 
+}
+.nav-arrows {
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
+}
 .simplegallery .content {
   background: #fff;
-  position: relative;
-  width: 60em;
-  height: auto;
 }
 
 .simplegallery .content img {
-  width: 60em;
+  width: 100%;
 }
 
 .simplegallery .thumbnail {
@@ -64,9 +65,9 @@
       transform: translateX(-50%) translateY(-50%);
 }
 .arrows {
-  position: relative;
-  width: 60em;
-  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .arrows img {
   width: 20px;
@@ -77,14 +78,14 @@
     border: 1px solid #E55815;
 }
 .right-arrow {
-  right: 10%;
-  top: 30em;
+  right: 1%;
+  top: 35%;
   z-index: 10;
         transform: translateX(-50%) translateY(-50%);
 }
 .left-arrow {
-  left: 10%;
-  top: 30em;
+  left: 1%;
+  top: 35%;
     z-index: 10;
           transform: translateX(-50%) translateY(-50%);
 }

@@ -151,9 +151,29 @@ $(function SliderImageResize() {
 });
 
 $(function CustomPanelToggleOn() {
-  $(".custom-panel-title").click(function() {
-    console.log("click");
-    $(this).toggleClass("custom-panel-on");
+  $(".custom-panel-contact").click(function() {
+    $(this).toggleClass("custom-contact-on");
+  });
+  $(".custom-panel-samples").click(function() {
+    $(this).toggleClass("custom-samples-on");
+  });
+  $(".custom-panel-design").click(function() {
+    $(this).toggleClass("custom-design-on");
+  });
+  $(".custom-panel-artwork").click(function() {
+    $(this).toggleClass("custom-artwork-on");
+  });
+  $(".custom-panel-ordering").click(function() {
+    $(this).toggleClass("custom-ordering-on");
+  });
+  $(".custom-panel-production").click(function() {
+    $(this).toggleClass("custom-production-on");
+  });
+  $(".custom-panel-delivery").click(function() {
+    $(this).toggleClass("custom-delivery-on");
+  });
+  $(".custom-panel-payment").click(function() {
+    $(this).toggleClass("custom-payment-on");
   });
 })
 

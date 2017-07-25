@@ -39,7 +39,7 @@
   font-size: 1.3em;
 }
 .custom-panel-sizer{
-  height: 200px;
+  height: 450px;
   width: 100%;
   color: #ff671f;
   opacity: 1;
@@ -47,7 +47,7 @@
   justify-content: center;
   align-items: center;
   }
-  .custom-panel-title {
+  .custom-panel-contact {
   background: linear-gradient( rgba(20, 20, 20, .9), rgba(20, 20, 20, .9)), url("src/img/custom-process/1-contact/1706x450/Contact_us_1706x450.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -57,17 +57,17 @@
   background-size: cover;
 }
 
-div[aria-expanded=true] .custom-panel-title {
+div[aria-expanded=true] .custom-panel-contact {
   background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0));
   background-position: center;
 }
 
-.custom-panel-title:active {
+.custom-panel-contact:active {
   background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)) ;
   background-position: center;
 }
 
-.custom-panel-title:hover {
+.custom-panel-contact:hover {
   background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("src/img/custom-process/1-contact/1706x450/Contact_us_1706x450.jpg");
   background-position: center;
   -webkit-background-size: cover;
@@ -76,7 +76,7 @@ div[aria-expanded=true] .custom-panel-title {
   background-size: cover;
 }
 
-.custom-panel-on {
+.custom-contact-on {
   background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("src/img/custom-process/1-contact/1706x450/Contact_us_1706x450.jpg");
   background-position: center;
   -webkit-background-size: cover !important;
@@ -84,7 +84,271 @@ div[aria-expanded=true] .custom-panel-title {
   -o-background-size: cover;
   background-size: cover;
 }
+.custom-panel-samples {
+background: linear-gradient( rgba(20, 20, 20, .9), rgba(20, 20, 20, .9)), url("src/img/custom-process/2-samples/1706x450/Samples_1706x450.jpg");
+background-position: center;
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
 
+div[aria-expanded=true] .custom-panel-samples {
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0));
+background-position: center;
+}
+
+.custom-panel-samples:active {
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)) ;
+background-position: center;
+}
+
+.custom-panel-samples:hover {
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("src/img/custom-process/2-samples/1706x450/Samples_1706x450.jpg");
+background-position: center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.custom-samples-on {
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("src/img/custom-process/2-samples/1706x450/Samples_1706x450.jpg");
+background-position: center;
+-webkit-background-size: cover !important;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.custom-panel-design {
+background: linear-gradient( rgba(20, 20, 20, .9), rgba(20, 20, 20, .9)), url("src/img/custom-process/3-design/1706x450/Design_1706x450.jpg");
+background-position: center;
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+div[aria-expanded=true] .custom-panel-design {
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0));
+background-position: center;
+}
+
+.custom-panel-design:active {
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)) ;
+background-position: center;
+}
+
+.custom-panel-design:hover {
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("src/img/custom-process/3-design/1706x450/Design_1706x450.jpg");
+background-position: center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.custom-design-on {
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("src/img/custom-process/3-design/1706x450/Design_1706x450.jpg");
+background-position: center;
+-webkit-background-size: cover !important;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.custom-panel-artwork {
+background: linear-gradient( rgba(20, 20, 20, .9), rgba(20, 20, 20, .9)), url("src/img/custom-process/4-artwork/1706x450/Artwork_1706x450.jpg");
+background-position: center;
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+div[aria-expanded=true] .custom-panel-artwork {
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0));
+background-position: center;
+}
+
+.custom-panel-artwork:active {
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)) ;
+background-position: center;
+}
+
+.custom-panel-artwork:hover {
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("src/img/custom-process/4-artwork/1706x450/Artwork_1706x450.jpg");
+background-position: center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.custom-artwork-on {
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("src/img/custom-process/4-artwork/1706x450/Artwork_1706x450.jpg");
+background-position: center;
+-webkit-background-size: cover !important;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.custom-panel-ordering {
+background: linear-gradient( rgba(20, 20, 20, .9), rgba(20, 20, 20, .9)), url("src/img/custom-process/5-ordering/1706x450/Ordering_1706x450.jpg");
+background-position: center;
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+div[aria-expanded=true] .custom-panel-ordering {
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0));
+background-position: center;
+}
+
+.custom-panel-ordering:active {
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)) ;
+background-position: center;
+}
+
+.custom-panel-ordering:hover {
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("src/img/custom-process/5-ordering/1706x450/Ordering_1706x450.jpg");
+background-position: center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.custom-ordering-on {
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("src/img/custom-process/5-ordering/1706x450/Ordering_1706x450.jpg");
+background-position: center;
+-webkit-background-size: cover !important;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.custom-panel-production {
+background: linear-gradient( rgba(20, 20, 20, .9), rgba(20, 20, 20, .9)), url("src/img/custom-process/6-production/1706x450/Production_1706x450.jpg");
+background-position: center;
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+div[aria-expanded=true] .custom-panel-production {
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0));
+background-position: center;
+}
+
+.custom-panel-production:active {
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)) ;
+background-position: center;
+}
+
+.custom-panel-production:hover {
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("src/img/custom-process/6-production/1706x450/Production_1706x450.jpg");
+background-position: center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.custom-production-on {
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("src/img/custom-process/6-production/1706x450/Production_1706x450.jpg");
+background-position: center;
+-webkit-background-size: cover !important;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.custom-panel-delivery {
+background: linear-gradient( rgba(20, 20, 20, .9), rgba(20, 20, 20, .9)), url("src/img/custom-process/7-delivery/1706x450/Delivery_1706x450.jpg");
+background-position: center;
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+div[aria-expanded=true] .custom-panel-delivery {
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0));
+background-position: center;
+}
+
+.custom-panel-delivery:active {
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)) ;
+background-position: center;
+}
+
+.custom-panel-delivery:hover {
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("src/img/custom-process/7-delivery/1706x450/Delivery_1706x450.jpg");
+background-position: center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.custom-delivery-on {
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("src/img/custom-process/7-delivery/1706x450/Delivery_1706x450.jpg");
+background-position: center;
+-webkit-background-size: cover !important;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.custom-panel-payment {
+background: linear-gradient( rgba(20, 20, 20, .9), rgba(20, 20, 20, .9)), url("src/img/custom-process/8-payment/1706x450/Payment_1706x450.jpg");
+background-position: center;
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+div[aria-expanded=true] .custom-panel-payment {
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0));
+background-position: center;
+}
+
+.custom-panel-payment:active {
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)) ;
+background-position: center;
+}
+
+.custom-panel-payment:hover {
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("src/img/custom-process/8-payment/1706x450/Payment_1706x450.jpg");
+background-position: center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.custom-payment-on {
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("src/img/custom-process/8-payment/1706x450/Payment_1706x450.jpg");
+background-position: center;
+-webkit-background-size: cover !important;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
 .title-text {
   color: #FFFFFF;
   font-size: 2.5em;
@@ -121,6 +385,15 @@ div[aria-expanded=true] .custom-panel-title {
   .title-text {
     font-size: 1.5em;
   }
+  .custom-panel-sizer{
+    height: 200px;
+    width: 100%;
+    color: #ff671f;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -137,4 +410,13 @@ div[aria-expanded=true] .custom-panel-title {
   .title-text {
     font-size: 1.5em;
   }
+  .custom-panel-sizer{
+    height: 200px;
+    width: 100%;
+    color: #ff671f;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
 }

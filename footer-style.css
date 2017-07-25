@@ -128,7 +128,7 @@ h1.footer-title {
 }
 
 .social-media-links {
-  display: block;
+  display: inline-block !important;
   text-align: center;
   text-decoration: none;
   color: #888B8D;

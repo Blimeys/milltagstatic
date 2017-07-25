@@ -42,27 +42,46 @@
   text-align: center;
   line-height: 1.7;
 }
-
+.single-item {
+  width:350px;
+  height: auto;
+  margin-left: -20px;
+}
 .custom-product-frame {
   background-color: #FFFFFF;
-  height:600px;
+
+}
+.jersey-title {
+  font-style: italic;
+  font-weight: bold;
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 350px) {
   .custom-product-frame {
     background-color: #FFFFFF;
     height:38em;
   }
+  .single-item {
+    width:110%;
+    margin-left: 0;
+  }
 }
 @media only screen and (min-device-width : 350px) and (max-device-width : 480px) {
   .custom-product-frame {
     background-color: #FFFFFF;
-    height:42em;
+  }
+  .single-item {
+    width:60%;
+        margin-left: 0;
   }
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
   .custom-product-frame {
     background-color: #FFFFFF;
     height:70em;
+  }
+  .single-item {
+    width:60%;
+        margin-left: 0;
   }
 }
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1025px) {

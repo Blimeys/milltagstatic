@@ -1,34 +1,34 @@
 .custom-process-bg {
   background-color: #ff671f;
 }
-.custom-process-header{
-  background-image: url("custom-process-header.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
+
+.custom-header-image {
   height: 800px;
-  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url('src/img/custom-process/image-intro/2560x800/Intro_Custom_Process_2560x800.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-.custom-process-header-title{
+
+.custom-header-text {
   position: absolute;
-  left:60%;
-  top:30%;
-  font-size: 6em;
+  top: 50%;
+  left: 25%;
+  transform: translateX(-50%) translateY(-50%);
 }
- @media all and (max-width: 400px) {
-   .custom-process-header-title{
-     position: absolute;
-     left:30%;
-     top:30%;
-     font-size: 2px;
-   }
- }
-.custom-process-header-box{
+
+.custom-title-text {
+  font-family: 'TradeGothicLTS' !important;
+  font-size: 2.6em;
+}
+
+.custom-process-header-box {
   background-color: #000000;
 }
+
 .custom-process-header-box-text {
   color: #FFFFFF;
   text-align: center;
@@ -36,86 +36,105 @@ background-size: cover;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
   font-weight: 300;
-  font-size: 1.5em;
+  font-size: 1.3em;
+}
+.custom-panel-sizer{
+  height: 200px;
+  width: 100%;
+  color: #ff671f;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   }
-.custom-panel-title {
-
-    background: linear-gradient(
-                     rgba(20,20,20, .9),
-                     rgba(20,20,20, .9)),
-                     url("custom-process-title-background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-    height: 200px;
-    width: 100%;
-    color: #ff671f;
-    opacity: 1;
+  .custom-panel-title {
+  background: linear-gradient( rgba(20, 20, 20, .9), rgba(20, 20, 20, .9)), url("src/img/custom-process/1-contact/1706x450/Contact_us_1706x450.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
 div[aria-expanded=true] .custom-panel-title {
-    background: linear-gradient(
-                     rgba(20,20,20, 0),
-                     rgba(20,20,20, 0)),
-                     url("custom-process-title-background.jpg");
-                     background-position: center;
+  background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0));
+  background-position: center;
 }
-.custom-panel-title:active {
-    background: linear-gradient(
-                     rgba(20,20,20, 0),
-                     rgba(20,20,20, 0)),
-                     url("custom-process-title-background.jpg");
-                     background-position: center;
-}
-.custom-panel-title:hover {
-    background: linear-gradient(
-                     rgba(20,20,20, 0),
-                     rgba(20,20,20, 0)),
-                     url("custom-process-title-background.jpg");
-                     background-position: center;
-                     -webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-}
-.custom-panel-on {
-  background: linear-gradient(
-                   rgba(20,20,20, 0),
-                   rgba(20,20,20, 0)),
-                   url("custom-process-title-background.jpg");
-                   background-position: center;
-                   -webkit-background-size: cover !important;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-height: 200px;
-width: 100%;
-color: #ff671f;
-opacity: 1;
-}
-.custom-title-text{
 
+.custom-panel-title:active {
+  background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)) ;
+  background-position: center;
 }
+
+.custom-panel-title:hover {
+  background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("src/img/custom-process/1-contact/1706x450/Contact_us_1706x450.jpg");
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.custom-panel-on {
+  background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("src/img/custom-process/1-contact/1706x450/Contact_us_1706x450.jpg");
+  background-position: center;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .title-text {
   color: #FFFFFF;
-  font-size: 4em;
+  font-size: 2.5em;
   border-style: none;
   font-family: 'TradeGothicLTS';
-  position: absolute;
-  top: 50%;
-  left:50%;
-  transform: translate(-50%,-50%);
 }
-.custom-text-box{
-  font-family: Montserrat, sans-serif;
+
+.custom-text-box {
   background-color: #ff671f;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.custom-text-box h4 {
+  font-family: Montserrat, sans-serif;
   color: #FFFFFF;
   text-align: center;
   font-size: 1.3em;
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
   font-weight: 300;
-  font-size: 1.5em;
+  font-style: normal;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .custom-header-image {
+    height: 320px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url('src/img/custom-process/image-intro/400x320/Intro_Custom_Process_400x320.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .title-text {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .custom-header-image {
+    height: 640px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url('src/img/custom-process/image-intro/800x640/Intro_Custom_Process_800x640.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .title-text {
+    font-size: 1.5em;
+  }
 }

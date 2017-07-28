@@ -2,7 +2,7 @@
   height: 800px;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url('custom-page/image-intro/2560x800/Intro_Custom_2560x800.jpg');
+  background-image: url('../img/custom-page/image-intro/2560x800/Intro_Custom_2560x800.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -16,7 +16,7 @@
 }
 
 .custom-header-title {
-  font-size: 4em;
+  font-size: 5.5em;
 }
 .featured-product {
   margin-top: 1em;
@@ -54,6 +54,7 @@
 .jersey-title {
   font-style: italic;
   font-weight: bold;
+  font-family: 'TradeGothicLTS';
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 350px) {
   .custom-product-frame {
@@ -134,6 +135,8 @@
   margin-top: 0;
   margin-bottom: 0;
   font-family: Montserrat, sans-serif !important;
+  font-style: normal;
+  font-size: 1.1em;
 }
 
 .product-box-menu-title:hover {
@@ -213,7 +216,7 @@ li.active h1 {
     height: 320px;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url('custom-page/image-intro/400x320/Intro_Custom_400x320.jpg');
+    background-image: url('../img/custom-page/image-intro/400x320/Intro_Custom_400x320.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -256,3 +259,6 @@ li.active h1 {
     display:block !important;
     height:0 !important;
   }
+.product-container {
+  height: 500px;
+}

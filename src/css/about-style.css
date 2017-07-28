@@ -4,7 +4,7 @@
    height: 800px;
    background-repeat: no-repeat;
    background-position: center center;
-   background-image: url('src/img/about/2560x800/Intro_About_2560x800.jpg');
+   background-image: url('../img/about/2560x800/Intro_About_2560x800.jpg');
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -17,26 +17,28 @@
 }*/
 .about-header-text{
    position: absolute;
+
    top: 50%;
    left: 25%;
    transform: translateX(-50%) translateY(-50%);
  }
 .header-title-text{
      font-family: 'TradeGothicLTS' !important;
-     font-size: 2.6em;
+
 }
  .about-footer-image {
    width: auto;
    height: 600px;
    background-repeat: no-repeat;
    background-position: center center;
-   background-image: url('about-page/ethical-manufacture/2560x600/Ethical_2560x600.jpg');
+   background-image: url('../img/about-page/ethical-manufacture/2560x600/Ethical_2560x600.jpg');
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
  }
 .about-header-text h4{
+  font-size: 5.5em;
 }
  .about-header-content {
    font-size: 1.3em;
@@ -125,7 +127,7 @@ margin-bottom: 4em;
     height: 320px;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url('src/img/about/400x320/Intro_About_400x320.jpg');
+    background-image: url('../img/about/400x320/Intro_About_400x320.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -163,7 +165,7 @@ margin-bottom: 4em;
      height: 380px;
      background-repeat: no-repeat;
      background-position: center center;
-     background-image: url('about-page/ethical-manufacture/400x380/Ethical_400x380.jpg');
+     background-image: url('../img/about-page/ethical-manufacture/400x380/Ethical_400x380.jpg');
      -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
@@ -192,7 +194,7 @@ margin-bottom: 4em;
      height: 640px;
      background-repeat: no-repeat;
      background-position: center center;
-     background-image: url('src/img/about/800x640/Intro_About_800x640.jpg');
+     background-image: url('../img/about/800x640/Intro_About_800x640.jpg');
      -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
@@ -209,7 +211,7 @@ margin-bottom: 4em;
       height: 480px;
       background-repeat: no-repeat;
       background-position: center center;
-      background-image: url('about-page/ethical-manufacture/800x480/Ethical_800x480.jpg');
+      background-image: url('../img/about-page/ethical-manufacture/800x480/Ethical_800x480.jpg');
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;

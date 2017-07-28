@@ -12,11 +12,11 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="custom-scripts.js"></script>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="custom-page-style.css">
-	<link rel="stylesheet" type="text/css" href="menu-style.css">
-	<link rel="stylesheet" type="text/css" href="footer-style.css">
-	<link rel="stylesheet" type="text/css" href="custom-grid-style.css">
+	<link rel="stylesheet" type="text/css" href="src/css/style.css">
+	<link rel="stylesheet" type="text/css" href="src/css/custom-page-style.css">
+	<link rel="stylesheet" type="text/css" href="src/css/menu-style.css">
+	<link rel="stylesheet" type="text/css" href="src/css/footer-style.css">
+	<link rel="stylesheet" type="text/css" href="src/css/custom-grid-style.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600" rel="stylesheet">
 	<link rel="icon" type="image/png" href="favicon.png">
 	<link rel="stylesheet" href="slick/slick-theme-custom-range.css" />
@@ -35,7 +35,7 @@
 						<div class="row nopadding">
 							<div class="menu-format">
 								<div class="logo-holder">
-									<a href="index.html"><img src="milltag_logo.svg" class="menu-logo" /></a>
+									<a href="index.html"><img src="src/img/logo/milltag_logo.svg" class="menu-logo" /></a>
 								</div>
 								<div class="menu-mover">
 									<ul>
@@ -57,9 +57,9 @@
 	<div class="menu-small">
 		<div class="menu-header-container">
 			<div class="menu-button-container">
-				<img class="menu-small-button" id="toggleImg" data-toggle="collapse" data-target="#menu" src="menu.svg" onclick="changeMenuIcon();" />
+				<img class="menu-small-button" id="toggleImg" data-toggle="collapse" data-target="#menu" src="src/img/menu/menu.svg" onclick="changeMenuIcon();" />
 			</div>
-			<a href="index.html"><img class="menu-small-logo" src="milltag_logo.svg" /></a>
+			<a href="index.html"><img class="menu-small-logo" src="src/img/logo/milltag_logo.svg" /></a>
 		</div>
 		<div class="collapse menu-list-container" id="menu">
 			<ul class="menu-list-small">
@@ -104,6 +104,7 @@
 				<div class="container">
 			<div class="row nopadding">
 				<div class="col-md-12">
+					<div class="text-box product-container">
 					<h4 class="product-frame-title">CUSTOM <font color="#ff671f">RANGE</font></h4>
 					<ul class="product-box-menu-list">
 						<li class="active"><a data-toggle="tab" href="#jerseys"><h1 class="product-box-menu-title">JERSEYS</h1></a></li>
@@ -118,21 +119,39 @@
 								<div class='slider-jerseys featured-product-box'>
 									<div class="slide slick-slide">
 										<img class="carousel-picture" src="src/img/products/jerseys/1-classic-jersey/Classic-Jersey-Shadow.png" />
+										<div class="jersey-title">
+											CLASSIC JERSEY
+										</div>
 									</div>
 									<div class="slide slick-slide featured-product-box">
 										<img class="carousel-picture" src="src/img/products/jerseys/2-club-jersey/Club-Jersey-Shadow.png" />
+										<div class="jersey-title">
+											CLUB JERSEY
+										</div>
 									</div>
 									<div class="slide slick-slide featured-product-box">
 										<img class="carousel-picture" src="src/img/products/jerseys/3-pro-jersey/Pro-Jersey-Shadow.png" />
+										<div class="jersey-title">
+											PRO JERSEY
+										</div>
 									</div>
 									<div class="slide slick-slide featured-product-box">
 										<img class="carousel-picture" src="src/img/products/jerseys/4-membrane-jersey/Membrane-Jersey-Shadow.png" />
+										<div class="jersey-title">
+											MEMBRANE JERSEY
+										</div>
 									</div>
 									<div class="slide slick-slide featured-product-box">
 										<img class="carousel-picture" src="src/img/products/jerseys/5-climber-jersey/Climber-Jersey-Shadow.png" />
+										<div class="jersey-title">
+											CLIMBER JERSEY
+										</div>
 									</div>
 									<div class="slide slick-slide featured-product-box">
 										<img class="carousel-picture" src="src/img/products/jerseys/6-roubaix-jersey/Roubaix-Jersey-Shadow.png" />
+										<div class="jersey-title">
+											ROUBAIX JERSEY
+										</div>
 									</div>
 								</div>
 								<div class="product-link">
@@ -145,6 +164,7 @@
 								<div class='slider-bibs featured-product-box'>
 									<div class="slide slick-slide">
 										<img class="carousel-picture" src="Jersey-shadow.png" />
+
 									</div>
 									<div class="slide slick-slide featured-product-box">
 										<img class="carousel-picture" src="Jersey-shadow.png" />
@@ -187,24 +207,45 @@
 								<div class='slider-others featured-product-box'>
 									<div class="slide slick-slide">
 										<img class="carousel-picture" src="src/img/products/others/1-classic-cap/Classic-Cap-Shadow.png" />
+										<div class="jersey-title">
+											CLASSIC CAP
+										</div>
 									</div>
 									<div class="slide slick-slide featured-product-box">
 										<img class="carousel-picture" src="src/img/products/others/2-pro-cap/Pro-Cap-Shadow.png" />
+										<div class="jersey-title">
+											PRO CAP
+										</div>
 									</div>
 									<div class="slide slick-slide featured-product-box">
 										<img class="carousel-picture" src="src/img/products/others/3-arm-warmers/Arm-Warmers-Shadow.png" />
+										<div class="jersey-title">
+											ARM WARMERS
+										</div>
 									</div>
 									<div class="slide slick-slide featured-product-box">
 										<img class="carousel-picture" src="src/img/products/others/4-leg-warmers/Leg-Warmers-Shadow.png" />
+										<div class="jersey-title">
+											LEG WARMERS
+										</div>
 									</div>
 									<div class="slide slick-slide featured-product-box">
 										<img class="carousel-picture" src="src/img/products/others/5-snood/Snood-Shadow.png" />
+										<div class="jersey-title">
+											SNOOD
+										</div>
 									</div>
 									<div class="slide slick-slide featured-product-box">
 										<img class="carousel-picture" src="src/img/products/others/6-socks/Socks-Shadow.png" />
+										<div class="jersey-title">
+											SOCKS
+										</div>
 									</div>
 									<div class="slide slick-slide featured-product-box">
 										<img class="carousel-picture" src="src/img/products/others/7-overshoes/Overshoes-Shadow.png" />
+										<div class="jersey-title">
+											OVERSHOES
+										</div>
 									</div>
 								</div>
 								<div class="product-link">
@@ -214,6 +255,7 @@
 						</div>
 					</div>
 				</div>
+			</div>
 			</div>
 		</div>
 		</div>
@@ -241,7 +283,7 @@
 
 						<div class="col-md-6 col-xs-12 col-sm-12 grid-bottom-left-custom nopadding">
 							<div class="text-grid-position">
-								<h1 class="grid-text">CASE STUDIES</h1>
+								<h1 class="grid-text" style="text-align=center">CASE STUDIES</h1>
 							</div>
 						</div>
 						<div class="col-md-6 col-xs-12 col-sm-12 grid-bottom-right-custom nopadding">

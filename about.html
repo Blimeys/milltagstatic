@@ -11,11 +11,11 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="custom-scripts.js"></script>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="menu-style.css">
-	<link rel="stylesheet" type="text/css" href="footer-style.css">
-	<link rel="stylesheet" type="text/css" href="index-grid-style.css">
-	<link rel="stylesheet" type="text/css" href="about-style.css">
+	<link rel="stylesheet" type="text/css" href="src/css/style.css">
+	<link rel="stylesheet" type="text/css" href="src/css/menu-style.css">
+	<link rel="stylesheet" type="text/css" href="src/css/footer-style.css">
+	<link rel="stylesheet" type="text/css" href="src/css/index-grid-style.css">
+	<link rel="stylesheet" type="text/css" href="src/css/about-style.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600" rel="stylesheet">
 	<link rel="icon" type="image/png" href="favicon.png">
 	<link rel="stylesheet" href="slick/slick-theme.css" />
@@ -34,7 +34,7 @@
 					<div class="row nopadding">
 						<div class="menu-format">
 							<div class="logo-holder">
-								<a href="index.html"><img src="milltag_logo.svg" class="menu-logo" /></a>
+								<a href="index.html"><img src="src/img/logo/milltag_logo.svg" class="menu-logo" /></a>
 							</div>
 							<div class="menu-mover">
 								<ul>
@@ -56,9 +56,9 @@
 	<div class="menu-small">
 		<div class="menu-header-container">
 			<div class="menu-button-container">
-				<img class="menu-small-button" id="toggleImg" data-toggle="collapse" data-target="#menu" src="menu.svg" onclick="changeMenuIcon();" />
+				<img class="menu-small-button" id="toggleImg" data-toggle="collapse" data-target="#menu" src="src/img/menu/menu.svg" onclick="changeMenuIcon();" />
 			</div>
-			<a href="index.html"><img class="menu-small-logo" src="milltag_logo.svg" /></a>
+			<a href="index.html"><img class="menu-small-logo" src="src/img/logo/milltag_logo.svg" /></a>
 		</div>
 		<div class="collapse menu-list-container" id="menu">
 			<ul class="menu-list-small">
@@ -140,9 +140,10 @@
 		<div class="container container-zero-padding">
 		<div class="col-md-12 col-centered nopadding">
 			<div class="row nopadding">
-				<h1 class="team-title">THE TEAM</h1>
+				<div class="text-box">
+				<h1 class="team-title">KEY PERSONNEL</h1>
 				<div class="col-md-6">
-					<img class="portrait-image" src="about-page/portraits/Ed_800x450.jpg">
+					<img class="portrait-image" src="src/img/about-page/portraits/Ed_800x450.jpg">
 					<p class="portrait-text">
 						<span class="portrait-name">ED COWBURN</span><br>
 						<span class="portrait-job-title">Designer</span><br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -152,7 +153,7 @@
 					</p>
 				</div>
 				<div class="col-md-6">
-					<img class="portrait-image" src="about-page/portraits/Pete_800x450.jpg">
+					<img class="portrait-image" src="src/img/about-page/portraits/Pete_800x450.jpg">
 
 					<p class="portrait-text">
 						<span class="portrait-name">PETE KELSEY</span><br>
@@ -165,7 +166,7 @@
 				</div>
 				<div class="row nopadding">
 					<div class="col-md-6">
-						<img class="portrait-image" src="about-page/portraits/Sul_800x450.jpg">
+						<img class="portrait-image" src="src/img/about-page/portraits/Sul_800x450.jpg">
 						<p class="portrait-text">
 							<span class="portrait-name">SULLIVAN CORDE</span><br>
 							<span class="portrait-job-title">Designer</span><br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -175,7 +176,7 @@
 						</p>
 					</div>
 					<div class="col-md-6">
-						<img class="portrait-image" src="about-page/portraits/Nora_800x450.jpg">
+						<img class="portrait-image" src="src/img/about-page/portraits/Nora_800x450.jpg">
 						<p class="portrait-text">
 							<span class="portrait-name">NORA WASS</span><br>
 							<span class="portrait-job-title">Designer</span><br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -187,6 +188,7 @@
 					</div>
 				</div>
 			</div>
+		</div>
 		</div>
 		</div>
 </div>

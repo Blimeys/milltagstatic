@@ -4,16 +4,16 @@ screenSizesSlider = {
   large: 1024
 };
 sliderFilePath = {
-  small: "home-page/slider/400x400/",
-  medium: "home-page/slider/800x600/",
-  large: "home-page/slider/2560x1142/"
+  small: "src/img/home-page/slider/400x400/",
+  medium: "src/img/home-page/slider/800x600/",
+  large: "src/img/home-page/slider/2560x1142/"
 };
 
 function changeMenuIcon() {
-  if ($('#toggleImg').attr("src") == "menu.svg") {
-    $('#toggleImg').attr("src", "cross.svg");
+  if ($('#toggleImg').attr("src") == "src/img/menu/menu.svg") {
+    $('#toggleImg').attr("src", "src/img/menu/cross.svg");
   } else {
-    $('#toggleImg').attr("src", "menu.svg");
+    $('#toggleImg').attr("src", "src/img/menu/menu.svg");
   }
 }
 

@@ -12,10 +12,10 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="custom-scripts.js"></script>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="menu-style.css">
-	<link rel="stylesheet" type="text/css" href="footer-style.css">
-	<link rel="stylesheet" type="text/css" href="index-grid-style.css">
+	<link rel="stylesheet" type="text/css" href="src/css/style.css">
+	<link rel="stylesheet" type="text/css" href="src/css/menu-style.css">
+	<link rel="stylesheet" type="text/css" href="src/css/footer-style.css">
+	<link rel="stylesheet" type="text/css" href="src/css/index-grid-style.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600" rel="stylesheet">
 	<link rel="icon" type="image/png" href="favicon.png">
 	<link rel="stylesheet" href="slick/slick-theme.css" />
@@ -34,14 +34,21 @@
 						<div class="row nopadding">
 							<div class="menu-format">
 								<div class="logo-holder">
-									<a href="index.html"><img src="milltag_logo.svg" class="menu-logo" /></a>
+									<a href="index.html"><img src="src/img/logo/milltag_logo.svg" class="menu-logo" /></a>
 								</div>
 								<div class="menu-mover">
 									<ul>
 										<li><a href="http://milltag.cc/shop?pa_gender=mens" class="menu-link">SHOP</a></li>
-										<li><a href="custom.html" class="menu-link">CUSTOM</a></li>
+										<li>
+											<a href="custom.html" class="menu-link">CUSTOM</a>
+											<ul class="drop-style">
+												<li>test1</li>
+												<li>test2</li>
+												<li>test3</li>
+											</ul>
+										</li>
 										<li><a href="#" class="menu-link">STUDIO</a></li>
-										<li><a href="about.html" class="menu-link menu-highlight">ABOUT</a></li>
+										<li><a href="about.html" class="menu-link">ABOUT</a></li>
 										<li><a href="http://milltag.cc/new" class="menu-link">NEWS</a></li>
 										<li><a href="contact.html" class="menu-link">CONTACT</a></li>
 									</ul>
@@ -56,9 +63,9 @@
 		<div class="menu-small">
 			<div class="menu-header-container">
 				<div class="menu-button-container">
-					<img class="menu-small-button" id="toggleImg" data-toggle="collapse" data-target="#menu" src="menu.svg" onclick="changeMenuIcon();" />
+					<img class="menu-small-button" id="toggleImg" data-toggle="collapse" data-target="#menu" src="src/img/menu/menu.svg" onclick="changeMenuIcon();" />
 				</div>
-				<a href="index.html"><img class="menu-small-logo" src="milltag_logo.svg" /></a>
+				<a href="index.html"><img class="src/img/logo/menu-small-logo" src="src/img/logo/milltag_logo.svg" /></a>
 			</div>
 			<div class="collapse menu-list-container" id="menu">
 				<ul class="menu-list-small">
@@ -83,7 +90,7 @@
 					<div class='slider-items'>
 						<div class="slide slide--has-caption slick-slide">
 							<a href="http://milltag.cc/shop?pa_gender=mens" class="carousel-picture-link">
-								<img class="carousel-picture carousel-one" src="home-page/slider/2560x1142/Slider_01_2560x1142.jpg"></a>
+								<img class="carousel-picture carousel-one" src="src/img/home-page/slider/2560x1142/Slider_01_2560x1142.jpg"></a>
 							<div class="slide__caption text-overlay-left">
 								<a href="http://milltag.cc/shop?pa_gender=mens"><h1 class="slider-text-titles">
 										SECTOR<br/>COLLECTION<BR/>
@@ -92,12 +99,12 @@
 								<a href="http://milltag.cc/shop?pa_gender=mens" class="carousel-link">SHOP NOW</a></div>
 						</div>
 						<div class="slide slide--has-caption slick-slide">
-							<img class="carousel-picture carousel-two" src="carousel2.jpg">
+							<img class="carousel-picture carousel-two" src="src/img/carousel/carousel2.jpg">
 							<div class="slide__caption text-overlay-right">
 								<a href="http://milltag.cc/shop?pa_gender=mens"><h1 class="slider-text-titles">COMPASS<br/>COLLECTION<BR/></h1></a><br/><a href="http://milltag.cc/shop?pa_gender=mens" class="carousel-link">SHOP NOW</a></div>
 						</div>
 						<div class="slide slide--has-caption slick-slide">
-							<img class="carousel-picture carousel-three" src="carousel3.jpg">
+							<img class="carousel-picture carousel-three" src="src/img/carousel/carousel3.jpg">
 							<div class="slide__caption text-overlay-right">
 								<a href="http://milltag.cc/shop?pa_gender=mens"><h1 class="slider-text-titles">SESSIONS<br/>COLLECTION<BR/></h1></a><br/><a href="http://milltag.cc/shop?pa_gender=mens" class="carousel-link">SHOP NOW</a></div>
 						</div>

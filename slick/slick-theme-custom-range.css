@@ -107,7 +107,7 @@
     background-size: contain;
   position: absolute;
   top: 50%;
-  left: 5%;
+  left: 0%;
   transform: translateX(-50%) translateY(-50%);
   z-index: 20;
   color: transparent;
@@ -126,7 +126,7 @@
   background-size: contain;
   position: absolute;
   top: 50%;
-  right: -2%;
+  right: -8%;
   transform: translateX(-50%) translateY(-50%);
   z-index: 20;
   color: transparent;

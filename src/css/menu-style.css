@@ -99,3 +99,40 @@
     padding: 15px 0px;
   }
 }
+ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 50px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
+}
+ul li ul li {
+  background: #000;
+  float: none;
+  display: block;
+  color: #fff;
+}
+ul li ul li:hover { background: #000; }
+ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  z-index: 20;
+}
+.drop-style {
+  width: 50px;
+  background-color: #000;
+  padding-right: 20px;
+  padding-left: 20px;
+}

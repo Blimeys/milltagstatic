@@ -174,7 +174,7 @@
 .slick-prev {
   /*content: "";*/
   background: transparent;
-  background: url('white_arrow_left.png') no-repeat;
+  background: url('../src/img/menu/white_arrow_left.png') no-repeat;
     background-size: contain;
   position: absolute;
   top: 50%;
@@ -193,7 +193,7 @@
 
 .slick-next {
   background: transparent;
-  background: url('white_arrow_right.png') no-repeat;
+  background: url('../src/img/menu/white_arrow_right.png') no-repeat;
   background-size: contain;
   position: absolute;
   top: 50%;

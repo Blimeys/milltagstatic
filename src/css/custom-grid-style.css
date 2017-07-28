@@ -18,13 +18,14 @@
 
 .grid-text {
   font-size: 6em;
+  text-align: center;
 }
 
 .grid-top-left-custom {
   height: 900px;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url('custom-page/bouton-custom-process/854x900/CustomProcess_854x900.jpg');
+    background-image: url('../img/custom-page/bouton-custom-process/854x900/CustomProcess_854x900.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -32,7 +33,7 @@
 }
 
 .grid-top-left-custom:hover {
-  background: linear-gradient( rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), url("custom-page/bouton-custom-process/854x900/CustomProcess_854x900.jpg");
+  background: linear-gradient( rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), url("../img/custom-page/bouton-custom-process/854x900/CustomProcess_854x900.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   height: 900px;
@@ -42,7 +43,7 @@
   background-size: cover;
 }
 .grid-top-right-custom {
-  background-image: url('custom-page/bouton-get-a-quote/1706x450/GetAQuote_1706x450.jpg');
+  background-image: url('../img/custom-page/bouton-get-a-quote/1706x450/GetAQuote_1706x450.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   height: 450px;
@@ -53,7 +54,7 @@
 }
 
 .grid-top-right-custom:hover {
-  background: linear-gradient( rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), url('custom-page/bouton-get-a-quote/1706x450/GetAQuote_1706x450.jpg');
+  background: linear-gradient( rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), url('../img/custom-page/bouton-get-a-quote/1706x450/GetAQuote_1706x450.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   height: 450px;
@@ -64,7 +65,7 @@
 }
 
 .grid-bottom-right-custom {
-  background-image: url('custom-page/bouton-faqs/854x450/FAQs_854x450.jpg');
+  background-image: url('../img/custom-page/bouton-faqs/854x450/FAQs_854x450.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   height: 450px;
@@ -75,7 +76,7 @@
 }
 
 .grid-bottom-right-custom:hover {
-  background: linear-gradient( rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), url("custom-page/bouton-faqs/854x450/FAQs_854x450.jpg");
+  background: linear-gradient( rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), url("../img/custom-page/bouton-faqs/854x450/FAQs_854x450.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   height: 450px;
@@ -86,7 +87,7 @@
 }
 
 .grid-bottom-left-custom {
-  background-image: url('custom-page/bouton-case-studies/854x450/CaseStudies_854x450.jpg');
+  background-image: url('../img/custom-page/bouton-case-studies/854x450/CaseStudies_854x450.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -98,7 +99,7 @@
 }
 
 .grid-bottom-left-custom:hover {
-  background: linear-gradient( rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), url("custom-page/bouton-case-studies/854x450/CaseStudies_854x450.jpg");
+  background: linear-gradient( rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), url("../img/custom-page/bouton-case-studies/854x450/CaseStudies_854x450.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   height: 450px;
@@ -113,7 +114,7 @@
     height: 250px;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url('custom-page/bouton-custom-process/400x250/CustomProcess_400x250.jpg');
+    background-image: url('../img/custom-page/bouton-custom-process/400x250/CustomProcess_400x250.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -123,7 +124,7 @@
     height: 250px;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url('custom-page/bouton-custom-process/400x250/CustomProcess_400x250.jpg');
+    background-image: url('../img/custom-page/bouton-custom-process/400x250/CustomProcess_400x250.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -133,7 +134,7 @@
     height: 250px;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url('custom-page/bouton-get-a-quote/400x250/GetAQuote_400x250.jpg');
+    background-image: url('../img/custom-page/bouton-get-a-quote/400x250/GetAQuote_400x250.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -143,14 +144,14 @@
     height: 250px;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url('custom-page/bouton-get-a-quote/400x250/GetAQuote_400x250.jpg');
+    background-image: url('../img/custom-page/bouton-get-a-quote/400x250/GetAQuote_400x250.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
   }
   .grid-bottom-left-custom {
-    background-image: url('custom-page/bouton-case-studies/400x250/CaseStudies_400x250.jpg');
+    background-image: url('../img/custom-page/bouton-case-studies/400x250/CaseStudies_400x250.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -161,7 +162,7 @@
     background-size: cover;
   }
   .grid-bottom-left-custom:hover {
-  background-image: url('custom-page/bouton-case-studies/400x250/CaseStudies_400x250.jpg');
+  background-image: url('../img/custom-page/bouton-case-studies/400x250/CaseStudies_400x250.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -172,7 +173,7 @@
   background-size: cover;
   }
   .grid-bottom-right-custom {
-    background-image: url('custom-page/bouton-faqs/400x250/FAQs_400x250.jpg');
+    background-image: url('../img/custom-page/bouton-faqs/400x250/FAQs_400x250.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     height: 250px;
@@ -182,7 +183,7 @@
     background-size: cover;
   }
   .grid-bottom-right-custom:hover {
-    background-image: url('custom-page/bouton-faqs/400x250/FAQs_400x250.jpg');
+    background-image: url('../img/custom-page/bouton-faqs/400x250/FAQs_400x250.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     height: 250px;
@@ -193,18 +194,20 @@
   }
 .grid-text {
   font-size: 6em;
+  text-align: center;
 }
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
   .grid-text {
     font-size: 4em;
+    text-align: center;
 }
 .grid-top-left-custom {
   height: 450px;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url('custom-page/bouton-custom-process/800x450/CustomProcess_800x450.jpg');
+  background-image: url('../img/custom-page/bouton-custom-process/800x450/CustomProcess_800x450.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -214,7 +217,7 @@
   height: 450px;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url('custom-page/bouton-custom-process/800x450/CustomProcess_800x450');
+  background-image: url('../img/custom-page/bouton-custom-process/800x450/CustomProcess_800x450');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -224,7 +227,7 @@
   height: 450px;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url('custom-page/bouton-get-a-quote/800x450/GetAQuote_800x450.jpg');
+  background-image: url('../img/custom-page/bouton-get-a-quote/800x450/GetAQuote_800x450.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -234,14 +237,14 @@
   height: 450px;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url('custom-page/bouton-get-a-quote/800x450/GetAQuote_800x450.jpg');
+  background-image: url('../img/custom-page/bouton-get-a-quote/800x450/GetAQuote_800x450.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .grid-bottom-left-custom {
-  background-image: url('custom-page/bouton-case-studies/800x450/CaseStudies_800x450.jpg');
+  background-image: url('../img/custom-page/bouton-case-studies/800x450/CaseStudies_800x450.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -252,7 +255,7 @@
   background-size: cover;
 }
 .grid-bottom-left-custom:hover {
-background-image: url('custom-page/bouton-case-studies/800x450/CaseStudies_800x450.jpg');
+background-image: url('../img/custom-page/bouton-case-studies/800x450/CaseStudies_800x450.jpg');
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center center;
@@ -263,7 +266,7 @@ height: 450px;
 background-size: cover;
 }
 .grid-bottom-right-custom {
-  background-image: url('custom-page/bouton-faqs/800x450/FAQs_800x450.jpg');
+  background-image: url('../img/custom-page/bouton-faqs/800x450/FAQs_800x450.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   height: 450px;
@@ -273,7 +276,7 @@ background-size: cover;
   background-size: cover;
 }
 .grid-bottom-right-custom:hover {
-  background-image: url('custom-page/bouton-faqs/800x450/FAQs_800x450.jpg');
+  background-image: url('../img/custom-page/bouton-faqs/800x450/FAQs_800x450.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   height: 450px;
@@ -288,7 +291,7 @@ background-size: cover;
       height: 900px;
       background-repeat: no-repeat;
       background-position: center center;
-      background-image: url('custom-page/bouton-custom-process/854x900/CustomProcess_854x900.jpg');
+      background-image: url('../img/custom-page/bouton-custom-process/854x900/CustomProcess_854x900.jpg');
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -298,7 +301,7 @@ background-size: cover;
       height: 900px;
       background-repeat: no-repeat;
       background-position: center center;
-      background-image: url('custom-page/bouton-custom-process/854x900/CustomProcess_854x900.jpg.jpg');
+      background-image: url('../img/custom-page/bouton-custom-process/854x900/CustomProcess_854x900.jpg.jpg');
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -308,7 +311,7 @@ background-size: cover;
     height: 450px;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url('custom-page/bouton-get-a-quote/800x450/GetAQuote_800x450.jpg');
+    background-image: url('../img/custom-page/bouton-get-a-quote/800x450/GetAQuote_800x450.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -318,14 +321,14 @@ background-size: cover;
     height: 450px;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url('custom-page/bouton-get-a-quote/800x450/GetAQuote_800x450.jpg');
+    background-image: url('../img/custom-page/bouton-get-a-quote/800x450/GetAQuote_800x450.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
   }
   .grid-bottom-left-custom {
-    background-image: url('custom-page/bouton-case-studies/800x450/CaseStudies_800x450.jpg');
+    background-image: url('../img/custom-page/bouton-case-studies/800x450/CaseStudies_800x450.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -336,7 +339,7 @@ background-size: cover;
     background-size: cover;
   }
   .grid-bottom-left-custom:hover {
-    background-image: url('custom-page/bouton-case-studies/800x450/CaseStudies_800x450.jpg');
+    background-image: url('../img/custom-page/bouton-case-studies/800x450/CaseStudies_800x450.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -347,7 +350,7 @@ background-size: cover;
     background-size: cover;
   }
   .grid-bottom-right-custom {
-    background-image: url('custom-page/bouton-faqs/800x450/FAQs_800x450.jpg');
+    background-image: url('../img/custom-page/bouton-faqs/800x450/FAQs_800x450.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     height: 450px;
@@ -357,7 +360,7 @@ background-size: cover;
     background-size: cover;
   }
   .grid-bottom-right-custom:hover {
-    background-image: url('custom-page/bouton-faqs/800x450/FAQs_800x450.jpg');
+    background-image: url('../img/custom-page/bouton-faqs/800x450/FAQs_800x450.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     height: 450px;
@@ -368,5 +371,6 @@ background-size: cover;
   }
   .grid-text {
     font-size: 6em;
+    text-align: center;
   }
   }

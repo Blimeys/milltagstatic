@@ -13,10 +13,11 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script type="text/javascript" src="custom-scripts.js"></script>
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" type="text/css" href="menu-style.css">
-  <link rel="stylesheet" type="text/css" href="footer-style.css">
-  <link rel="stylesheet" type="text/css" href="contact-style.css">
+  <link rel="stylesheet" type="text/css" href="src/css/style.css">
+  <link rel="stylesheet" type="text/css" href="src/css/menu-style.css">
+
+  <link rel="stylesheet" type="text/css" href="src/css/contact-style.css">
+  <link rel="stylesheet" type="text/css" href="src/css/footer-style.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600" rel="stylesheet">
   <link rel="icon" type="image/png" href="favicon.png">
   <link rel="stylesheet" href="slick/slick-theme.css" />
@@ -36,7 +37,7 @@
 						<div class="row nopadding">
 							<div class="menu-format">
 								<div class="logo-holder">
-									<a href="index.html"><img src="milltag_logo.svg" class="menu-logo" /></a>
+									<a href="index.html"><img src=src/img/logo/"milltag_logo.svg" class="menu-logo" /></a>
 								</div>
 								<div class="menu-mover">
 									<ul>
@@ -60,7 +61,7 @@
 				<div class="menu-button-container">
 					<img class="menu-small-button" id="toggleImg" data-toggle="collapse" data-target="#menu" src="menu.svg" onclick="changeMenuIcon();" />
 				</div>
-				<a href="index.html"><img class="menu-small-logo" src="milltag_logo.svg" /></a>
+				<a href="index.html"><img class="menu-small-logo" src="src/img/logo/milltag_logo.svg" /></a>
 			</div>
 			<div class="collapse menu-list-container" id="menu">
 				<ul class="menu-list-small">
@@ -101,8 +102,8 @@
             <br>
             <br> CAREERS
             <br>
-            <p><br> So, you want to work at Milltag? If you're truly brilliant, we'll find a job for you. Apply now.
-            <br> Submit your CV at <span class="email-address">hello@miltag.cc</span>
+            <p><br> Do you want to work for Milltag? Are you supremely talented? Then we'll find a job for you.
+            <br> Submit your CV to <span class="email-address">hello@miltag.cc</span>
           </P><br>
             <br>
           </div>
@@ -110,7 +111,7 @@
           <div class="col-md-6 col-lg-6 col-xl-6">
             NAME*
             <br>
-            <input type="textarea">
+            <input type="textarea" class="detail-entry">
           </input>
           <br>
           <br>

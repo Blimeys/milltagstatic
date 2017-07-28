@@ -6,7 +6,7 @@
   height: 800px;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url('src/img/custom-process/image-intro/2560x800/Intro_Custom_Process_2560x800.jpg');
+  background-image: url('../img/custom-process/image-intro/2560x800/Intro_Custom_Process_2560x800.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -48,7 +48,7 @@
   align-items: center;
   }
   .custom-panel-contact {
-  background: linear-gradient( rgba(20, 20, 20, .9), rgba(20, 20, 20, .9)), url("src/img/custom-process/1-contact/1706x450/Contact_us_1706x450.jpg");
+  background: linear-gradient( rgba(20, 20, 20, .9), rgba(20, 20, 20, .9)), url("../img/custom-process/1-contact/1706x450/Contact_us_1706x450.jpg");
   background-position: center;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -68,7 +68,7 @@ div[aria-expanded=true] .custom-panel-contact {
 }
 
 .custom-panel-contact:hover {
-  background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("src/img/custom-process/1-contact/1706x450/Contact_us_1706x450.jpg");
+  background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("../img/custom-process/1-contact/1706x450/Contact_us_1706x450.jpg");
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -77,7 +77,7 @@ div[aria-expanded=true] .custom-panel-contact {
 }
 
 .custom-contact-on {
-  background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("src/img/custom-process/1-contact/1706x450/Contact_us_1706x450.jpg");
+  background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("../img/custom-process/1-contact/1706x450/Contact_us_1706x450.jpg");
   background-position: center;
   -webkit-background-size: cover !important;
   -moz-background-size: cover;
@@ -85,7 +85,7 @@ div[aria-expanded=true] .custom-panel-contact {
   background-size: cover;
 }
 .custom-panel-samples {
-background: linear-gradient( rgba(20, 20, 20, .9), rgba(20, 20, 20, .9)), url("src/img/custom-process/2-samples/1706x450/Samples_1706x450.jpg");
+background: linear-gradient( rgba(20, 20, 20, .9), rgba(20, 20, 20, .9)), url("../img/custom-process/2-samples/1706x450/Samples_1706x450.jpg");
 background-position: center;
 background-repeat: no-repeat;
 -webkit-background-size: cover;
@@ -105,7 +105,7 @@ background-position: center;
 }
 
 .custom-panel-samples:hover {
-background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("src/img/custom-process/2-samples/1706x450/Samples_1706x450.jpg");
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("../img/custom-process/2-samples/1706x450/Samples_1706x450.jpg");
 background-position: center;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -114,7 +114,7 @@ background-size: cover;
 }
 
 .custom-samples-on {
-background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("src/img/custom-process/2-samples/1706x450/Samples_1706x450.jpg");
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("../img/custom-process/2-samples/1706x450/Samples_1706x450.jpg");
 background-position: center;
 -webkit-background-size: cover !important;
 -moz-background-size: cover;
@@ -123,7 +123,7 @@ background-size: cover;
 }
 
 .custom-panel-design {
-background: linear-gradient( rgba(20, 20, 20, .9), rgba(20, 20, 20, .9)), url("src/img/custom-process/3-design/1706x450/Design_1706x450.jpg");
+background: linear-gradient( rgba(20, 20, 20, .9), rgba(20, 20, 20, .9)), url("../img/custom-process/3-design/1706x450/Design_1706x450.jpg");
 background-position: center;
 background-repeat: no-repeat;
 -webkit-background-size: cover;
@@ -143,7 +143,7 @@ background-position: center;
 }
 
 .custom-panel-design:hover {
-background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("src/img/custom-process/3-design/1706x450/Design_1706x450.jpg");
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("../img/custom-process/3-design/1706x450/Design_1706x450.jpg");
 background-position: center;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -152,7 +152,7 @@ background-size: cover;
 }
 
 .custom-design-on {
-background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("src/img/custom-process/3-design/1706x450/Design_1706x450.jpg");
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("../img/custom-process/3-design/1706x450/Design_1706x450.jpg");
 background-position: center;
 -webkit-background-size: cover !important;
 -moz-background-size: cover;
@@ -161,7 +161,7 @@ background-size: cover;
 }
 
 .custom-panel-artwork {
-background: linear-gradient( rgba(20, 20, 20, .9), rgba(20, 20, 20, .9)), url("src/img/custom-process/4-artwork/1706x450/Artwork_1706x450.jpg");
+background: linear-gradient( rgba(20, 20, 20, .9), rgba(20, 20, 20, .9)), url("../img/custom-process/4-artwork/1706x450/Artwork_1706x450.jpg");
 background-position: center;
 background-repeat: no-repeat;
 -webkit-background-size: cover;
@@ -181,7 +181,7 @@ background-position: center;
 }
 
 .custom-panel-artwork:hover {
-background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("src/img/custom-process/4-artwork/1706x450/Artwork_1706x450.jpg");
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("../img/custom-process/4-artwork/1706x450/Artwork_1706x450.jpg");
 background-position: center;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -190,7 +190,7 @@ background-size: cover;
 }
 
 .custom-artwork-on {
-background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("src/img/custom-process/4-artwork/1706x450/Artwork_1706x450.jpg");
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("../img/custom-process/4-artwork/1706x450/Artwork_1706x450.jpg");
 background-position: center;
 -webkit-background-size: cover !important;
 -moz-background-size: cover;
@@ -199,7 +199,7 @@ background-size: cover;
 }
 
 .custom-panel-ordering {
-background: linear-gradient( rgba(20, 20, 20, .9), rgba(20, 20, 20, .9)), url("src/img/custom-process/5-ordering/1706x450/Ordering_1706x450.jpg");
+background: linear-gradient( rgba(20, 20, 20, .9), rgba(20, 20, 20, .9)), url("../img/custom-process/5-ordering/1706x450/Ordering_1706x450.jpg");
 background-position: center;
 background-repeat: no-repeat;
 -webkit-background-size: cover;
@@ -219,7 +219,7 @@ background-position: center;
 }
 
 .custom-panel-ordering:hover {
-background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("src/img/custom-process/5-ordering/1706x450/Ordering_1706x450.jpg");
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("../img/custom-process/5-ordering/1706x450/Ordering_1706x450.jpg");
 background-position: center;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -228,7 +228,7 @@ background-size: cover;
 }
 
 .custom-ordering-on {
-background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("src/img/custom-process/5-ordering/1706x450/Ordering_1706x450.jpg");
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("../img/custom-process/5-ordering/1706x450/Ordering_1706x450.jpg");
 background-position: center;
 -webkit-background-size: cover !important;
 -moz-background-size: cover;
@@ -237,7 +237,7 @@ background-size: cover;
 }
 
 .custom-panel-production {
-background: linear-gradient( rgba(20, 20, 20, .9), rgba(20, 20, 20, .9)), url("src/img/custom-process/6-production/1706x450/Production_1706x450.jpg");
+background: linear-gradient( rgba(20, 20, 20, .9), rgba(20, 20, 20, .9)), url("../img/custom-process/6-production/1706x450/Production_1706x450.jpg");
 background-position: center;
 background-repeat: no-repeat;
 -webkit-background-size: cover;
@@ -257,7 +257,7 @@ background-position: center;
 }
 
 .custom-panel-production:hover {
-background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("src/img/custom-process/6-production/1706x450/Production_1706x450.jpg");
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("../img/custom-process/6-production/1706x450/Production_1706x450.jpg");
 background-position: center;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -266,7 +266,7 @@ background-size: cover;
 }
 
 .custom-production-on {
-background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("src/img/custom-process/6-production/1706x450/Production_1706x450.jpg");
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("../img/custom-process/6-production/1706x450/Production_1706x450.jpg");
 background-position: center;
 -webkit-background-size: cover !important;
 -moz-background-size: cover;
@@ -275,7 +275,7 @@ background-size: cover;
 }
 
 .custom-panel-delivery {
-background: linear-gradient( rgba(20, 20, 20, .9), rgba(20, 20, 20, .9)), url("src/img/custom-process/7-delivery/1706x450/Delivery_1706x450.jpg");
+background: linear-gradient( rgba(20, 20, 20, .9), rgba(20, 20, 20, .9)), url("../img/custom-process/7-delivery/1706x450/Delivery_1706x450.jpg");
 background-position: center;
 background-repeat: no-repeat;
 -webkit-background-size: cover;
@@ -295,7 +295,7 @@ background-position: center;
 }
 
 .custom-panel-delivery:hover {
-background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("src/img/custom-process/7-delivery/1706x450/Delivery_1706x450.jpg");
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("../img/custom-process/7-delivery/1706x450/Delivery_1706x450.jpg");
 background-position: center;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -304,7 +304,7 @@ background-size: cover;
 }
 
 .custom-delivery-on {
-background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("src/img/custom-process/7-delivery/1706x450/Delivery_1706x450.jpg");
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("../img/custom-process/7-delivery/1706x450/Delivery_1706x450.jpg");
 background-position: center;
 -webkit-background-size: cover !important;
 -moz-background-size: cover;
@@ -313,7 +313,7 @@ background-size: cover;
 }
 
 .custom-panel-payment {
-background: linear-gradient( rgba(20, 20, 20, .9), rgba(20, 20, 20, .9)), url("src/img/custom-process/8-payment/1706x450/Payment_1706x450.jpg");
+background: linear-gradient( rgba(20, 20, 20, .9), rgba(20, 20, 20, .9)), url("../img/custom-process/8-payment/1706x450/Payment_1706x450.jpg");
 background-position: center;
 background-repeat: no-repeat;
 -webkit-background-size: cover;
@@ -333,7 +333,7 @@ background-position: center;
 }
 
 .custom-panel-payment:hover {
-background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("src/img/custom-process/8-payment/1706x450/Payment_1706x450.jpg");
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("../img/custom-process/8-payment/1706x450/Payment_1706x450.jpg");
 background-position: center;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -342,7 +342,7 @@ background-size: cover;
 }
 
 .custom-payment-on {
-background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("src/img/custom-process/8-payment/1706x450/Payment_1706x450.jpg");
+background: linear-gradient( rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url("../img/custom-process/8-payment/1706x450/Payment_1706x450.jpg");
 background-position: center;
 -webkit-background-size: cover !important;
 -moz-background-size: cover;
@@ -376,7 +376,7 @@ background-size: cover;
     height: 320px;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url('src/img/custom-process/image-intro/400x320/Intro_Custom_Process_400x320.jpg');
+    background-image: url('../img/custom-process/image-intro/400x320/Intro_Custom_Process_400x320.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -401,7 +401,7 @@ background-size: cover;
     height: 640px;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url('src/img/custom-process/image-intro/800x640/Intro_Custom_Process_800x640.jpg');
+    background-image: url('../img/custom-process/image-intro/800x640/Intro_Custom_Process_800x640.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

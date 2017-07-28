@@ -54,6 +54,7 @@
 .jersey-title {
   font-style: italic;
   font-weight: bold;
+  font-family: 'TradeGothicLTS';
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 350px) {
   .custom-product-frame {
@@ -129,6 +130,8 @@
   margin-top: 0;
   margin-bottom: 0;
   font-family: Montserrat, sans-serif !important;
+  font-style: normal;
+  font-size: 1.1em;
 }
 
 .product-box-menu-title:hover {
@@ -247,6 +250,6 @@ li.active h1 {
         -o-transition: opacity 1s linear;
            transition: opacity 1s linear;
  }*/
-.tab-content>.tab-pane:not(.in) { 
+.tab-content>.tab-pane:not(.in) {
     height:0 !important;
   }

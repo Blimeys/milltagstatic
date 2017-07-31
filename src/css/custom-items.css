@@ -191,6 +191,7 @@ ul.product-box-menu-list li {
 .featured-product-box {
   margin-left: auto;
   margin-right: auto;
+  margin-top:10px;
   text-align: center;
 }
 

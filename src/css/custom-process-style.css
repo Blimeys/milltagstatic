@@ -22,7 +22,7 @@
 
 .custom-title-text {
   font-family: 'TradeGothicLTS' !important;
-  font-size: 2.6em;
+  font-size: 5.5em;
 }
 
 .custom-process-header-box {
@@ -30,14 +30,23 @@
 }
 
 .custom-process-header-box-text {
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 2em;
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
-  font-weight: 300;
   font-size: 1.3em;
+      font-weight: 300;
+      color: #FFFFFF;
+      margin-top: 2.3em;
+      margin-bottom: 2.3em;
+      text-align: center;
+      line-height: 1.7;
+
 }
+.open-close-arrow {
+  height: 30px;
+}
+.open-close-arrow img {
+  height: 30px;
+  width: auto;
+}
+
 .custom-panel-sizer{
   height: 450px;
   width: 100%;
@@ -351,7 +360,6 @@ background-size: cover;
 }
 .title-text {
   color: #FFFFFF;
-  font-size: 2.5em;
   border-style: none;
   font-family: 'TradeGothicLTS';
 }
@@ -363,12 +371,13 @@ background-size: cover;
 }
 
 .custom-text-box h4 {
-  font-family: Montserrat, sans-serif;
-  color: #FFFFFF;
-  text-align: center;
   font-size: 1.3em;
-  font-weight: 300;
-  font-style: normal;
+      font-weight: 300;
+      color: #FFFFFF;
+      margin-top: 2.3em;
+      margin-bottom: 2.3em;
+      text-align: center;
+      line-height: 1.7;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -383,7 +392,6 @@ background-size: cover;
     background-size: cover;
   }
   .title-text {
-    font-size: 1.5em;
   }
   .custom-panel-sizer{
     height: 200px;
@@ -408,7 +416,6 @@ background-size: cover;
     background-size: cover;
   }
   .title-text {
-    font-size: 1.5em;
   }
   .custom-panel-sizer{
     height: 200px;

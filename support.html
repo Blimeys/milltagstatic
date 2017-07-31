@@ -8,26 +8,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-	<script type="text/javascript">
-		(function() {
-			var path = '//easy.myfonts.net/v2/js?sid=291056(font-family=Rift+Bold)&sid=291058(font-family=Rift+Light)&sid=291059(font-family=Rift+Medium)&sid=291060(font-family=Rift+Regular)&key=ilxbwEhwQ4',
-				protocol = ('https:' == document.location.protocol ? 'https:' : 'http:'),
-				trial = document.createElement('script');
-			trial.type = 'text/javascript';
-			trial.async = true;
-			trial.src = protocol + path;
-			var head = document.getElementsByTagName("head")[0];
-			head.appendChild(trial);
-		})();
-	</script>
 
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="custom-scripts.js"></script>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="menu-style.css">
-	<link rel="stylesheet" type="text/css" href="footer-style.css">
-	<link rel="stylesheet" type="text/css" href="purchasing-style.css">
+	<link rel="stylesheet" type="text/css" href="src/css/style.css">
+	<link rel="stylesheet" type="text/css" href="src/css/menu-style.css">
+	<link rel="stylesheet" type="text/css" href="src/css/footer-style.css">
+	<link rel="stylesheet" type="text/css" href="src/css/purchasing-style.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600" rel="stylesheet">
 	<link rel="icon" type="image/png" href="favicon.png">
 	<link rel="stylesheet" href="slick/slick-theme.css" />
@@ -88,8 +76,8 @@
 
   <div class="container-fluid nopadding">
     <div class="row nopadding purchasing-main">
-      <div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 col-xl-8 col-xl-offset-2">
-        <h1>Purchasing & Payment</h1>
+      <div class="container">
+        <h1>PURCHASING & PAYMENT</h1>
 <br><br>
         Pricing: <p>Prices for Great Britain and Europe include VAT. All other prices are exclusive of local import duties and taxes which are levied once a shipment reaches your country.
 </p><br><br>
@@ -107,7 +95,7 @@
         All our jerseys are shipped via Royal Mail. We do not issue tracking numbers upon dispatch, but, if you don’t receive your item within 10 days, please contact us immediately and we promise to do all the chasing for you so you can go about your normal business.
 </p><br><br>
 
-        Returns
+        <h1>RETURNS</h1>
 <br><p>
         If for any reason you wish to exchange or return your item, we will be happy to swap (subject to stock) or provide a full refund including the cost of postage. Please be sure to return it unused and in its original packaging stating your request on a note.
 <br><br>
@@ -119,7 +107,7 @@
         <br>London
         <br>W10 5AD
 <br><br></p>
-        Repairs
+        <h1>REPAIRS</h1>
 <br><p>
         Should you find a fault with your Milltag product through normal use and it can be effectively repaired, then we will do so. Contact hello@milltag.cc and we’ll explain the process.
 
@@ -142,8 +130,9 @@
 		</div>
 	</div>
 	<!-- Footer Container center -->
+	<div class="container">
 	<div class="row">
-		<div class="col-md-6 col-md-offset-3">
+		<div class="col-md-12">
 
 			<!-- Bottom footer container -->
 			<div class="row footer-links-container">
@@ -151,17 +140,17 @@
 					<h1 class="footer-title">INFORMATION</h1>
 					<h2><a href="about.html" class="footer-links">About Us</a>
 <br><a href="#" class="footer-links">Distributors</a>
-<br><a href="privacy.html" class="footer-links">Privacy Policy</a>
-<br><a href="privacy.html" class="footer-links">Terms & Conditions</a>
-<br><a href="privacy.html" class="footer-links">Use of Cookies</a>
+<br><a href="legal.html" class="footer-links">Privacy Policy</a>
+<br><a href="legal.html" class="footer-links">Terms & Conditions</a>
+<br><a href="legal.html" class="footer-links">Use of Cookies</a>
 </h2>
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-6">
 					<h1 class="footer-title">SUPPORT</h1>
-					<h2><a href="purchasing.html" class="footer-links">Purchasing & Payment</a>
-<br><a href="purchasing.html" class="footer-links">Delivery</a>
-<br><a href="purchasing.html" class="footer-links">Returns</a>
-<br><a href="purchasing.html" class="footer-links">Repairs</a>
+					<h2><a href="support.html" class="footer-links">Purchasing & Payment</a>
+<br><a href="support.html" class="footer-links">Delivery</a>
+<br><a href="support.html" class="footer-links">Returns</a>
+<br><a href="support.html" class="footer-links">Repairs</a>
 <br><a href="#" class="footer-links">Sizing Guide</a>
 <br><a href="#" class="footer-links">FAQ's</a>
 <br><a href="contact.html" class="footer-links">Contact</a>
@@ -179,11 +168,11 @@
 				<div class="col-md-3 col-sm-6 col-xs-6">
 					<h1 class="footer-title">FOLLOW US</h1>
 					<ul class="social-media-bar">
-						<li class="social-media-icons"><a href="#"><span class="social-media-links fa fa-facebook-official" aria-hidden="true"></span></a></li><br class="media-spacer" /><br class="media-spacer" />
-						<li class="social-media-icons"><a href="#"><span class="social-media-links fa fa-twitter" aria-hidden="true"></span></a></li><br class="media-spacer" /><br class="media-spacer" />
-						<li class="social-media-icons"><a href="#"><span class="social-media-links fa fa-instagram" aria-hidden="true"></span></a></li><br class="media-spacer" /><br class="media-spacer" />
-						<li class="social-media-icons"><a href="#"><span class="social-media-links fa fa-vimeo" aria-hidden="true"></s	pan></a></li><br class="media-spacer" /><br class="media-spacer" />
-						<li class="social-media-icons"><a href="#"><span class="social-media-links fa fa-pinterest" aria-hidden="true"></span></a></li><br class="media-spacer" /><br class="media-spacer" />
+						<li class="social-media-icons"><a href="#"><span class="social-media-links fa fa-facebook-official" aria-hidden="true"></span></a></li>
+						<li class="social-media-icons"><a href="#"><span class="social-media-links fa fa-twitter" aria-hidden="true"></span></a></li>
+						<li class="social-media-icons"><a href="#"><span class="social-media-links fa fa-instagram" aria-hidden="true"></span></a></li>
+						<li class="social-media-icons"><a href="#"><span class="social-media-links fa fa-vimeo" aria-hidden="true"></s	pan></a></li>
+						<li class="social-media-icons"><a href="#"><span class="social-media-links fa fa-pinterest" aria-hidden="true"></span></a></li>
 					</ul>
 				</div>
 
@@ -199,3 +188,8 @@
 	</div>
 </div>
 </div>
+
+<!-- FOOTER ENDS -->
+
+</body>
+</html>

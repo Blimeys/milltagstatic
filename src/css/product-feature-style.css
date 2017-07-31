@@ -14,8 +14,8 @@ height: auto;
   height: 300px;
 }
 #main{
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 .product-description {
   margin-top: 4em;
@@ -104,8 +104,8 @@ height: auto;
     height: 300px;
   }
   #main{
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 60px;;
+    margin-bottom: 60px;;
   }
   .product-description {
 
@@ -116,7 +116,7 @@ height: auto;
     font-weight: bold;
     font-style: italic;
     margin-bottom: 0px;
-    font-size: 2em;
+    font-size: 3.5em;
   }
   .product-description p {
     font-size: 1em;
@@ -130,7 +130,7 @@ height: auto;
     font-weight: bold;
     font-style: italic;
     color: #E55815;
-    font-size: 1.4em;
+    font-size: 3em;
   }
   .icon-props {
 
@@ -140,12 +140,12 @@ height: auto;
     padding-right: 20px;
   }
   .single-icon img {
-    height: 30px;
+    height: 35px;
       display: block;
       margin: auto;
   }
   .single-icon p {
-    font-size: 0.6em;
+    font-size: 0.8em;
     text-align: left;
     font-family: 'TradeGothicLTS', sans-serif;
     font-weight: bold;

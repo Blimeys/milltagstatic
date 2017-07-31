@@ -177,9 +177,23 @@ $(function CustomPanelToggleOn() {
   });
 })
 
+$(function OpenCloseArrow(){
+  console.log('Click');
+  $(".open-close-arrow").click(function(){
+    if (($(this).children('img').attr('src')) === 'src/img/menu/Close.svg'){
+      $(this).children('img').attr('src', 'src/img/menu/Open.svg');
+      // $(this).children('img').attr('src') = 'src/img/menu/Open.svg'
+    } else {
+      $(this).children('img').attr('src', 'src/img/menu/Close.svg')
+    }
+
+})
+});
+
 $(document).on('ready', function() {
   SliderImageResize();
   CustomPanelToggleOn();
+  OpenCloseArrow();
 });
 $(window).on('resize', function() {
   if ($(window).width() >= 0 && $(window).width() <= screenSizesSlider.small) {

@@ -49,7 +49,6 @@
 }
 .custom-product-frame {
   background-color: #FFFFFF;
-
 }
 .jersey-title {
   font-style: italic;
@@ -59,7 +58,7 @@
 @media only screen and (min-device-width : 320px) and (max-device-width : 350px) {
   .custom-product-frame {
     background-color: #FFFFFF;
-    height:38em;
+    height:43em;
   }
   .single-item {
     width:110%;
@@ -69,6 +68,7 @@
 @media only screen and (min-device-width : 350px) and (max-device-width : 480px) {
   .custom-product-frame {
     background-color: #FFFFFF;
+    height:43em;
   }
   .single-item {
     width:60%;
@@ -78,7 +78,7 @@
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
   .custom-product-frame {
     background-color: #FFFFFF;
-    height:70em;
+    height:79em;
   }
   .single-item {
     width:60%;
@@ -94,13 +94,12 @@
 @media only screen and (min-device-width : 1025px) and (max-device-width : 1200px) {
   .custom-product-frame {
     background-color: #FFFFFF;
-    height:42em;
+
   }
 }
 @media only screen and (min-device-width : 1600px) and (max-device-width : 1800px) {
   .custom-product-frame {
     background-color: #FFFFFF;
-    height:50em;
   }
 }
 @media only screen and (min-device-width : 1800px) and (max-device-width : 2200px) {
@@ -196,6 +195,7 @@ ul.product-box-menu-list li {
 .featured-product-box {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 10px;
   text-align: center;
 }
 

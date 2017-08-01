@@ -49,7 +49,15 @@
 .menu-small {
   display: none;
 }
+.drop-style li{
+  display: flex;
+  width: 200px;
+  padding-top: 20px;
 
+}
+.drop-link {
+  text-align: center;
+}
 @media all and (max-width: 850px) {
   .main-menu {
     display: none;
@@ -102,8 +110,8 @@
 ul li ul {
   padding: 0;
   position: absolute;
-  top: 48px;
-  left: 0;
+  top: 20px;
+  left: 50px;
   width: 50px;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -111,11 +119,11 @@ ul li ul {
   display: none;
   opacity: 0;
   visibility: hidden;
-  -webkit-transiton: opacity 0.2s;
-  -moz-transition: opacity 0.2s;
-  -ms-transition: opacity 0.2s;
-  -o-transition: opacity 0.2s;
-  -transition: opacity 0.2s;
+  -webkit-transiton: opacity 4s;
+  -moz-transition: opacity 4s;
+  -ms-transition: opacity 4s;
+  -o-transition: opacity 4s;
+  -transition: opacity 4s;
 }
 ul li ul li {
   background: #000;
@@ -130,9 +138,16 @@ ul li:hover ul {
   visibility: visible;
   z-index: 20;
 }
+ul li ul:hover {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  z-index: 20;
+}
 .drop-style {
   width: 50px;
   background-color: #000;
-  padding-right: 20px;
+  padding-right: 10px;
   padding-left: 20px;
+  text-align: center;
 }

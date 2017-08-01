@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="format-detection" content="telephone=no">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="custom-scripts.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="src/css/style.css">
+  <link rel="stylesheet" type="text/css" href="src/css/sizing-style.css">
+  <link rel="stylesheet" type="text/css" href="src/css/menu-style.css">
+  <link rel="stylesheet" type="text/css" href="src/css/footer-style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600" rel="stylesheet">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="slick/slick-theme-custom-range.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css" integrity="sha256-2RdmDD1veq0y68SwASxtC7hKE+IBoBLjNLzKS59Ghsk=" crossorigin="anonymous" />
+  <title>Milltag</title>
+</head>
+
+<body>
+
+  <!-- HEADER START -->
+  <div class="container">
+    <div class="main-menu">
+      <div class="nopadding">
+        <div class="row nopadding">
+          <div class="col-md-12 col-centered">
+            <div class="row nopadding">
+              <div class="menu-format">
+                <div class="logo-holder">
+                  <a href="index.html"><img src="src/img/logo/milltag_logo.svg" class="menu-logo" /></a>
+                </div>
+                <div class="menu-mover">
+                  <ul>
+                    <li><a href="http://milltag.cc/shop?pa_gender=mens" class="menu-link">SHOP</a></li>
+                    <li><a href="custom.html" class="menu-link menu-highlight">CUSTOM</a>
+                      <ul class="drop-style">
+                        <li><a class="drop-link" href="custom-process.html">CUSTOM PROCESS</a></li>
+                        <li><a class="drop-link" href="custom.html">CUSTOM KIT</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#" class="menu-link">STUDIO</a></li>
+                    <li><a href="about.html" class="menu-link">ABOUT</a></li>
+                    <li><a href="http://milltag.cc/new" class="menu-link">NEWS</a></li>
+                    <li><a href="contact.html" class="menu-link">CONTACT</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="menu-small">
+    <div class="menu-header-container">
+      <div class="menu-button-container">
+        <img class="menu-small-button" id="toggleImg" data-toggle="collapse" data-target="#menu" src="src/img/menu/menu.svg" onclick="changeMenuIcon();" />
+      </div>
+      <a href="index.html"><img class="menu-small-logo" src="src/img/logo/milltag_logo.svg" /></a>
+    </div>
+    <div class="collapse menu-list-container" id="menu">
+      <ul class="menu-list-small">
+        <li class="menu-list-item-small"><a class="menu-link-small" href="http://milltag.cc/shop?pa_gender=mens">SHOP</a></li>
+        <li class="menu-list-item-small"><a class="menu-link-small" href="custom.html">CUSTOM</a></li>
+        <li class="menu-list-item-small"><a class="menu-link-small" href="#">STUDIO</a></li>
+        <li class="menu-list-item-small"><a class="menu-link-small" href="about.html">ABOUT</a></li>
+        <li class="menu-list-item-small"><a class="menu-link-small" href="http://milltag.cc/new">NEWS</a></li>
+        <li class="menu-list-item-small"><a class="menu-link-small" href="contact.html">CONTACT</a></li>
+      </ul>
+    </div>
+
+
+  </div>
+  <!-- HEADER ENDS -->
+  <div class="container-fluid white-container">
+    <div class="container col-centered white-container block-margin">
+      <div class="row">
+        <h5>SIZING <span class="title-highlight">GUIDE</span></h5>
+
+        <p>Use our guide below to work out your ideal garment size. If you are unsure of the sizing your require, contact us at hello@milltag.cc and we’ll help you choose the perfect size.
+        </p>
+        <h3>JERSEYS & JACKETS</h3>
+        <p>
+          Unless stated ‘Race Fit’, our jerseys are a standard ‘Club’ fit for most cyclists so  if you are usually a medium in a t-shirt then a medium jersey should be perfect for you, although obviously  a more snug fit for riding.
+        </p>
+        <img class="picture-responsive" src="src/img/sizing/Sizing-Jersey-1070x500.jpg">
+        <div class="row">
+          <div class="col-md-6 nopadding">
+            <div class="table-header">
+              MEN’S (CLUB FIT)
+            </div>
+            <table class="table-format-five">
+              <tr>
+                <th>SIZE</th>
+                <th>CHEST <span class="unbold"><br>(cm)</span></th>
+                <th>BACK LENGTH <span class="unbold"><br>(cm)</span></th>
+                <th>CHEST <span class="unbold"><br>(inches)</span></th>
+                <th>BACK LENGTH <span class="unbold">(inches)</span></th>
+              </tr>
+              <tr>
+                <th class="darken">XS</th>
+                <th class="darken unbold">88</th>
+                <th class="darken unbold">65</th>
+                <th class="darken unbold">35</th>
+                <th class="darken unbold">25.6</th>
+              </tr>
+              <tr>
+                <th>S</th>
+                <th class="unbold">93</th>
+                <th class="unbold">68</th>
+                <th class="unbold">37</th>
+                <th class="unbold">26.7</th>
+              </tr>
+              <tr>
+                <th class="darken">M</th>
+                <th class="darken unbold">98</th>
+                <th class="darken unbold">70</th>
+                <th class="darken unbold">39</th>
+                <th class="darken unbold">27.5</th>
+              </tr>
+              <tr>
+                <th>L</th>
+                <th class="unbold">103</th>
+                <th class="unbold">72</th>
+                <th class="unbold">41</th>
+                <th class="unbold">28.3</th>
+              </tr>
+              <tr>
+                <th class="darken">XL</th>
+                <th class="darken unbold">108</th>
+                <th class="darken unbold">74</th>
+                <th class="darken unbold">43</th>
+                <th class="darken unbold">29</th>
+              </tr>
+              <tr>
+                <th>XXL</th>
+                <th class="unbold">113</th>
+                <th class="unbold">76</th>
+                <th class="unbold">45</th>
+                <th class="unbold">30</th>
+              </tr>
+            </table>
+          </div>
+          <div class="col-md-6 nopadding">
+            <div class="table-header">
+              WOMEN’S (CLUB FIT)
+            </div>
+            <table class="table-format-five">
+              <tr>
+                <th>SIZE</th>
+                <th>CHEST <span class="unbold"><br>(cm)</span></th>
+                <th>BACK LENGTH <span class="unbold"><br>(cm)</span></th>
+                <th>CHEST <span class="unbold"><br>(inches)</span></th>
+                <th>BACK LENGTH <span class="unbold">(inches)</span></th>
+              </tr>
+              <tr>
+                <th class="darken">XS(6)</th>
+                <th class="darken unbold">82</th>
+                <th class="darken unbold">62</th>
+                <th class="darken unbold">32</th>
+                <th class="darken unbold">24.4</th>
+              </tr>
+              <tr>
+                <th>S(8)</th>
+                <th class="unbold">86</th>
+                <th class="unbold">64</th>
+                <th class="unbold">34</th>
+                <th class="unbold">25.2</th>
+              </tr>
+              <tr>
+                <th class="darken">M(10)</th>
+                <th class="darken unbold">90</th>
+                <th class="darken unbold">66</th>
+                <th class="darken unbold">35.5</th>
+                <th class="darken unbold">26</th>
+              </tr>
+              <tr>
+                <th>L(12)</th>
+                <th class="unbold">94</th>
+                <th class="unbold">68</th>
+                <th class="unbold">37</th>
+                <th class="unbold">26.7</th>
+              </tr>
+              <tr>
+                <th class="darken">XL(14)</th>
+                <th class="darken unbold">102</th>
+                <th class="darken unbold">73</th>
+                <th class="darken unbold">40</th>
+                <th class="darken unbold">28.7</th>
+              </tr>
+              <tr>
+                <th>XXL(16)</th>
+                <th class="unbold">113</th>
+                <th class="unbold">76</th>
+                <th class="unbold">45</th>
+                <th class="unbold">30</th>
+              </tr>
+            </table>
+          </div>
+
+
+          <div class="col-md-6 nopadding">
+            <div class="table-header">
+              MEN’S (PRO FIT)
+            </div>
+            <table class="table-format-five">
+              <tr>
+                <th>SIZE</th>
+                <th>CHEST <span class="unbold"><br>(cm)</span></th>
+                <th>BACK LENGTH <span class="unbold"><br>(cm)</span></th>
+                <th>CHEST <span class="unbold"><br>(inches)</span></th>
+                <th>BACK LENGTH <span class="unbold">(inches)</span></th>
+              </tr>
+              <tr>
+                <th class="darken">XS</th>
+                <th class="darken unbold">83</th>
+                <th class="darken unbold">57.5</th>
+                <th class="darken unbold">33</th>
+                <th class="darken unbold">22.7</th>
+              </tr>
+              <tr>
+                <th>S</th>
+                <th class="unbold">88</th>
+                <th class="unbold">59.5</th>
+                <th class="unbold">35</th>
+                <th class="unbold">23.5</th>
+              </tr>
+              <tr>
+                <th class="darken">M</th>
+                <th class="darken unbold">93</th>
+                <th class="darken unbold">61</th>
+                <th class="darken unbold">37</th>
+                <th class="darken unbold">24</th>
+              </tr>
+              <tr>
+                <th>L</th>
+                <th class="unbold">98</th>
+                <th class="unbold">63.5</th>
+                <th class="unbold">39</th>
+                <th class="unbold">25</th>
+              </tr>
+              <tr>
+                <th class="darken">XL</th>
+                <th class="darken unbold">103</th>
+                <th class="darken unbold">65</th>
+                <th class="darken unbold">41</th>
+                <th class="darken unbold">25.6</th>
+              </tr>
+              <tr>
+                <th>XXL</th>
+                <th class="unbold">108</th>
+                <th class="unbold">67</th>
+                <th class="unbold">43</th>
+                <th class="unbold">26.3</th>
+              </tr>
+            </table>
+          </div>
+          <div class="col-md-6 nopadding">
+            <div class="table-header">
+              WOMEN’S (PRO FIT)
+            </div>
+            <table class="table-format-five">
+              <tr>
+                <th>SIZE</th>
+                <th>CHEST <span class="unbold"><br>(cm)</span></th>
+                <th>BACK LENGTH <span class="unbold"><br>(cm)</span></th>
+                <th>CHEST <span class="unbold"><br>(inches)</span></th>
+                <th>BACK LENGTH <span class="unbold">(inches)</span></th>
+              </tr>
+              <tr>
+                <th class="darken">XS(6)</th>
+                <th class="darken unbold">78</th>
+                <th class="darken unbold">57.5</th>
+                <th class="darken unbold">30</th>
+                <th class="darken unbold">22.7</th>
+              </tr>
+              <tr>
+                <th>S(8)</th>
+                <th class="unbold">82</th>
+                <th class="unbold">59.5</th>
+                <th class="unbold">32</th>
+                <th class="unbold">23.5</th>
+              </tr>
+              <tr>
+                <th class="darken">M(10)</th>
+                <th class="darken unbold">86</th>
+                <th class="darken unbold">61</th>
+                <th class="darken unbold">34</th>
+                <th class="darken unbold">24</th>
+              </tr>
+              <tr>
+                <th>L(12)</th>
+                <th class="unbold">90</th>
+                <th class="unbold">63.5</th>
+                <th class="unbold">35.5</th>
+                <th class="unbold">25</th>
+              </tr>
+              <tr>
+                <th class="darken">XL(14)</th>
+                <th class="darken unbold">94</th>
+                <th class="darken unbold">65</th>
+                <th class="darken unbold">37</th>
+                <th class="darken unbold">25.6</th>
+              </tr>
+              <tr>
+                <th>XXL(16)</th>
+                <th class="unbold">98</th>
+                <th class="unbold">67</th>
+                <th class="unbold">38.5</th>
+                <th class="unbold">26.3</th>
+              </tr>
+            </table>
+          </div>
+
+        </div>
+        <h3>BIBS, SHORTS & TIGHTS</h3>
+        <p>
+          These are designed with stretch fabrics to fit snugly. Check your waist size with the guides.
+        </p>
+        <img class="picture-responsive" src="src/img/sizing/Sizing-Bibs-1070x700.jpg">
+
+        <div class="col-md-12 nopadding">
+          <div class="table-header">
+            MEN’S
+          </div>
+          <table class="table-format-seven">
+            <tr>
+              <th>SIZE</th>
+              <th>WAIST <span class="unbold"><br>(cm)</span></th>
+              <th>HIP <span class="unbold"><br>(cm)</span></th>
+              <th>INSIDE LEG <span class="unbold"><br>(cm)</span></th>
+              <th>WAIST <span class="unbold"><br>(inches)</span></th>
+              <th>HIP <span class="unbold">(inches)</span></th>
+              <th>INSIDE LEG <span class="unbold">(inches)</span></th>
+            </tr>
+            <tr>
+              <th class="darken">XS</th>
+              <th class="darken unbold">76</th>
+              <th class="darken unbold">95</th>
+              <th class="darken unbold">81</th>
+              <th class="darken unbold">30</th>
+              <th class="darken unbold">37.5</th>
+              <th class="darken unbold">32</th>
+            </tr>
+            <tr>
+              <th>S</th>
+              <th class="unbold">81</th>
+              <th class="unbold">99</th>
+              <th class="unbold">83</th>
+              <th class="unbold">32</th>
+              <th class="unbold">39</th>
+              <th class="unbold">33</th>
+            </tr>
+            <tr>
+              <th class="darken">M</th>
+              <th class="darken unbold">86</th>
+              <th class="darken unbold">103</th>
+              <th class="darken unbold">85</th>
+              <th class="darken unbold">34</th>
+              <th class="darken unbold">40.5</th>
+              <th class="darken unbold">34</th>
+            </tr>
+            <tr>
+              <th>L</th>
+              <th class="unbold">91</th>
+              <th class="unbold">107</th>
+              <th class="unbold">87</th>
+              <th class="unbold">36</th>
+              <th class="unbold">42</th>
+              <th class="unbold">35</th>
+            </tr>
+            <tr>
+              <th class="darken">XL</th>
+              <th class="darken unbold">96</th>
+              <th class="darken unbold">111</th>
+              <th class="darken unbold">89</th>
+              <th class="darken unbold">38</th>
+              <th class="darken unbold">43.5</th>
+              <th class="darken unbold">36</th>
+            </tr>
+            <tr>
+              <th>XXL</th>
+              <th class="unbold">101</th>
+              <th class="unbold">115</th>
+              <th class="unbold">91</th>
+              <th class="unbold">40</th>
+              <th class="unbold">45</th>
+              <th class="unbold">37</th>
+            </tr>
+          </table>
+        </div>
+
+        <div class="col-md-12 nopadding">
+          <div class="table-header">
+            WOMEN’S
+          </div>
+          <table class="table-format-seven">
+            <tr>
+              <th>SIZE</th>
+              <th>WAIST <span class="unbold"><br>(cm)</span></th>
+              <th>HIP <span class="unbold"><br>(cm)</span></th>
+              <th>INSIDE LEG <span class="unbold"><br>(cm)</span></th>
+              <th>WAIST <span class="unbold"><br>(inches)</span></th>
+              <th>HIP <span class="unbold">(inches)</span></th>
+              <th>INSIDE LEG <span class="unbold">(inches)</span></th>
+            </tr>
+            <tr>
+              <th class="darken">XS(6)</th>
+              <th class="darken unbold">64</th>
+              <th class="darken unbold">88</th>
+              <th class="darken unbold">76</th>
+              <th class="darken unbold">25</th>
+              <th class="darken unbold">34.5</th>
+              <th class="darken unbold">29.5</th>
+            </tr>
+            <tr>
+              <th>S(8)</th>
+              <th class="unbold">69</th>
+              <th class="unbold">92</th>
+              <th class="unbold">78</th>
+              <th class="unbold">27</th>
+              <th class="unbold">36</th>
+              <th class="unbold">30.5</th>
+            </tr>
+            <tr>
+              <th class="darken">M(10)</th>
+              <th class="darken unbold">74</th>
+              <th class="darken unbold">96</th>
+              <th class="darken unbold">80</th>
+              <th class="darken unbold">29</th>
+              <th class="darken unbold">37.5</th>
+              <th class="darken unbold">31.5</th>
+            </tr>
+            <tr>
+              <th>L(12)</th>
+              <th class="unbold">79</th>
+              <th class="unbold">100</th>
+              <th class="unbold">83</th>
+              <th class="unbold">31</th>
+              <th class="unbold">39.5</th>
+              <th class="unbold">32.5</th>
+            </tr>
+            <tr>
+              <th class="darken">XL(14)</th>
+              <th class="darken unbold">83</th>
+              <th class="darken unbold">104</th>
+              <th class="darken unbold">84</th>
+              <th class="darken unbold">33</th>
+              <th class="darken unbold">41</th>
+              <th class="darken unbold">33</th>
+            </tr>
+            <tr>
+              <th>XXL(16)</th>
+              <th class="unbold">87</th>
+              <th class="unbold">108</th>
+              <th class="unbold">85</th>
+              <th class="unbold">35</th>
+              <th class="unbold">42.5</th>
+              <th class="unbold">33.5</th>
+            </tr>
+          </table>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- FOOTER STARTS -->
+  <div class="footer-container">
+		<div class="container-fluid nopadding">
+			<div class="row join-milltag-box">
+				<div class="join-milltag-list">
+					<label><h3 class="join-footer-text">JOIN THE MILLTAG COMMUNITY</h3></label>
+					<input type="email" class="milltag-join-email" placeholder="Your email address">
+					<button type="submit" class="milltag-join-button">JOIN</button>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<!-- Footer Container center -->
+	<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+
+			<!-- Bottom footer container -->
+			<div class="row footer-links-container">
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<h1 class="footer-title">INFORMATION</h1>
+					<h2><a href="about.html" class="footer-links">About Us</a>
+<br><a href="#" class="footer-links">Distributors</a>
+<br><a href="legal.html" class="footer-links">Privacy Policy</a>
+<br><a href="legal.html" class="footer-links">Terms & Conditions</a>
+<br><a href="legal.html" class="footer-links">Use of Cookies</a>
+</h2>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<h1 class="footer-title">SUPPORT</h1>
+					<h2><a href="support.html" class="footer-links">Purchasing & Payment</a>
+<br><a href="support.html" class="footer-links">Delivery</a>
+<br><a href="support.html" class="footer-links">Returns</a>
+<br><a href="support.html" class="footer-links">Repairs</a>
+<br><a href="sizing-guide.html" class="footer-links">Sizing Guide</a>
+<br><a href="#" class="footer-links">FAQ's</a>
+<br><a href="contact.html" class="footer-links">Contact</a>
+</h2>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<h1 class="footer-title">CONTACT US</h1>
+					<h2 class="address-link">+44 (0)20 71383592
+<br>info@milttag.cc
+<br>220 Grand Union Studios
+<br>332 Ladbroke Grove
+<br>London W10 5AH
+</h2>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<h1 class="footer-title">FOLLOW US</h1>
+					<ul class="social-media-bar">
+						<li class="social-media-icons"><a href="#"><span class="social-media-links fa fa-facebook-official" aria-hidden="true"></span></a></li>
+						<li class="social-media-icons"><a href="#"><span class="social-media-links fa fa-twitter" aria-hidden="true"></span></a></li>
+						<li class="social-media-icons"><a href="#"><span class="social-media-links fa fa-instagram" aria-hidden="true"></span></a></li>
+						<li class="social-media-icons"><a href="#"><span class="social-media-links fa fa-vimeo" aria-hidden="true"></s	pan></a></li>
+						<li class="social-media-icons"><a href="#"><span class="social-media-links fa fa-pinterest" aria-hidden="true"></span></a></li>
+					</ul>
+				</div>
+
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="copyright-link">
+						<h2 class="copyright-text">© 2017 Milltag, All rights reserved.</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+  <!-- FOOTER ENDS -->
+</body>
+
+</html>

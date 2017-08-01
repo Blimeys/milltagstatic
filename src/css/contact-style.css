@@ -2,6 +2,10 @@
  height: 800px;
  width: 100%;
 }
+#map-distro {
+  height: 600px;
+  width: 100%;
+}
 input, textarea {
   border-style: solid;
   border-color: #888B8D;
@@ -53,4 +57,10 @@ input:focus, textarea:focus {
     width: 18em;
     height: 15em;
   }
+}
+.partners {
+  text-align: center;
+}
+.partners h6 {
+  font-weight: bold;
 }

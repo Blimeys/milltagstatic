@@ -107,10 +107,20 @@
     padding: 15px 0px;
   }
 }
-.drop-style {
-  width: 50px;
+.sub-menu {
   background-color: #000;
-  padding-right: 10px;
-  padding-left: 20px;
-  text-align: center;
+  height:150px;
+  width: 100%;
+  z-index: 200;
+  position: absolute;
+  opacity: 0.9;
 }
+.sub-menu-background{
+
+}
+/*.sub-menu:hover {
+  display: block;
+}
+.custom-links:hover + .sub-menu{
+  display: block;
+}*/

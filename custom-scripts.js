@@ -189,11 +189,24 @@ $(function OpenCloseArrow(){
 
 })
 });
-
+$(function subMenuControls() {
+  $("#menu").hover(function(){
+    console.log("hover");
+      $('.more-menu').removeClass('hidden');
+  });
+  $('.more-menu').hover(function(){
+    $(this).removeClass('hidden');
+  },
+  function(){
+    $(this).addClass('hidden')
+  }
+  )
+})
 $(document).on('ready', function() {
   SliderImageResize();
   CustomPanelToggleOn();
   OpenCloseArrow();
+  subMenuControls()
 });
 $(window).on('resize', function() {
   if ($(window).width() >= 0 && $(window).width() <= screenSizesSlider.small) {

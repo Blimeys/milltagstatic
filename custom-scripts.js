@@ -192,13 +192,21 @@ $(function OpenCloseArrow(){
 $(function subMenuControls() {
   $("#menu").hover(function(){
     console.log("hover");
+      $('.extra-menu').removeClass('hidden');
       $('.more-menu').removeClass('hidden');
-  });
-  $('.more-menu').hover(function(){
-    $(this).removeClass('hidden');
   },
   function(){
-    $(this).addClass('hidden')
+  $('.extra-menu').addClass('hidden');
+  $('.more-menu').addClass('hidden');
+}
+);
+  $('.extra-menu').hover(function(){
+    $(this).removeClass('hidden');
+    $('.more-menu').removeClass('hidden');
+  },
+  function(){
+    $(this).addClass('hidden');
+    $('.more-menu').addClass('hidden');
   }
   )
 })

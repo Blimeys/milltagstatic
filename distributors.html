@@ -97,6 +97,7 @@
               Emporium
               <br> shop.cyclingtips.com
             </p>
+            <br>
           </div>
           <div class="col-md-3 partners">
             <h6>COLOMBIA</h6>
@@ -104,6 +105,7 @@
               Velo Colombia
               <br> santiago.fernandez@gmail.com
             </p>
+            <br>
           </div>
           <div class="col-md-3 partners">
             <h6>INDONESIA, MALAYSIA, SINGAPORE</h6>
@@ -111,6 +113,7 @@
               Spin Warriors
               <br> tjandra@spinwarriors.com
             </p>
+            <br>
           </div>
           <div class="col-md-3 partners">
             <h6>THAILAND</h6>
@@ -118,9 +121,11 @@
               Fash on Frame
               <br> fashonframe@outlook.com
             </p>
+            <br>
           </div>
           </div>
           <div class="row">
+
             <div class="col-md-3 partners">
               <h6>USA - NORTH & WEST</h6>
               <p>
@@ -221,23 +226,47 @@
   <script>
     function initMap() {
       var milltag = {
-        lat: 51.5253657,
-        lng: -0.2144575
+        lat: 40.708434,
+        lng: -73.998639
       };
       var locations = [
         ['Australia', -37.831257, 144.949213],
         ['Colombia', 4.695163, -74.072113],
         ['Indonesia', 2.518192, 119.644571],
         ['Thailand', 13.705680, 100.507805],
-        ['USA', 40.708434, -73.998639],
-        ['UK', 51.5253657, -0.2144575]
+        ['USA', 40.708434, -73.998639]
       ];
       var map = new google.maps.Map(document.getElementById('map-distro'), {
-        zoom: 2,
+        zoom: 3,
         center: new google.maps.LatLng(milltag),
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         scrollwheel: false,
-        disableDefaultUI: true
+        disableDefaultUI: false,
+        styles: [
+  {
+    "elementType": "geometry.fill",
+    "stylers": [
+      {
+        "saturation": -60
+      },
+      {
+        "lightness": 45
+      }
+    ]
+  },
+  {
+    "featureType": "landscape.man_made",
+    "elementType": "geometry.fill",
+    "stylers": [
+      {
+        "saturation": -10
+      },
+      {
+        "lightness": 10
+      }
+    ]
+  }
+]
       });
       var icon = {
         url: "Milltag_Logo_Mountain_RGB_small.png", // url

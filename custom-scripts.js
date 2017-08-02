@@ -180,11 +180,11 @@ $(function CustomPanelToggleOn() {
 $(function OpenCloseArrow(){
   console.log('Click');
   $(".open-close-arrow").click(function(){
-    if (($(this).children('img').attr('src')) === 'src/img/menu/Close.svg'){
-      $(this).children('img').attr('src', 'src/img/menu/Open.svg');
+    if (($(this).children('img').attr('src')) === 'src/img/menu/Close-01.png'){
+      $(this).children('img').attr('src', 'src/img/menu/Open-01.png');
       // $(this).children('img').attr('src') = 'src/img/menu/Open.svg'
     } else {
-      $(this).children('img').attr('src', 'src/img/menu/Close.svg')
+      $(this).children('img').attr('src', 'src/img/menu/Close-01.png')
     }
 
 })

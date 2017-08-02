@@ -8,7 +8,7 @@ h3 {
   font-weight: bold;
 }
 h5 {
-  font-size: 2em;
+  font-size: 3.5em;
 }
 .table-format-five tr th {
   text-align: center;
@@ -49,4 +49,11 @@ font-weight: normal;
   border-style: solid;
   border-color: #ffffff;
 
+}
+p {
+  font-size: 1.3em;
+  line-height: 1.7;
+}
+img {
+  margin-top: 20px;
 }

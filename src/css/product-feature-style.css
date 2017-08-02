@@ -29,6 +29,7 @@ height: auto;
 }
 .product-description p {
   font-size: 1em;
+  font-weight: 300;
 }
 .intro {
   font-weight: bold;
@@ -49,12 +50,12 @@ height: auto;
   padding-right: 20px;
 }
 .single-icon img {
-  height: 30px;
+  height: 42px;
     display: block;
     margin: auto;
 }
 .single-icon p {
-  font-size: 0.6em;
+  font-size: 1em;
   text-align: left;
   font-family: 'TradeGothicLTS', sans-serif;
   font-weight: bold;

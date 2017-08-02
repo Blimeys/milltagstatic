@@ -37,9 +37,6 @@
    -o-background-size: cover;
    background-size: cover;
  }
-.about-header-text h4{
-  font-size: 5.5em;
-}
  .about-header-content {
    font-size: 1.3em;
    font-weight: 300;
@@ -110,7 +107,7 @@ margin-bottom: 4em;
    height: auto;
  }
 .portrait-name{
-  font-size: 1.2em;
+  font-size: 1em;
   font-family: Montserrat, sans-serif;
   font-weight: 400;
 }

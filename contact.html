@@ -234,24 +234,44 @@
         lat: 51.5253657,
         lng: -0.2144575
       };
-      var style = [
-{ "elementType": "geometry", "stylers": [
-{ "saturation": -100 }
-]
-}
-];
+
       var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 15,
         center: milltag,
         scrollwheel: false,
-        disableDefaultUI: true,
+        disableDefaultUI: false,
+        styles: [
+    {
+      "elementType": "geometry.fill",
+      "stylers": [
+        {
+          "saturation": -60
+        },
+        {
+          "lightness": 45
+        }
+      ]
+    },
+    {
+      "featureType": "landscape.man_made",
+      "elementType": "geometry.fill",
+      "stylers": [
+        {
+          "saturation": -10
+        },
+        {
+          "lightness": 10
+        }
+      ]
+    }
+  ]
 
       });
       var marker = new google.maps.Marker({
         position: milltag,
         map: map,
         icon: 'Milltag_Logo_Mountain_RGB_small.png',
-        style : style
+
       });
     }
   </script>

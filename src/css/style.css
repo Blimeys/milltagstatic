@@ -96,3 +96,22 @@ h5 {
   margin-top: 2.3em;
   margin-bottom: 2.3em;
 }
+.header-title {
+  font-size: 5.5em;
+}
+
+@media all and (max-width: 400px) {
+  .header-title {
+    font-size: 2em;
+  }
+}
+@media all and (max-width: 660px) {
+  .header-title {
+    font-size: 3em;
+  }
+}
+@media all and (max-width: 980px) {
+  .header-title {
+    font-size: 2em;
+  }
+}

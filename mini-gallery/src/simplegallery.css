@@ -79,13 +79,13 @@
 }
 .right-arrow {
   right: 1%;
-  top: 35%;
+  top: 50%;
   z-index: 10;
         transform: translateX(-50%) translateY(-50%);
 }
 .left-arrow {
   left: 1%;
-  top: 35%;
+  top: 50%;
     z-index: 10;
           transform: translateX(-50%) translateY(-50%);
 }

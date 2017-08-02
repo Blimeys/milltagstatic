@@ -55,6 +55,9 @@
   font-style: italic;
   font-weight: bold;
   font-family: 'TradeGothicLTS';
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 350px) {
   .custom-product-frame {

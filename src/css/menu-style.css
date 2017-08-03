@@ -132,3 +132,6 @@
 .custom-links:hover + .sub-menu{
   display: block;
 }*/
+.extra-menu a {
+ line-height: 1.8em;
+}

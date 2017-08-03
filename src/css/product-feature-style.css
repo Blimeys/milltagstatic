@@ -24,7 +24,7 @@ height: auto;
   font-family: 'TradeGothicLTS', sans-serif;
   font-weight: bold;
   font-style: italic;
-  margin-bottom: 0px;
+  margin-bottom: 15px;
   font-size: 2em;
 }
 .product-description p {
@@ -116,7 +116,7 @@ height: auto;
     font-family: 'TradeGothicLTS', sans-serif;
     font-weight: bold;
     font-style: italic;
-    margin-bottom: 0px;
+    margin-bottom: 15px;
     font-size: 3.5em;
   }
   .product-description p {

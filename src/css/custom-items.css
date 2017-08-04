@@ -55,9 +55,12 @@
   font-style: italic;
   font-weight: bold;
   font-family: 'TradeGothicLTS';
-  margin-top: 20px;
+  margin-top: 5px;
   margin-bottom: 20px;
   font-size: 18px;
+}
+.custom-all-box-title{
+  margin-bottom: 60px !important;
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 350px) {
   .custom-product-frame {

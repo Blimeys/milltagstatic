@@ -1,3 +1,10 @@
+:root {
+  --title-size-mobile: 2em;
+  --title-size-tablets: 4em;
+  --title-size-dekstop: 3.5em;
+}
+
+
 @font-face {
   font-family: 'TradeGothicLTS';
   src: url('../fonts/TradeGothicLTS.woff') format('woff')
@@ -44,7 +51,7 @@ button:focus {outline:0;}
    font-size: 1.5em;
    text-align: left;
    font-family: 'TradeGothicLTS';
-   font-style: italic;
+   font-style: none !important;
  }
 
  h2 {
@@ -58,14 +65,14 @@ button:focus {outline:0;}
  h4 {
    font-size: 6em;
    font-family: 'TradeGothicLTS';
-   font-style: italic;
+   font-style: none !important;
    color: #FFFFFF;
  }
 h5 {
   font-size: 1.5em;
   text-align: left;
   font-family: 'TradeGothicLTS';
-  font-style: italic;
+  font-style: none !important;
   color: #000000;
 }
  .nopadding {
@@ -114,4 +121,23 @@ h5 {
   .header-title {
     font-size: 2em;
   }
+}
+
+/*responsive titles*/
+.primary-title {
+    font-size: var(--title-size-dekstop);
+    text-align: center;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .primary-title {
+    font-size: var(--title-size-mobile);
+  }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .primary-title {
+    font-size: var(--title-size-tablets);
+  }
+}
+@media only screen and (min-device-width : 1025px) and (max-device-width : 1500px) {
+
 }

@@ -51,7 +51,7 @@
   background-color: #FFFFFF;
 }
 .jersey-title {
-  font-style: italic;
+  font-style: none;
   font-weight: bold;
   font-family: 'TradeGothicLTS';
 }
@@ -124,8 +124,7 @@
   color: #000000;
   text-align: center;
   margin-top: .5em;
-  font-size: 4em;
-  font-size: 3.5em;
+  font-size: 2em;
 }
 
 .product-box-menu-title {
@@ -232,7 +231,7 @@ li.active h1 {
   .custom-page-header-content {
     position: absolute;
     top: 50%;
-    left: 25%;
+    left: 40%;
     transform: translateX(-50%) translateY(-50%);
   }
   .custom-header-title {
@@ -267,4 +266,17 @@ li.active h1 {
   }
 .product-container {
   height: 500px;
+}
+
+@media only screen and (min-device-width : 1025px) and (max-device-width : 1500px) {
+  .custom-page-header {
+    height: 640px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url('../img/custom-page/image-intro/2560x800/Intro_Custom_2560x800.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 }

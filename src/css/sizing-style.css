@@ -18,6 +18,9 @@ h5 {
   width: 20%;
   height: 40px;
 }
+.table-format-seven {
+  overflow: hidden;
+}
 .table-format-seven tr th {
   text-align: center;
   border-left: 5px;
@@ -56,4 +59,8 @@ p {
 }
 img {
   margin-top: 20px;
+}
+.sizing-charts {
+  display:block;
+  margin: 0 auto;
 }

@@ -106,7 +106,7 @@
 
 @media all and (max-width: 980px) {
   .slider-text-titles {
-    font-size: 1.5em;
+    font-size: 2em;
   }
   .slick-next {
     visibility: hidden;
@@ -128,7 +128,7 @@
   .text-overlay-right {
     position: absolute;
     /*top: 35%;*/
-    left: 65%;
+    left: 55%;
   }
 }
 

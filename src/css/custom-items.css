@@ -52,7 +52,7 @@
 
 }
 .jersey-title {
-  font-style: italic;
+  font-style: none;
   font-weight: bold;
   font-family: 'TradeGothicLTS';
   margin-top: 5px;

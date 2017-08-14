@@ -57,10 +57,37 @@ p {
   font-size: 1.3em;
   line-height: 1.7;
 }
-img {
+.sizing-charts {
   margin-top: 20px;
 }
 .sizing-charts {
   display:block;
   margin: 0 auto;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  /*.table-header {
+    width: 104%;
+  }*/
+  .table-format-seven {
+    font-size: 10px;
+  }
+  .table-format-seven tr th {
+    text-align: center;
+    border-left: none;
+    border-style: solid;
+    border-color: #ffffff;
+    width: auto;
+    height: auto;
+  }
+  .table-format-five {
+    font-size: 10px;
+  }
+  .table-format-five tr th {
+    text-align: center;
+    border-left: none;
+    border-style: solid;
+    border-color: #ffffff;
+    width: auto;
+    height: auto;
+  }
 }

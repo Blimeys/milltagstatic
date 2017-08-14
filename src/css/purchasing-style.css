@@ -1,14 +1,13 @@
 .purchasing-main p {
-  font-weight: 300;
+	font-weight: 300;
 }
 .purchasing-main h1 {
-     font-family: 'TradeGothicLTS';
-     font-style: italic;
-     font-size: 3.5em;
-     color: #000000;
+	font-family: 'TradeGothicLTS';
+	font-size: 3.5em;
+	color: #000000;
 }
 .purchasing-main {
-  background-color: #FFFFFF;
-  padding-top: 5em !important;
-  padding-bottom: 5em !important;
+	background-color: #ffffff;
+	padding-top: 5em !important;
+	padding-bottom: 5em !important;
 }

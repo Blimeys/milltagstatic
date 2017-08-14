@@ -30,14 +30,6 @@
   background-color: #000000;
 }
 
-.custom-process-header-box-text {
-  font-size: 1.3em;
-      font-weight: 300;
-      color: #FFFFFF;
-      margin-top: 2.3em;
-      margin-bottom: 2.3em;
-      text-align: center;
-      line-height: 1.7;
 
 }
 .open-close-arrow {
@@ -379,13 +371,9 @@ background-size: cover;
 }
 
 .custom-text-box p {
-  font-size: 1.3em;
-  font-weight: 300;
-  color: #FFFFFF;
-  margin-top: 2.3em;
-  margin-bottom: 2.3em;
+
   text-align: center;
-  line-height: 1.7;
+
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {

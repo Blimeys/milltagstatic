@@ -56,7 +56,6 @@
                       <a href="faq.html" class="menu-link">FAQ's</a>
                     </div>
                     </li>
-                    <li><a href="#" class="menu-link">STUDIO</a></li>
                     <li><a href="about.html" class="menu-link">ABOUT</a></li>
                     <li><a href="http://milltag.cc/new" class="menu-link">NEWS</a></li>
                     <li><a href="contact.html" class="menu-link menu-highlight">CONTACT</a></li>
@@ -88,7 +87,6 @@
       <ul class="menu-list-small">
         <li class="menu-list-item-small"><a class="menu-link-small" href="http://milltag.cc/shop?pa_gender=mens">SHOP</a></li>
         <li class="menu-list-item-small"><a class="menu-link-small" href="custom.html">CUSTOM</a></li>
-        <li class="menu-list-item-small"><a class="menu-link-small" href="#">STUDIO</a></li>
         <li class="menu-list-item-small"><a class="menu-link-small" href="about.html">ABOUT</a></li>
         <li class="menu-list-item-small"><a class="menu-link-small" href="http://milltag.cc/new">NEWS</a></li>
         <li class="menu-list-item-small"><a class="menu-link-small" href="contact.html">CONTACT</a></li>
@@ -238,61 +236,59 @@
   <!-- FOOTER ENDS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js" integrity="sha256-Qw84Sw/EltllDHR8ykWKfq4GJTDHGKp6iW2ZAx+7ro0=" crossorigin="anonymous"></script>
   <script type="text/javascript">
-    $(document).ready(function() {
-      initSlider();
-    });
-  </script>
+  $(document).ready(function() {
+	initSlider();
+});
+</script>
   <script>
-    function initMap() {
-      var milltag = {
-        lat: 51.5253657,
-        lng: -0.2144575
-      };
+  function initMap() {
+	var milltag = {
+		lat: 51.5253657,
+		lng: -0.2144575
+	};
 
-      var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 15,
-        center: milltag,
-        scrollwheel: false,
-        disableDefaultUI: false,
-        styles: [
-    {
-      "elementType": "geometry.fill",
-      "stylers": [
-        {
-          "saturation": -60
-        },
-        {
-          "lightness": 45
-        }
-      ]
-    },
-    {
-      "featureType": "landscape.man_made",
-      "elementType": "geometry.fill",
-      "stylers": [
-        {
-          "saturation": -10
-        },
-        {
-          "lightness": 10
-        }
-      ]
-    }
-  ]
-
-      });
-      var icon = {
-        url: 'Milltag_Logo_Mountain_RGB.svg', // url
-scaledSize: new google.maps.Size(75, 75), // scaled size
-      }
-      var marker = new google.maps.Marker({
-        position: milltag,
-        map: map,
-        icon: icon
-
-      });
-    }
-  </script>
+	var map = new google.maps.Map(document.getElementById('map'), {
+		zoom: 15,
+		center: milltag,
+		scrollwheel: false,
+		disableDefaultUI: false,
+		styles: [
+			{
+				elementType: 'geometry.fill',
+				stylers: [
+					{
+						saturation: -60
+					},
+					{
+						lightness: 45
+					}
+				]
+			},
+			{
+				featureType: 'landscape.man_made',
+				elementType: 'geometry.fill',
+				stylers: [
+					{
+						saturation: -10
+					},
+					{
+						lightness: 10
+					}
+				]
+			}
+		]
+	});
+	var icon = {
+		url: 'Milltag_Logo_Mountain_RGB.svg', // url
+		scaledSize: new google.maps.Size(75, 75) // scaled size
+	};
+	var marker = new google.maps.Marker({
+		position: milltag,
+		map: map,
+		icon: icon
+	});
+}
+</script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCzqbisTg3D6Lg2PSk9d9Tz8x-GJCuh1bA&callback=initMap">
   </script>
 </body>

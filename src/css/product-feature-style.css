@@ -1,178 +1,169 @@
 .white-feature {
-background-color: #FFFFFF;
-height: auto;
+	background-color: #ffffff;
+	height: auto;
 }
 .white-feature h1 {
-  color: #000000;
+	color: #000000;
 }
 .white-feature p {
-  color: #000000;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1em;
+	color: #000000;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
 }
-.gall-content img{
-  height: 300px;
+.gall-content img {
+	height: 300px;
 }
-#main{
-  margin-top: 60px;
-  margin-bottom: 60px;
+#main {
+	margin-top: 60px;
+	margin-bottom: 60px;
 }
 .product-description {
-  margin-top: 4em;
+	margin-top: 4em;
 }
 .product-description h5 {
-  font-family: 'TradeGothicLTS', sans-serif;
-  font-weight: bold;
-  font-style: italic;
-  margin-bottom: -3px;
-  font-size: 2em;
+	font-family: 'TradeGothicLTS', sans-serif;
+	font-weight: bold;
+	margin-bottom: -3px;
+	font-size: 2em;
 }
 .product-description p {
-  font-size: 1em;
-  font-weight: 300;
+	font-size: 1em;
+	font-weight: 300;
 }
 .intro {
-  font-weight: bold;
+	font-weight: bold;
 }
 .price {
-  text-align: left;
-  font-family: 'TradeGothicLTS', sans-serif;
-  font-weight: bold;
-  font-style: italic;
-  color: #E55815;
-  font-size: 1.4em;
+	text-align: left;
+	font-family: 'TradeGothicLTS', sans-serif;
+	font-weight: bold;
+	color: #e55815;
+	font-size: 1.4em;
 }
 .icon-props {
-
 }
 .single-icon {
-  float: left;
-  padding-right: 20px;
+	float: left;
+	padding-right: 20px;
 }
 .single-icon img {
-  height: 42px;
-    display: block;
-    margin: auto;
+	height: 42px;
+	display: block;
+	margin: auto;
 }
 .single-icon p {
-  font-size: 1em;
-  text-align: left;
-  font-family: 'TradeGothicLTS', sans-serif;
-  font-weight: bold;
-  font-style: italic;
-  text-align: center;
-  margin-top: 5px;
+	font-size: 1em;
+	text-align: left;
+	font-family: 'TradeGothicLTS', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 5px;
 }
 
 .view-product {
-  font-size: .75em;
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  border: 2px solid;
-  border-color: #000000;
-  color: #000000;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  margin-bottom: 20px;
+	font-size: .75em;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border: 2px solid;
+	border-color: #000000;
+	color: #000000;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	margin-bottom: 20px;
 }
 
 .view-product:hover {
-  color: #000000;
+	color: #000000;
 }
 .product-description {
-  margin-bottom: 30px;
+	margin-bottom: 30px;
 }
 @media all and (max-width: 660px) {
 }
 @media all and (max-width: 980px) {
 }
 @media all and (min-width: 1500px) {
-  .white-feature {
-  background-color: #FFFFFF;
-  height: auto;
-  }
-  .white-feature h1 {
-    color: #000000;
-  }
-  .white-feature p {
-    color: #000000;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
-  }
-  .gall-content img{
-    height: 300px;
-  }
-  #main{
-    margin-top: 60px;;
-    margin-bottom: 60px;;
-  }
-  .product-description {
+	.white-feature {
+		background-color: #ffffff;
+		height: auto;
+	}
+	.white-feature h1 {
+		color: #000000;
+	}
+	.white-feature p {
+		color: #000000;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1em;
+	}
+	.gall-content img {
+		height: 300px;
+	}
+	#main {
+		margin-top: 60px;
+		margin-bottom: 60px;
+	}
+	.product-description {
+		margin-left: 5em;
+	}
+	.product-description h5 {
+		font-family: 'TradeGothicLTS', sans-serif;
+		font-weight: bold;
+		margin-bottom: -10px;
+		font-size: 3.5em;
+	}
+	.product-description p {
+		font-size: 1em;
+	}
+	.intro {
+		font-weight: bold;
+	}
+	.price {
+		text-align: left;
+		font-family: 'TradeGothicLTS', sans-serif;
+		font-weight: bold;
+		color: #e55815;
+		font-size: 3em;
+	}
+	.icon-props {
+	}
+	.single-icon {
+		float: left;
+		padding-right: 20px;
+	}
+	.single-icon img {
+		height: 35px;
+		display: block;
+		margin: auto;
+	}
+	.single-icon p {
+		font-size: 0.8em;
+		text-align: left;
+		font-family: 'TradeGothicLTS', sans-serif;
+		font-weight: bold;
+		text-align: center;
+		margin-top: 5px;
+	}
 
-    margin-left: 5em;
-  }
-  .product-description h5 {
-    font-family: 'TradeGothicLTS', sans-serif;
-    font-weight: bold;
-    font-style: italic;
-    margin-bottom: -10px;
-    font-size: 3.5em;
-  }
-  .product-description p {
-    font-size: 1em;
-  }
-  .intro {
-    font-weight: bold;
-  }
-  .price {
-    text-align: left;
-    font-family: 'TradeGothicLTS', sans-serif;
-    font-weight: bold;
-    font-style: italic;
-    color: #E55815;
-    font-size: 3em;
-  }
-  .icon-props {
+	.view-product {
+		font-size: .75em;
+		padding-left: 25px;
+		padding-right: 25px;
+		padding-top: 8px;
+		padding-bottom: 8px;
+		border: 2px solid;
+		border-color: #000000;
+		color: #000000;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 400;
+		margin-bottom: 20px;
+	}
 
-  }
-  .single-icon {
-    float: left;
-    padding-right: 20px;
-  }
-  .single-icon img {
-    height: 35px;
-      display: block;
-      margin: auto;
-  }
-  .single-icon p {
-    font-size: 0.8em;
-    text-align: left;
-    font-family: 'TradeGothicLTS', sans-serif;
-    font-weight: bold;
-    font-style: italic;
-    text-align: center;
-    margin-top: 5px;
-  }
-
-  .view-product {
-    font-size: .75em;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    border: 2px solid;
-    border-color: #000000;
-    color: #000000;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    margin-bottom: 20px;
-  }
-
-  .view-product:hover {
-    color: #000000;
-  }
-  .product-description {
-    margin-bottom: 30px;
-  }
+	.view-product:hover {
+		color: #000000;
+	}
+	.product-description {
+		margin-bottom: 30px;
+	}
 }

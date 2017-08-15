@@ -107,7 +107,10 @@
 	.portrait-text {
 		font-size: 1em;
 	}
-
+	.bio-box {
+		margin-bottom: 0;
+		margin-top: 2em;
+	}
 	.container-zero-padding {
 		padding-right: 0;
 		padding-left: 0;

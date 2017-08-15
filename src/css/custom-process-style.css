@@ -23,7 +23,7 @@
 .custom-title-text {
   font-family: 'TradeGothicLTS' !important;
   font-size: 4.5em;
-  position: absolute;
+        width: 100%;
 }
 
 .custom-process-header-box {
@@ -43,17 +43,15 @@
   height: 150px;
   width: auto;
   position: relative;
-  bottom: -100px;
+  bottom: 330px;
 }
 
 .custom-panel-sizer{
   height: 450px;
-  width: 100%;
+
   color: #ff671f;
-  opacity: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  line-height: 450px;
+text-align: center;
   }
   .custom-panel-contact {
   background: linear-gradient( rgba(20, 20, 20, .9), rgba(20, 20, 20, .9)), url("../img/custom-process/1-contact/1706x450/Contact_us_1706x450.jpg");
@@ -357,11 +355,14 @@ background-position: center;
 -o-background-size: cover;
 background-size: cover;
 }
-.title-text {
+  .title-text {
   color: #FFFFFF;
   border-style: none;
   font-family: 'TradeGothicLTS';
   font-size: 1.2em;
+  display: inline-block;
+vertical-align: middle;
+line-height: normal;
 }
 
 .custom-text-box {
@@ -387,25 +388,28 @@ background-size: cover;
     -o-background-size: cover;
     background-size: cover;
   }
-  .custom-title-text {
-    font-family: 'TradeGothicLTS' !important;
-    font-size: 1.5em;
-    position: absolute;
-  }
+
   .custom-panel-sizer{
     height: 200px;
-    width: 100%;
     color: #ff671f;
-    opacity: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    line-height: 200px;
+text-align: center;
+    }
+    .custom-title-text {
+      font-family: 'TradeGothicLTS' !important;
+      font-size: 1.5em;
+      width: 100%;
     }
     .open-close-arrow img {
       height: 150px;
       width: auto;
       position: relative;
-      bottom: -10px;
+      bottom: 190px;
+    }
+    .title-text {
+      display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
     }
 }
 
@@ -423,21 +427,24 @@ background-size: cover;
   .custom-title-text {
     font-family: 'TradeGothicLTS' !important;
     font-size: 1.5em;
-    position: absolute;
+          width: 100%;
   }
   .open-close-arrow img {
     height: 150px;
     width: auto;
     position: relative;
-    bottom: -10px;
+    bottom: 190px;
   }
   .custom-panel-sizer{
     height: 200px;
-    width: 100%;
+
     color: #ff671f;
-    opacity: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    line-height: 200px;
+text-align: center;
+    }
+    .title-text {
+      display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
     }
 }

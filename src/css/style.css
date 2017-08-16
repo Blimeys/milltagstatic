@@ -98,6 +98,12 @@ h5 {
 	left: 35%;
 	transform: translateX(-50%) translateY(-50%);
 }
+.header-feature-placer-right {
+	position: absolute;
+	top: 50%;
+	right: 10%;
+	transform: translateX(-50%) translateY(-50%);
+}
 .maint-text-content {
 	font-size: 1.3em;
 	color: #ffffff;
@@ -114,6 +120,22 @@ h5 {
 	margin-bottom: 2.3em;
 	text-align: center;
 	line-height: 1.7;
+}
+.button-links {
+	font-size: .75em;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border: 2px solid;
+	border-color: #000000;
+	color: #000000;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+
+.button-links:hover {
+	color: #000000;
 }
 @media (min-width: 1200px) {
 	.container {
@@ -179,6 +201,12 @@ h5 {
 		margin-bottom: 2.3em;
 		text-align: left;
 		line-height: 1.7;
+	}
+	.header-feature-placer-right {
+		position: absolute;
+		top: 50%;
+		right: -6%;
+		transform: translateX(-50%) translateY(-50%);
 	}
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {

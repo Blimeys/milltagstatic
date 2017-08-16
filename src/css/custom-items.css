@@ -122,8 +122,6 @@
 	color: #000000;
 	text-align: center;
 	margin-top: .5em;
-	font-size: 4em;
-	font-size: 3.5em;
 }
 
 .product-box-menu-title {
@@ -159,8 +157,9 @@ ul.product-box-menu-list {
 
 ul.product-box-menu-list li {
 	display: inline-block;
+	text-align: center;
+	margin-right: 10px;
 }
-
 .featured-product {
 	margin-top: 1em;
 	height: 400px;

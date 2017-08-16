@@ -54,7 +54,7 @@
 text-align: center;
   }
   .custom-panel-contact {
-  background: linear-gradient( rgba(20, 20, 20, .9), rgba(20, 20, 20, .9)), url("../img/custom-process/1-contact/1706x450/Contact_us_1706x450.jpg");
+  background: linear-gradient( rgba(20, 20, 20, .6), rgba(20, 20, 20, .6)), url("../img/custom-process/1-contact/1706x450/Contact_us_1706x450.jpg");
   background-position: center;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -91,7 +91,7 @@ div[aria-expanded=true] .custom-panel-contact {
   background-size: cover;
 }
 .custom-panel-samples {
-background: linear-gradient( rgba(20, 20, 20, .9), rgba(20, 20, 20, .9)), url("../img/custom-process/2-samples/1706x450/Samples_1706x450.jpg");
+background: linear-gradient( rgba(20, 20, 20, .6), rgba(20, 20, 20, .6)), url("../img/custom-process/2-samples/1706x450/Samples_1706x450.jpg");
 background-position: center;
 background-repeat: no-repeat;
 -webkit-background-size: cover;
@@ -129,7 +129,7 @@ background-size: cover;
 }
 
 .custom-panel-design {
-background: linear-gradient( rgba(20, 20, 20, .9), rgba(20, 20, 20, .9)), url("../img/custom-process/3-design/1706x450/Design_1706x450.jpg");
+background: linear-gradient( rgba(20, 20, 20, .6), rgba(20, 20, 20, .6)), url("../img/custom-process/3-design/1706x450/Design_1706x450.jpg");
 background-position: center;
 background-repeat: no-repeat;
 -webkit-background-size: cover;
@@ -167,7 +167,7 @@ background-size: cover;
 }
 
 .custom-panel-artwork {
-background: linear-gradient( rgba(20, 20, 20, .9), rgba(20, 20, 20, .9)), url("../img/custom-process/4-artwork/1706x450/Artwork_1706x450.jpg");
+background: linear-gradient( rgba(20, 20, 20, .6), rgba(20, 20, 20, .6)), url("../img/custom-process/4-artwork/1706x450/Artwork_1706x450.jpg");
 background-position: center;
 background-repeat: no-repeat;
 -webkit-background-size: cover;
@@ -205,7 +205,7 @@ background-size: cover;
 }
 
 .custom-panel-ordering {
-background: linear-gradient( rgba(20, 20, 20, .9), rgba(20, 20, 20, .9)), url("../img/custom-process/5-ordering/1706x450/Ordering_1706x450.jpg");
+background: linear-gradient( rgba(20, 20, 20, .6), rgba(20, 20, 20, .6)), url("../img/custom-process/5-ordering/1706x450/Ordering_1706x450.jpg");
 background-position: center;
 background-repeat: no-repeat;
 -webkit-background-size: cover;
@@ -243,7 +243,7 @@ background-size: cover;
 }
 
 .custom-panel-production {
-background: linear-gradient( rgba(20, 20, 20, .9), rgba(20, 20, 20, .9)), url("../img/custom-process/6-production/1706x450/Production_1706x450.jpg");
+background: linear-gradient( rgba(20, 20, 20, .6), rgba(20, 20, 20, .6)), url("../img/custom-process/6-production/1706x450/Production_1706x450.jpg");
 background-position: center;
 background-repeat: no-repeat;
 -webkit-background-size: cover;
@@ -281,7 +281,7 @@ background-size: cover;
 }
 
 .custom-panel-delivery {
-background: linear-gradient( rgba(20, 20, 20, .9), rgba(20, 20, 20, .9)), url("../img/custom-process/7-delivery/1706x450/Delivery_1706x450.jpg");
+background: linear-gradient( rgba(20, 20, 20, .6), rgba(20, 20, 20, .6)), url("../img/custom-process/7-delivery/1706x450/Delivery_1706x450.jpg");
 background-position: center;
 background-repeat: no-repeat;
 -webkit-background-size: cover;
@@ -319,7 +319,7 @@ background-size: cover;
 }
 
 .custom-panel-payment {
-background: linear-gradient( rgba(20, 20, 20, .9), rgba(20, 20, 20, .9)), url("../img/custom-process/8-payment/1706x450/Payment_1706x450.jpg");
+background: linear-gradient( rgba(20, 20, 20, .6), rgba(20, 20, 20, .6)), url("../img/custom-process/8-payment/1706x450/Payment_1706x450.jpg");
 background-position: center;
 background-repeat: no-repeat;
 -webkit-background-size: cover;
@@ -401,10 +401,10 @@ text-align: center;
       width: 100%;
     }
     .open-close-arrow img {
-      height: 150px;
+      height: 100px;
       width: auto;
       position: relative;
-      bottom: 190px;
+      bottom: 160px;
     }
     .title-text {
       display: inline-block;

@@ -154,9 +154,6 @@ h5 {
 	border-color: grey !important;
 	cursor: pointer;
 }
-.behind {
-	z-index: -1000;
-}
 @media (min-width: 1200px) {
 	.container {
 		width: 1100px;

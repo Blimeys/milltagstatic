@@ -79,6 +79,7 @@
 }
 .product-description {
 	margin-bottom: 30px;
+	padding-left: 40px;
 }
 @media all and (max-width: 660px) {
 }
@@ -165,5 +166,33 @@
 	}
 	.product-description {
 		margin-bottom: 30px;
+	}
+}
+.template-download {
+	padding-left: 29.5px;
+	padding-right: 29.5px;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	#main {
+		margin-top: 20px;
+	}
+	.thumbnail {
+		display: none;
+	}
+	.product-description {
+		margin-top: -3em;
+		margin-left: -15px;
+		margin-right: 0;
+		padding-left: 0;
+	}
+	.single-icon {
+		float: left;
+		padding-right: 12px;
+	}
+	.single-icon p {
+		font-size: 0.9em;
+	}
+	.product-download-align {
+		text-align: center;
 	}
 }

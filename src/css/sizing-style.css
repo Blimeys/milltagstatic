@@ -1,93 +1,91 @@
 .white-container {
-  background-color: white;
+	background-color: white;
 }
 h3 {
-  color: #000000;
-  text-align: left;
-  font-size: 1em;
-  font-weight: bold;
+	color: #000000;
+	text-align: left;
+	font-size: 1em;
+	font-weight: bold;
 }
 h5 {
-  font-size: 3.5em;
+	font-size: 3.5em;
 }
 .table-format-five tr th {
-  text-align: center;
-  border-left: 5px;
-  border-style: solid;
-  border-color: #ffffff;
-  width: 20%;
-  height: 40px;
+	text-align: center;
+	border-left: 5px;
+	border-style: solid;
+	border-color: #ffffff;
+	width: 20%;
+	height: 40px;
 }
 .table-format-seven {
-  overflow: hidden;
+	overflow: hidden;
 }
 .table-format-seven tr th {
-  text-align: center;
-  border-left: 5px;
-  border-style: solid;
-  border-color: #ffffff;
-  width: 14.5%;
-  height: 40px;
+	text-align: center;
+	border-left: 5px;
+	border-style: solid;
+	border-color: #ffffff;
+	width: 14.5%;
+	height: 40px;
 }
 .darken {
-  background-color: #d9d9d6;
+	background-color: #d9d9d6;
 }
 .table-title {
-  background-color: #ff671f;
-  color: #ffffff;
+	background-color: #ff671f;
+	color: #ffffff;
 }
 .unbold {
-font-weight: normal;
+	font-weight: normal;
 }
-.table-header{
-  width: 100%;
-  background-color: #ff671f;
-  color: #FFFFFF;
-  padding-left: 40px;
-  font-weight: bold;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-top: 40px;
-  border-left: 5px;
-  border-style: solid;
-  border-color: #ffffff;
-
+.table-header {
+	width: 100%;
+	background-color: #ff671f;
+	color: #ffffff;
+	padding-left: 40px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 40px;
+	border-left: 5px;
+	border-style: solid;
+	border-color: #ffffff;
 }
 p {
-  font-size: 1.3em;
-  line-height: 1.7;
+	font-weight: 300;
 }
 .sizing-charts {
-  margin-top: 20px;
+	margin-top: 20px;
 }
 .sizing-charts {
-  display:block;
-  margin: 0 auto;
+	display: block;
+	margin: 0 auto;
 }
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  /*.table-header {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	/*.table-header {
     width: 104%;
   }*/
-  .table-format-seven {
-    font-size: 10px;
-  }
-  .table-format-seven tr th {
-    text-align: center;
-    border-left: none;
-    border-style: solid;
-    border-color: #ffffff;
-    width: auto;
-    height: auto;
-  }
-  .table-format-five {
-    font-size: 10px;
-  }
-  .table-format-five tr th {
-    text-align: center;
-    border-left: none;
-    border-style: solid;
-    border-color: #ffffff;
-    width: auto;
-    height: auto;
-  }
+	.table-format-seven {
+		font-size: 10px;
+	}
+	.table-format-seven tr th {
+		text-align: center;
+		border-left: none;
+		border-style: solid;
+		border-color: #ffffff;
+		width: auto;
+		height: auto;
+	}
+	.table-format-five {
+		font-size: 10px;
+	}
+	.table-format-five tr th {
+		text-align: center;
+		border-left: none;
+		border-style: solid;
+		border-color: #ffffff;
+		width: auto;
+		height: auto;
+	}
 }

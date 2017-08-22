@@ -23,7 +23,12 @@
 	height: 400px;
 	width: auto;
 }
-
+.product-links {
+	color: #000;
+}
+.product-links:hover {
+	color: #000;
+}
 .featured-product-featured {
 	margin-top: 1em;
 	height: 400px;

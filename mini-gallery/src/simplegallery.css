@@ -12,80 +12,85 @@
 }
 
 .simplegallery {
-  margin: 0 auto;
-  width: auto;
-  height: auto;
-
+	margin: 0 auto;
+	width: auto;
+	height: auto;
 }
 .nav-arrows {
-  /*display: flex;
+	/*display: flex;
   justify-content: center;
   align-items: center;*/
 }
 .simplegallery .content {
-  background: #fff;
+	background: #fff;
 }
 
 .simplegallery .content img {
-  width: 100%;
+	width: 100%;
 }
 
 .simplegallery .thumbnail {
-  margin-top: 5px;
-
+	margin-top: 5px;
 }
 
 .simplegallery .thumbnail .thumb {
-  float: left;
-  width: 6em;
-  height: 6em;
-  margin: 0 5px 0 0;
-  cursor: pointer;
+	float: left;
+	width: 6em;
+	height: 6em;
+	margin: 0 5px 0 0;
+	cursor: pointer;
 }
 
 .simplegallery .thumbnail .thumb img {
-  border: 1px solid #888B8D;
+	border: 1px solid #888b8d;
 }
 .simplegallery .thumbnail .thumb img:hover {
-  border: 1px solid #E55815;
+	border: 1px solid #e55815;
 }
 .simplegallery .thumbnail .last {
-  margin: 0;
+	margin: 0;
 }
 
 .thumbnail {
-  padding: 0 !important;
-  border: none !important;
-  width: 100% !important;
-  margin: 0 auto !important;
-  text-align: center !important;
+	padding: 0 !important;
+	border: none !important;
+	width: 100% !important;
+	margin: 0 auto !important;
+	text-align: center !important;
 
-      position: relative;
-        left:57%;
-      transform: translateX(-50%) translateY(-50%);
+	position: relative;
+	left: 57%;
+	transform: translateX(-50%) translateY(-50%);
 }
 .arrows {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .arrows img {
-  width: 20px;
-  position: absolute;
-  cursor: pointer;
+	width: 20px;
+	position: absolute;
+	cursor: pointer;
 }
 .focus-border {
-    border: 1px solid #E55815;
+	border: 1px solid #e55815;
 }
 .right-arrow {
-  right: 1%;
-  top: 50%;
-  z-index: 10;
-        transform: translateX(-50%) translateY(-50%);
+	right: 1%;
+	top: 50%;
+	z-index: 10;
+	transform: translateX(-50%) translateY(-50%);
 }
 .left-arrow {
-  left: 1%;
-  top: 50%;
-    z-index: 10;
-          transform: translateX(-50%) translateY(-50%);
+	left: 1%;
+	top: 50%;
+	z-index: 10;
+	transform: translateX(-50%) translateY(-50%);
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	.arrows img {
+		width: 12px;
+		position: absolute;
+		cursor: pointer;
+	}
 }

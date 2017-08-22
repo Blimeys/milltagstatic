@@ -261,6 +261,12 @@ $(function closeShope() {
 		$('.shopPop').addClass('hidden');
 	});
 });
+$(function joinedMailer() {
+	$('#mc-embedded-subscribe').click(function() {
+		$('#mailerform').addClass('behind');
+		$('#thank-you').removeClass('hidden');
+	});
+});
 $(document).on('ready', function() {
 	SliderImageResize();
 	CustomPanelToggleOn();
@@ -269,6 +275,7 @@ $(document).on('ready', function() {
 	shopPopUp();
 	closeShope();
 	shopPopUpMini();
+	joinedMailer();
 });
 $(window).on('resize', function() {
 	if ($(window).width() >= 0 && $(window).width() <= screenSizesSlider.small) {

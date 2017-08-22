@@ -60,6 +60,7 @@
 	font-weight: bold;
 	font-family: 'TradeGothicLTS';
 }
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 350px) {
 	.custom-product-frame {
 		background-color: #ffffff;
@@ -177,7 +178,7 @@ ul.product-box-menu-list li {
 .product-link {
 	text-align: center;
 	margin-bottom: 3em;
-	margin-top: 2em;
+	padding-top: 2em;
 }
 
 .view-product {
@@ -284,4 +285,10 @@ li.active h1 {
 		-o-background-size: cover;
 		background-size: cover;
 	}
+}
+.product-off-sight {
+	margin-top: 15px;
+}
+.product-off-sight2 {
+	margin-top: 0px;
 }

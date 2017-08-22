@@ -261,6 +261,32 @@ $(function closeShope() {
 		$('.shopPop').addClass('hidden');
 	});
 });
+$(function hideItemsLinks() {
+	$('#bibs-pane').click(function() {
+		$('.jersey-link').addClass('hidden');
+		$('.bibs-link').removeClass('hidden');
+		$('.outerwear-link').addClass('hidden');
+		$('others-link').addClass('hidden');
+	});
+	$('#jersey-pane').click(function() {
+		$('.jersey-link').removeClass('hidden');
+		$('.bibs-link').addClass('hidden');
+		$('.outerwear-link').addClass('hidden');
+		$('others-link').addClass('hidden');
+	});
+	$('#outerwear-pane').click(function() {
+		$('.jersey-link').addClass('hidden');
+		$('.bibs-link').addClass('hidden');
+		$('.outerwear-link').removeClass('hidden');
+		$('others-link').addClass('hidden');
+	});
+	$('#others-pane').click(function() {
+		$('.jersey-link').addClass('hidden');
+		$('.bibs-link').addClass('hidden');
+		$('.outerwear-link').addClass('hidden');
+		$('others-link').removeClass('hidden');
+	});
+});
 $(function joinedMailer() {
 	$('#mc-embedded-subscribe').click(function() {
 		$('#mailerform').addClass('behind');
@@ -268,6 +294,7 @@ $(function joinedMailer() {
 	});
 });
 $(document).on('ready', function() {
+	hideItemsLinks();
 	SliderImageResize();
 	CustomPanelToggleOn();
 	OpenCloseArrow();

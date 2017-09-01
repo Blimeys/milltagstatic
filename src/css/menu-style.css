@@ -177,6 +177,12 @@
 	padding-left: 20px;
 	padding-right: 20px;
 }
+#shopOut:hover {
+	cursor: pointer;
+}
+#shopOutBox:hover {
+	cursor: pointer;
+}
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 	.main-pop-content {

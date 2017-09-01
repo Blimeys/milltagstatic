@@ -23,6 +23,7 @@
   <link rel="stylesheet" href="slick/slick-theme.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css" integrity="sha256-2RdmDD1veq0y68SwASxtC7hKE+IBoBLjNLzKS59Ghsk=" crossorigin="anonymous" />
   <title>Milltag</title>
+  <meta name="description" content="Milltag custom cycling jerseys are designed in London and handmade in Europe for all levels of cyclist from event riders to World and Olympic Champions.">
 </head>
 
 <body>
@@ -49,7 +50,7 @@
                         <br>
                         <a href="custom-process.html" class="menu-link">Custom Process</a>
                         <br>
-                        <a href="contact.html" class="menu-link">Get a Quote</a>
+                        <a href="contact.php" class="menu-link">Get a Quote</a>
                         <br>
                         <a href="casestudies.html" class="menu-link">Case Studies</a>
                         <br>
@@ -58,7 +59,7 @@
                     </li>
                     <li><a href="about.html" class="menu-link">ABOUT</a></li>
                     <li><a href="http://milltag.cc/new" class="menu-link">NEWS</a></li>
-                    <li><a href="contact.html" class="menu-link menu-highlight">CONTACT</a></li>
+                    <li><a href="contact.php" class="menu-link menu-highlight">CONTACT</a></li>
                   </ul>
                 </div>
               </div>
@@ -89,7 +90,7 @@
         <li class="menu-list-item-small"><a class="menu-link-small" href="custom.html">CUSTOM</a></li>
         <li class="menu-list-item-small"><a class="menu-link-small" href="about.html">ABOUT</a></li>
         <li class="menu-list-item-small"><a class="menu-link-small" href="http://milltag.cc/new">NEWS</a></li>
-        <li class="menu-list-item-small"><a class="menu-link-small" href="contact.html">CONTACT</a></li>
+        <li class="menu-list-item-small"><a class="menu-link-small" href="contact.php">CONTACT</a></li>
       </ul>
     </div>
 
@@ -153,29 +154,48 @@
           </div>
           <div class="col-xs-0 col-md-1 col-lg-1 col-xl-1"></div>
           <div class="col-md-6 col-lg-6 col-xl-6">
+            <form method="post" action="contact.php">
             NAME*
             <br>
-            <input type="textarea" class="detail-entry">
+            <input type="textarea" class="detail-entry" name="name">
           </input>
           <br>
           <br>
           EMAIL ADDRESS*
           <br>
-          <input type="textarea" class="detail-entry"></input>
+          <input type="textarea" class="detail-entry" name="email"></input>
           <br>
           <br>
           SUBJECT*
           <br>
-          <input type="textarea" class="detail-entry"></input>
+          <input type="textarea" class="detail-entry" name="subject"></input>
           <br>
           <br>
           MESSAGE*
           <br>
-          <textarea class="message-entry"></textarea>
+          <textarea class="message-entry" name="message"></textarea>
           <br>
           <br>
-          <button type=button class="submit-message-button">SUBMIT</button>
+          <button type="submit" class="submit-message-button" id="submit" name="submit" value="Submit">SUBMIT</button>
+          <?php
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $message = $_POST['message'];
+    $from = 'From: Website contact form';
+    $to = 'info@milltag.cc';
+    $subject = $_POST['subject'];
 
+    $body = "From: $name\n E-Mail: $email\n Message:\n $message";
+
+    if ($_POST['submit']) {
+        if (mail ($to, $subject, $body, $from)) {
+	    echo '<p>Your message has been sent!</p>';
+	} else {
+	    echo '<p><br>Something went wrong, try again!</p>';
+	}
+    }
+?>
+</form>
           </div>
             </div>
       </div>
@@ -230,7 +250,7 @@
 <br><a href="distributors.html" class="footer-links">Distributors</a>
 <br><a href="legal.html" class="footer-links">Privacy Policy</a>
 <br><a href="terms.html" class="footer-links">Terms & Conditions</a>
-<br><a href="legal.html" class="footer-links">Use of Cookies</a>
+<br><a href="cookies.html" class="footer-links">Use of Cookies</a>
 </h2>
           </div>
           <div class="col-md-3 col-sm-6 col-xs-6">
@@ -241,7 +261,7 @@
 <br><a href="support.html" class="footer-links">Repairs</a>
 <br><a href="sizing-guide.html" class="footer-links">Sizing Guide</a>
 <br><a href="faq.html" class="footer-links">FAQ's</a>
-<br><a href="contact.html" class="footer-links">Contact</a>
+<br><a href="contact.php" class="footer-links">Contact</a>
 </h2>
           </div>
           <div class="col-md-3 col-sm-6 col-xs-6">

@@ -234,6 +234,9 @@ $(function shopPopUp() {
 	$('#shopOut').click(function() {
 		$('.shopPop').removeClass('hidden');
 	});
+	$('#shopOutBox').click(function() {
+		$('.shopPop').removeClass('hidden');
+	});
 });
 $(function shopPopUpMini() {
 	$('#shopOutMini').click(function() {
